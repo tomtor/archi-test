@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="KEA-2019" id="72d6709b-f0d0-47ad-911c-e71b2dbb2ec4" version="4.6.0">
+  <folder name="Strategy" id="0023d6df-2f70-4d68-bb2a-fd08441ab4a0" type="strategy"/>
+  <folder name="Business" id="6faa3200-7532-478c-86bd-570ba0445e65" type="business"/>
+  <folder name="Application" id="fd4b298e-a5d0-43b9-a0d5-799662247f03" type="application"/>
+  <folder name="Technology &amp; Physical" id="2dffa0e1-7c22-4055-a7b8-d47f3508c355" type="technology"/>
+  <folder name="Motivation" id="6bb6ad5f-dfb0-4fc9-b4c0-62aa89b3d234" type="motivation">
+    <element xsi:type="archimate:Goal" name="Vitale en wendbare organisatie" id="d775caaf-80d4-4180-88a6-0e7916f890a3">
+      <documentation>De dynamiek van de maatschappij en de impact van de digitale transformatie vragen om een vitale en wendbare organisatie. Om hierin mee te kunnen bewegen, is het noodzakelijk dat managers en medewerkers zich blijven ontwikkelen en meebewegen met de veranderingen die er op de organisatie afkomen. De kwaliteit van onze medewerkers maakt het succes van het Kadaster. Daarom investeert het Kadaster veel in de ontwikkeling van managers en medewerkers. Door onder andere agile te werken en functies te verbreden, werken we voortdurend aan de wendbaarheid van de organisatie. We onderzoeken en ontplooien nieuwe initiatieven. Denk hierbij aan samenwerking met start ups en scale ups en nieuwe mogelijkheden voor persoonlijke ontwikkeling. Op deze wijze verwachten we ook voor nieuwe generaties een interessante werkgever te zijn.</documentation>
+      <property key="Doel sinds"/>
+      <property key="Versie"/>
+    </element>
+    <element xsi:type="archimate:Goal" name="Internationale orientatie" id="4114cb78-5751-4189-bafa-832283cbffe9">
+      <documentation>De Omgevingswet is een belangrijke ontwikkeling voor Nederland en valtonder BZK. Deze nieuwe wet vervangt een veelheid aan wetten en maakthet makkelijker om initiatieven in de leefomgeving tot stand te brengen.De invoering van de wet helpt om maatschappelijke ruimtelijke vraagstukkenrondom energie, klimaat, wonen en water aan te pakken. Bij deontwikkeling van de nieuwe wet hoort de ontwikkeling van een nieuw digitaalstelsel om te zorgen dat de wet in de praktijk uitvoerbaar is. 
+
+In de afgelopen jaren heeft het Kadaster als strategisch ontwikkelpartnermeegewerkt in de realisatie van een aantal onderdelen van hetDigitaal Stelsel Omgevingswet (DSO). Dit zijn de Gegevenscatalogus,Viewer Regel&amp;Kaart, Register Omgevingsdocumenten, Procesmatigborgen van standaarden en het Open stelsel voor derden. Voor dezeonderdelen zullen we in 2019 ook de operationele beheertaak uitvoeren.Met BZK is afgesproken om dit als taak in de Kadasterwet op te nemen.Wij hebben daarnaast de ambitie om het tactisch (overall) beheervan het DSO uit te voeren. We kunnen hierin veel bijdragen en eenbelangrijke rol spelen door onze inhoudelijke deskundigheid en onzecultuur van samenwerking. Wij kunnen in de samenwerking vanuit eenonafhankelijke positie opereren. 
+
+De Omgevingswet kan samen met andere beleidsopgaven, zoals bouw enenergietransitie, een katalysator zijn om de manier van ontsluiting en gebruikvan informatie binnen de overheid ingrijpend te veranderen. De mogelijkhedendaarvoor zijn de afgelopen periode in kaart gebracht in ondermeer de informatiedomeinen Ruimte en Bouw. Het Kadaster wil vanuiteen coördinerende en faciliterende rol bijdragen om de ontwikkeling naareen betekenisvolle integratie van overheidsinformatie te versnellen.Ook voor de andere taken van het Kadaster heeft de Omgevingswetgevolgen. In het DSO spelen (geo-)basisregistraties een belangrijkerol, wat eisen stelt aan de bestaande voorzieningen. De registratie vanpubliekrechtelijke beperkingen verandert. En stedelijke kavelruil wordtin de regelgeving verankerd.  </documentation>
+      <property key="Doel sinds"/>
+      <property key="Versie"/>
+    </element>
+    <element xsi:type="archimate:Goal" name="Expert bij ruimtelijke opgaven" id="89132d34-b552-4b85-8176-0c22549fcf59">
+      <documentation>De Omgevingswet is een belangrijke ontwikkeling voor Nederland en valtonder BZK. Deze nieuwe wet vervangt een veelheid aan wetten en maakthet makkelijker om initiatieven in de leefomgeving tot stand te brengen.De invoering van de wet helpt om maatschappelijke ruimtelijke vraagstukkenrondom energie, klimaat, wonen en water aan te pakken. Bij deontwikkeling van de nieuwe wet hoort de ontwikkeling van een nieuw digitaalstelsel om te zorgen dat de wet in de praktijk uitvoerbaar is. 
+
+In de afgelopen jaren heeft het Kadaster als strategisch ontwikkelpartnermeegewerkt in de realisatie van een aantal onderdelen van hetDigitaal Stelsel Omgevingswet (DSO). Dit zijn de Gegevenscatalogus,Viewer Regel&amp;Kaart, Register Omgevingsdocumenten, Procesmatigborgen van standaarden en het Open stelsel voor derden. Voor dezeonderdelen zullen we in 2019 ook de operationele beheertaak uitvoeren.Met BZK is afgesproken om dit als taak in de Kadasterwet op te nemen.Wij hebben daarnaast de ambitie om het tactisch (overall) beheervan het DSO uit te voeren. We kunnen hierin veel bijdragen en eenbelangrijke rol spelen door onze inhoudelijke deskundigheid en onzecultuur van samenwerking. Wij kunnen in de samenwerking vanuit eenonafhankelijke positie opereren. 
+
+De Omgevingswet kan samen met andere beleidsopgaven, zoals bouw enenergietransitie, een katalysator zijn om de manier van ontsluiting en gebruikvan informatie binnen de overheid ingrijpend te veranderen. De mogelijkhedendaarvoor zijn de afgelopen periode in kaart gebracht in ondermeer de informatiedomeinen Ruimte en Bouw. Het Kadaster wil vanuiteen coördinerende en faciliterende rol bijdragen om de ontwikkeling naareen betekenisvolle integratie van overheidsinformatie te versnellen.Ook voor de andere taken van het Kadaster heeft de Omgevingswetgevolgen. In het DSO spelen (geo-)basisregistraties een belangrijkerol, wat eisen stelt aan de bestaande voorzieningen. De registratie vanpubliekrechtelijke beperkingen verandert. En stedelijke kavelruil wordtin de regelgeving verankerd.  </documentation>
+      <property key="Doel sinds"/>
+      <property key="Versie"/>
+    </element>
+    <element xsi:type="archimate:Goal" name="Kwaliteit en keurmerk" id="05e782a2-eb2b-4c7a-a664-7d5087817f62">
+      <documentation>De Omgevingswet is een belangrijke ontwikkeling voor Nederland en valtonder BZK. Deze nieuwe wet vervangt een veelheid aan wetten en maakthet makkelijker om initiatieven in de leefomgeving tot stand te brengen.De invoering van de wet helpt om maatschappelijke ruimtelijke vraagstukkenrondom energie, klimaat, wonen en water aan te pakken. Bij deontwikkeling van de nieuwe wet hoort de ontwikkeling van een nieuw digitaalstelsel om te zorgen dat de wet in de praktijk uitvoerbaar is. 
+
+In de afgelopen jaren heeft het Kadaster als strategisch ontwikkelpartnermeegewerkt in de realisatie van een aantal onderdelen van hetDigitaal Stelsel Omgevingswet (DSO). Dit zijn de gegevenscatalogus,Viewer Regel&amp;Kaart, Register Omgevingsdocumenten, Procesmatigborgen van standaarden en het Open stelsel voor derden. Voor dezeonderdelen zullen we in 2019 ook de operationele beheertaak uitvoeren.Met BZK is afgesproken om dit als taak in de Kadasterwet op te nemen.Wij hebben daarnaast de ambitie om het tactisch (overall) beheervan het DSO uit te voeren. We kunnen hierin veel bijdragen en eenbelangrijke rol spelen door onze inhoudelijke deskundigheid en onzecultuur van samenwerking. Wij kunnen in de samenwerking vanuit eenonafhankelijke positie opereren. 
+
+De Omgevingswet kan samen met andere beleidsopgaven, zoals bouw enenergietransitie, een katalysator zijn om de manier van ontsluiting en gebruikvan informatie binnen de overheid ingrijpend te veranderen. De mogelijkhedendaarvoor zijn de afgelopen periode in kaart gebracht in ondermeer de informatiedomeinen Ruimte en Bouw. Het Kadaster wil vanuiteen coördinerende en faciliterende rol bijdragen om de ontwikkeling naareen betekenisvolle integratie van overheidsinformatie te versnellen.Ook voor de andere taken van het Kadaster heeft de Omgevingswetgevolgen. In het DSO spelen (geo-)basisregistraties een belangrijkerol, wat eisen stelt aan de bestaande voorzieningen. De registratie vanpubliekrechtelijke beperkingen verandert. En stedelijke kavelruil wordtin de regelgeving verankerd.  </documentation>
+      <property key="Doel sinds"/>
+      <property key="Versie"/>
+    </element>
+    <element xsi:type="archimate:Goal" name="Geo informatie voor iedereen" id="89215189-7f36-4c26-a91b-86548dee33ec">
+      <documentation>We hebben de ambitie om geo-informatie voor iedereen toegankelijk te maken. Dit sluit aan op het voornemen in de Agenda Digitale Overheid om de wijze van beschikbaarstelling van geodata nog beter op de verschillende typen gebruikers af te stemmen. De basis voor een platform van geo-informatie bestaat uit de bestaande basisregistraties en voorzieningen in de NGII, de ontsluitingsmogelijkheden via PDOK, linked data en API’s. In de komende periode bouwen we het platform verder uit met mogelijkheden voor analyse van data.&#xD;
+&#xD;
+In overleg met bronhouders gaan we in de planperiode datasets onderling koppelen. Door gegevens in onderlinge samenhang te analyseren kunnen gebruikers inzicht krijgen in de oplossing van complexe vraagstukken. We werken aan de ondersteuning van gebruikers zonder technische kennis, door intuïtieve interactiemogelijkheden te ontwikkelen. Het platform moet inzetbaar zijn in verschillende toepassingsgebieden, zoals de Omgevingswet, de samenwerking met CBS en BZK in het stelsel van open data en nieuwe vormen van informatievoorziening. Bij de ontwikkeling en exploitatie van het platform werken we samen met partners uit de publieke en private sector. We gaan dit stapsgewijs ontwikkelen aan de hand van concrete vraagstukken van gebruikers.</documentation>
+      <property key="Doel sinds"/>
+      <property key="Versie"/>
+    </element>
+    <element xsi:type="archimate:Goal" name="Omgevingswet" id="115c241c-25ee-4c5d-abf5-9301129a86eb">
+      <documentation>De Omgevingswet is een belangrijke ontwikkeling voor Nederland en valtonder BZK. Deze nieuwe wet vervangt een veelheid aan wetten en maakthet makkelijker om initiatieven in de leefomgeving tot stand te brengen.De invoering van de wet helpt om maatschappelijke ruimtelijke vraagstukkenrondom energie, klimaat, wonen en water aan te pakken. Bij deontwikkeling van de nieuwe wet hoort de ontwikkeling van een nieuw digitaalstelsel om te zorgen dat de wet in de praktijk uitvoerbaar is. 
+
+In de afgelopen jaren heeft het Kadaster als strategisch ontwikkelpartnermeegewerkt in de realisatie van een aantal onderdelen van hetDigitaal Stelsel Omgevingswet (DSO). Dit zijn de Gegevenscatalogus,Viewer Regel&amp;Kaart, Register Omgevingsdocumenten, Procesmatigborgen van standaarden en het Open stelsel voor derden. Voor dezeonderdelen zullen we in 2019 ook de operationele beheertaak uitvoeren.Met BZK is afgesproken om dit als taak in de Kadasterwet op te nemen.Wij hebben daarnaast de ambitie om het tactisch (overall) beheervan het DSO uit te voeren. We kunnen hierin veel bijdragen en eenbelangrijke rol spelen door onze inhoudelijke deskundigheid en onzecultuur van samenwerking. Wij kunnen in de samenwerking vanuit eenonafhankelijke positie opereren. 
+
+De Omgevingswet kan samen met andere beleidsopgaven, zoals bouw enenergietransitie, een katalysator zijn om de manier van ontsluiting en gebruikvan informatie binnen de overheid ingrijpend te veranderen. De mogelijkhedendaarvoor zijn de afgelopen periode in kaart gebracht in ondermeer de informatiedomeinen Ruimte en Bouw. Het Kadaster wil vanuiteen coördinerende en faciliterende rol bijdragen om de ontwikkeling naareen betekenisvolle integratie van overheidsinformatie te versnellen.Ook voor de andere taken van het Kadaster heeft de Omgevingswetgevolgen. In het DSO spelen (geo-)basisregistraties een belangrijkerol, wat eisen stelt aan de bestaande voorzieningen. De registratie vanpubliekrechtelijke beperkingen verandert. En stedelijke kavelruil wordtin de regelgeving verankerd.  </documentation>
+      <property key="Doel sinds"/>
+      <property key="Versie"/>
+    </element>
+    <element xsi:type="archimate:Goal" name="Gebruiksregistratie" id="0a3d0d30-9485-4ec5-a485-135f2d2f3794">
+      <documentation>De maatschappelijke behoefte aan het vastleggen van nieuwe vormenvan eigendom, financiering en gebruik van vastgoed neemt toe.We zien complexe constructies van gestapelde rechten ontstaan omeigendom en gebruik van installaties voor energie of klimaat vast teleggen, bijvoorbeeld in het kader van gebouwgebonden financiering.Om onze registratieve taken goed uit te voeren en de oplossing vanmaatschappelijke vraagstukken te ondersteunen, onderzoeken wehoe we deze rechten kunnen vastleggen. We onderzoeken daarbij watde invloed is op de geregistreerde waarde van een object. 
+
+Hiervoor is registratie en kenbaarheid van de verschillende vormenvan financiering van belang. Een van de mogelijkheden hiervoor isdeze toe te koppelen met de hypotheekregistratie.Het past bij de wettelijke doeleinden van het Kadaster de vastgoedmarktoptimaal te ondersteunen door relevante data rond een vastgoedobjectgebundeld aan te bieden. Dit betreft onder meer gebruiksrechtenzoals pacht en huur. Het Kadaster bevordert de toegankelijkheidvan deze gegevens en de onderlinge samenhang ervan.Voorbeelden zijn het initiatief van het Ministerie van Financiën voorbetere toegankelijkheid van referentiegegevens van grootzakelijkevastgoedtransacties, van het Ministerie van Economische Zaken enKlimaat voor betere referentiegegevens voor winkelhuren, en van deNationaal Coördinator Groningen voor een registratie van versterkingenvan gebouwen.  </documentation>
+      <property key="Versie"/>
+      <property key="Doel sinds"/>
+    </element>
+    <element xsi:type="archimate:Goal" name="Meerdimensionale registratie" id="69d01ef2-8019-4e53-9224-c1eeb6a202c1">
+      <documentation>Historisch gezien leggen we rechten vast op het perceel (2D). Inmiddels neemt de complexiteit van onze ruimte dusdanig toe dat het vastleggen in het platte vlak niet meer voldoen. We werken aan het vastleggen van informatie in 3D, met historie en toekomst èn bruikbaar op verschillende schaalniveaus. Om het inschrijven van eigendom in 3D op grotere schaal toepasbaar te maken, ontwikkelen we in 2019 een gestandaardiseerde werkwijze. We ontwikkelen juridische kaders voor 3D-registratie zodat complexe rechtsverhoudingen beter kenbaar zijn voor raadplegers van de openbare registers. Daarnaast overleggen we in de planperiode met de normcommissie voor het Bouw informatiemodel (BIM) over het opnemen van inschrijfeisen in de BIM-standaard voor gebouwgegevens. Deze aanpassing biedt tevens de mogelijkheid om in samenwerking met gemeenten de gegevens voor de bijhouding van de BAG te gebruiken. Tenslotte onderzoeken we mogelijkheden voor verbetering van de kadastrale registratie van netwerken, onder meer door gebruik te maken van informatie over de ligging van netwerken die vanuit de KLIC-functie beschikbaar is. 
+
+In 2018 is een productieversie van een driedimensionaal topografisch basisbestand gerealiseerd, in het kader van het strategisch partnerschap met het ministerie van BZK. Dit bestand is opgebouwd met behulp van automatische objectdetectie uit 3D-luchtfoto’s. Het 3D-basisbestand heeft interessante gebruiksmogelijkheden voor ruimtelijke ordening, energietransitie en vastgoedbeheer. In de planperiode onderzoeken we de mogelijkheden om te komen tot duurzame financiering voor onderhoud en doorontwikkeling van het 3D-basisbestand, zodat dit onderdeel kan worden van de nationale geo-informatie infrastructuur. Dit basisbestand kan onder andere gebruikt worden om BIM-modellen van gebouwen in de context van  hun omgeving te ontsluiten.</documentation>
+      <property key="Doel sinds"/>
+      <property key="Versie"/>
+    </element>
+    <element xsi:type="archimate:Goal" name="Positivering" id="7831ebcc-5ba8-4162-91a4-0fd2f35ea0b9">
+      <documentation>Sinds enkele jaren werken we onder de naam ‘positivering’ aan het actueler en vollediger maken van de Basisregistratie Kadaster. Gebruikers verwachten dat de gegevens in de registratie een volledig beeld van de actuele rechtstoestand geven. De registratie is nu zo opgebouwd dat bepaalde situaties alleen goed begrepen kunnen worden door verder onderzoek te doen in brondocumenten of bij betrokken partijen. Deze situaties willen we zoveel mogelijk verhelpen door onze processen en die in de keten te verbeteren. Mede op basis van een wetenschappelijk adviesrapport leggen we de komende periode de focus op activiteiten die ervoor zorgen dat de gegevens in de Basisregistratie Kadaster zo dicht mogelijk bij de actuele juridische werkelijkheid komen. Dat doen we door meer broninformatie te verzamelen, bijvoorbeeld rond vererving en verjaring, en door meer informatie uit brondocumenten te ontsluiten in de registratie, bijvoorbeeld over erfdienstbaarheden. Een eerste stap bij de toegankelijkheid van erfdienstbaarheden is dat we hulpmiddelen ontwikkelen om gebruikers zelf erfdienstbaarhedenonderzoeken uit te laten voeren in de openbare registers. Vervolgstap zal zijn om nieuw gevestigde erfdienstbaarheden tekstueel op te nemen in de registratie. Ook gaan we rechten en beperkingen op delen van percelen nauwkeuriger vastleggen via contouren. Ook de opschoning van verouderde gegevens in de registratie heeft voortdurend de aandacht. Voor het beter vastleggen van situaties van vererving en verjaring zijn wellicht wijzigingen in regelgeving nodig. Wij ondersteunen de voorbereiding daarvan.
+
+Een bijzonder aandachtspunt is de ligging en nauwkeurigheid van grenzen op de kadastrale kaart. Oorspronkelijk is die vooral bedoeld om inzicht te geven in de ligging van percelen ten opzichte van elkaar. Bij projectie van de kadastrale kaart op luchtfoto’s of de topografische kaart liggen de grenzen niet altijd op elkaar. Dit is historisch verklaarbaar, maar niet meer wenselijk. Met behulp van de onderliggende documentatie in veldwerken en hulpkaarten zijn deze verschillen oplosbaar. In het project 1-op-1 kaart verbeteren we de kadastrale kaart in een aantal stappen. Om de haalbaarheid van dit traject te vergroten maken we gebruik van innovatieve technologie, waaronder Artificial Intelligence.
+
+In 2019 zetten we de eerste stap met het toevoegen op de kadastrale kaart van informatie. De eerste stap is het op de kadastrale kaart toevoegen van informatie over grenzen en kwaliteit, waardoor inzichtelijk wordt waar er afwijkingen zijn in de weergave van grenzen op de kadastrale kaart. Deze stap helpt ons in de werkzaamheden rond grensreconstructies. De tweede mogelijke stap betreft het reconstrueren van de kadastrale kaart op basis van bestaande gegevens vanuit de kadastrale veldwerken. We ontwikkelen daarvoor eerst een prototype, alvorens te besluiten of we dit op bredere schaal gaan doen.</documentation>
+      <property key="Versie" value="1.0"/>
+      <property key="Doel sinds" value="1-1-2019"/>
+    </element>
+    <element xsi:type="archimate:Goal" name="Missie" id="97a93c19-346d-4e20-aca7-77a7dc72cb42">
+      <documentation>Als onafhankelijke partij biedt het Kadaster zekerheid door transparantie over eigendom en gebruik van vastgoed en ruimte. Dit vormt een belangrijke basis voor economie en welvaart voor iedereen. Daar dragen we elke dag aan bij. We laten zien wat van wie is en helpen bij het maken van keuzes. In Nederland maar ook daarbuiten. &#xD;
+&#xD;
+Betekenis&#xD;
+Een missie is datgene dat wij naar buiten wil uitdragen. Het geeft aan waarvoor de medewerkers binnen Kadaster staan, wat hun identiteit en waarden zijn. Het heeft betrekking op een langere periode, is ambitieus, sturend en inspirerend voor de medewerkers.&#xD;
+&#xD;
+De missie beschrijft het bestaansrecht van het Kadaster vanuit de waarden en identiteit. De vraag die onder dit verhaal ligt is: waar staan we voor? Een missie is iets wat door de jaren heen gegroeid is, het is ons fundament. Een missie is bovendien een blijvend iets dat niet elk jaar verandert.</documentation>
+    </element>
+    <element xsi:type="archimate:Goal" name="Visie" id="b1ad4067-94b6-42fb-8957-6545d1884f91">
+      <documentation>Betrouwbare data via één digitaal geodata-platform voor iedereen toegankelijk maken. Dat is waar wij dagelijks aan werken door te verbinden en zekerheid te bieden. Wanneer je data combineert met die van anderen ontstaan er waardevolle inzichten bij het oplossen van maatschappelijke vraagstukken. Zo dragen we bij aan een duurzame en leefbare samenleving. En omdat geodata niet stoppen bij de grens doen we dat in Nederland maar ook daarbuiten. &#xD;
+&#xD;
+Betekenis&#xD;
+Visie is de laatste jaren één van de meest gebruikte, maar minst begrepen woorden in de taal van bedrijfsstrategie geworden. In de visie schetst het Kadaster de ontwikkelingen in haar omgeving, die het -voor haar beoogde bedrijfsactiviteit- voorziet in de komende tien jaar. Waar geloven onze stakeholders in, wat zijn hun overtuigingen, wat gebeurt er in onze omgeving? &#xD;
+&#xD;
+Soms wordt gekozen voor een langere termijn dan tien jaar. Onze visie weerspiegelt in elk geval het beeld van de ontwikkelingen in onze omgeving ten aanzien van de geplande investering over langere tijd op basis van rotsvaste overtuigingen en veronderstellingen van het management. Het gaat om de interpretatie van het management van de waargenomen fundamentele ontwikkelingen en veranderingen Elke manager kijkt door zijn eigen bril naar de omgeving van het Kadaster. Belangrijke vraagstukken zijn: wie zullen onze belangrijkste klanten en leveranciers zijn? Het antwoord op deze vraag worden gedreven door verwachte, dieper liggende sociaal-economische, technologische, juridische en maatschappelijke ontwikkelingen. De praktijk laat zien dat de visie belangrijk is in zowel de externe als interne communicatie. Het geeft stakeholders een gezamenlijk gevoel voor richting en dient als toetssteen bij de uitwerking van het planning proces.</documentation>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Interne stakeholders" id="fa6d94e6-8271-4b18-92e4-f2d34ba433a3"/>
+    <element xsi:type="archimate:Stakeholder" name="Externe stakeholders" id="e2d91376-31dd-447f-8bc5-cf8154fa5994"/>
+    <element xsi:type="archimate:Driver" name="Zekerheid" id="29ee6d9f-fd54-4f0f-83e2-ce8a268326dc">
+      <documentation>Wij onderscheiden ons door het leveren van authentieke, gevalideerde informatie, tweedimensionaal en driedimensionaal. Naast informatie over eigendom leveren we steeds meer informatie over het gebruik van de ruimte, vastgoed en netwerken. Dat doen we samen met het notariaat en andere keten- en netwerkpartners. Zekerheid bepaalt ons bestaansrecht. Een zekerheid waarop burgers en bedrijven kunnen bouwen. Dat vormt de basis van een gezonde economie. Bij burgers en bedrijven moet de beleving zijn: “Hierop kunnen wij vertrouwen”.</documentation>
+    </element>
+    <element xsi:type="archimate:Driver" name="Platform" id="1488b34c-549e-4179-9e48-3a8f64f46bb3">
+      <documentation>Inzicht in ruimte is van belang bij het vaststellen van beleid, het meten van de maatschappelijke effecten van beleid en het nemen van besluiten over inrichting van ruimte. Wij stellen betrouwbare, gevalideerde ruimtelijke informatie uit diverse bronnen beschikbaar en zorgen ervoor dat deze vindbaar, goed toegankelijk en bruikbaar is. Daarbij geven we zowel aandacht aan data, als aan de technologische middelen die nodig zijn om deze data op een goede manier te gebruiken. In de samenleving moet dit de beleving oproepen: “Met dit inzicht kunnen we de volgende stap zetten”.</documentation>
+    </element>
+    <element xsi:type="archimate:Driver" name="Partner" id="016597cc-438e-4763-8fe1-906a60ea5f64">
+      <documentation>Niet alle burgers, bedrijven en overheden hebben de kennis in huis om ruimtelijke informatie te gebruiken. Vanuit onze onpartijdige positie bieden we onze kennis actief aan om de samenleving hierbij te helpen en ruimtelijke veranderingsprocessen te ondersteunen. Vaak werken we daarbij samen met partners, zoals universiteiten, kennisinstellingen, marktpartijen en partijen binnen het overheidsdomein. Het resultaat is dat burgers, bedrijven en overheden denken: ”Dit helpt mij om mijn vraagstuk te beantwoorden”.</documentation>
+    </element>
+    <element xsi:type="archimate:Driver" name="Wettelijke kaders" id="9c7d12fd-5753-4a51-af48-e8048a2d4d8f">
+      <documentation>Naar aanleiding van de laatste kabinetsformatie valt het Kadaster sinds oktober 2017 onder de politieke verantwoordelijkheid van de minister van Binnenlandse Zaken en Koninkrijksrelaties (BZK). Onze taken en de voor de uitvoering geldende kaders staan beschreven in diverse wetten, waaronder de Kadasterwet. Als zelfstandig bestuursorgaan (ZBO) hebben wij ruimte om keuzes te maken in de wijze waarop taken worden uitgevoerd.</documentation>
+    </element>
+    <element xsi:type="archimate:Driver" name="Sustainable Development" id="2777ab78-c0f2-459d-9dd1-0f39317f140a">
+      <documentation>Bron: https://www.rijksoverheid.nl/onderwerpen/ontwikkelingssamenwerking/internationale-afspraken-ontwikkelingssamenwerking/global-goals-werelddoelen-voor-duurzame-ontwikkeling&#xD;
+&#xD;
+In 2015 hebben de Verenigde Naties 17 Sustainable Development Goals (SDG’s) vastgesteld. Nederland en de andere 192 VN-lidstaten hebben zich daarmee verbonden aan deze 17 werelddoelen voor duurzame ontwikkeling. De SDG’s zijn een belangrijke inspiratiebron voor ons. Als publieke organisatie kunnen en willen wij aan deze doelen bijdragen. &#xD;
+&#xD;
+Een werkende landregistratie, een geo-informatie infrastructuur en een betrouwbare publieke dienstverlening zijn noodzakelijke voorwaarden voor het behalen van veel van de SDG’s. De situatie in landen waar aan die voorwaarden niet voldaan wordt, maakt duidelijk hoe zeer welvaart en welzijn hieronder lijden. Het Kadaster kan in die landen helpen met het invullen van de randvoorwaarden. Maar ook in Nederland zijn de 17 doelen nog niet allemaal verwezenlijkt. Wij blijven ons inzetten voor het behouden en verbeteren van de kwaliteit van de voorzieningen en daarnaast zetten wij onze data en kennis in voor maatschappelijke vraagstukken met een ruimtelijke component. Concrete bijdragen die het Kadaster in de context van de SDG’s wil leveren, zijn onder meer: &#xD;
+> Continue aandacht voor proces- en kwaliteitsverbetering voor een hoogwaardige geo-informatievoorziening en betrouwbare vastgoedketen. &#xD;
+> Expertise van ruimte en eigendom inzetten bij vraagstukken rondom energietransitie en klimaatadaptatie.&#xD;
+> Kennis van geo-informatietechnologie en van publieke dienstverlening inzetten voor een goed werkende en toekomstvaste digitale ruimtelijke infrastructuur. &#xD;
+> Expertise op het gebied van vastgoedregistratie inzetten voor het creëren van transparantie op de vastgoedmarkt. &#xD;
+</documentation>
+    </element>
+    <element xsi:type="archimate:Assessment" name="Strategische verkenning 2018" id="d9a60605-62db-4ad4-b80c-445ece409122">
+      <documentation>Bron: V:\IT\CIO-Enterprise Architectuur\KEA2019\VOA\00036-Bron_V.pptx&#xD;
+&#xD;
+Verkennen&#xD;
+De toekomst kunnen we niet voorspellen. We kunnen wel om ons heen kijken en zien wat er gebeurt. Deze verkenning geeft een overzicht van kleine en grote ontwikkelingen die om ons heen plaatsvinden.&#xD;
+&#xD;
+Missie, visie, ambities&#xD;
+Ontwikkelingen kunnen het realiseren van onze ambities versnellen of vertragen. Dit overzicht gebruiken we om de impact van ontwikkelingen te bepalen en vast te stellen hoe we met de ontwikkelingen omgaan.</documentation>
+    </element>
+    <element xsi:type="archimate:Principle" name="GEO-Platform" id="2944df9c-b0b8-4189-b701-33c5a8f58ca1">
+      <documentation>Bron:&#xD;
+https://www.noraonline.nl/images/noraonline/2/27/20170411_NORA_gebruikersraad_verbinding_met_GEMMA_TP.pdf&#xD;
+&#xD;
+Statement:&#xD;
+Wij bieden het platform waarmee iedereen met geo-informatie altijd en overal aan de slag kan.&#xD;
+&#xD;
+Rationale:&#xD;
+Inzicht in ruimte is van belang bij het vaststellen van beleid, het meten van de maatschappelijke effecten van beleid en het nemen van besluiten over inrichting van ruimte. Wij stellen betrouwbare, gevalideerde ruimtelijke informatie uit diverse bronnen beschikbaar en zorgen ervoor dat deze vindbaar, goed toegankelijk en bruikbaar is. Daarbij geven we zowel aandacht aan data, als aan de technologische middelen die nodig zijn om deze data op een goede manier te gebruiken. In de samenleving moet dit de beleving oproepen: “Met dit inzicht kunnen we de volgende stap zetten”.&#xD;
+</documentation>
+      <property key="Identificatie" value="EP01"/>
+      <property key="Principe sinds" value="01-01-2019"/>
+      <property key="Versie" value="0.9"/>
+    </element>
+    <element xsi:type="archimate:Requirement" name="Generieke platformdiensten" id="fb2d8a2e-bd48-4681-b550-0f546a19dd6d">
+      <documentation>We gaan van voorzieningen en kennis per verticaal beleidsdomeinen (BAG, BRK, BGT, etc.) naar horizontale kennis en generieke platformdiensten.</documentation>
+      <property key="Identificatie" value="IA-01"/>
+    </element>
+    <element xsi:type="archimate:Requirement" name="Sturen op samenhang" id="17c272d6-6476-4375-ad11-e2b3d3e7c4f4">
+      <documentation>We zijn kennispartner die overzicht en inzicht heeft over het ruimtelijk gegevenslandschap en stuurt op samenhang om uiteindelijk te komen tot één gegevenslandschap voor overheid, burger en ondernemer.</documentation>
+      <property key="Identificatie" value="BI-02"/>
+    </element>
+    <element xsi:type="archimate:Requirement" name="Plusinformatie voor bestuursorganen" id="7480ed99-f18b-4128-8125-6dfdee6e32e9">
+      <documentation>De gegevens zijn in samenhang te bevragen, te analyseren en te ontsluiten.</documentation>
+      <property key="Identificatie" value="IA-02"/>
+    </element>
+    <element xsi:type="archimate:Requirement" name="Horizontale kennis" id="e45cf5b2-1647-48f4-954d-6479fcc0412e">
+      <documentation>We schuiven op van specifieke beleidsdomeinen naar kennis over de ruimtelijke informatie om de (integrale) vraagstelling van onze klanten beter te kunnen beantwoorden.</documentation>
+      <property key="Identificatie" value="BI-01"/>
+    </element>
+    <element xsi:type="archimate:Requirement" name="Gedeelde semantiek" id="fe7afec7-a5d6-4adf-bcdf-d76205c56a78">
+      <documentation>De informatie op het platform wordt ontsloten op basis van een gegevenscatalogus. Belangrijk is dat de semantiek aansluit op andere gegevens van de overheid. Deze gegevenscatalogus zetten we op met andere partijen in het eco-systeem.</documentation>
+      <property key="Identificatie" value="DV-01"/>
+    </element>
+    <element xsi:type="archimate:Principle" name="Enkelvoudige opslag, meervoudig gebruik" id="d40b967f-043d-4200-a130-07b690b0b7f4">
+      <documentation>Bron:&#xD;
+https://vng.nl/samen-organiseren/common-ground&#xD;
+https://www.digitaleoverheid.nl/archief/studiegroep-informatiesamenleving-en-overheid/documenten-2/dossierdocumentcontext/rapport-maak-studiegroep-informatiesamenleving-en-overheid/&#xD;
+&#xD;
+Statement:&#xD;
+Wij slaan gegevens op bij de bron en deze worden daar bewerkt en gebruikt.&#xD;
+&#xD;
+Rationale:&#xD;
+Nu ontsluiten overheden gegevens via koppelingen, die complex, kwetsbaar en duur zijn. Doordat de gegevens zijn ‘opgesloten’ binnen de informatiesystemen is de portabiliteit van gegevens en hergebruik ervan beperkt. Gegevens worden continue gekopieerd om de systemen in sync te houden. &#xD;
+&#xD;
+Deze beweging is ingezet vanuit het DSO en wordt momenteel versterkt en strategischer gemaakt door common ground van de gemeenten en het benoemen van deze bewegingen in meerdere digitale agenda’s.</documentation>
+      <property key="Identificatie" value="EP02"/>
+      <property key="Principe sinds" value="01-01-2019"/>
+      <property key="Versie" value="0.9"/>
+    </element>
+    <element xsi:type="archimate:Requirement" name="Bewerken bij de bron" id="b8a2a4bf-fa96-466c-8aa9-85cbcc8f0611">
+      <documentation>We stimuleren dat we van ketens met ingewikkelde berichten en koppelvlakken per ketenstap opschuiven naar direct bewerken en bevragen bij de bron. Daartoe is het noodzakelijk dat de (basis)registraties de centrale bron van gegevens worden.&#xD;
+&#xD;
+Dit betekent ook dat we met onze opdrachtgever zorgen dat de berichten en koppelvlakken uit de verschillende wetten op termijn worden vervangen door andere standaarden.</documentation>
+      <property key="Identificatie" value="IA-03"/>
+    </element>
+    <element xsi:type="archimate:Requirement" name="Kwaliteit en keurmerk" id="7f094874-331d-44eb-b9c2-cb6211f94ae2">
+      <documentation>We bieden zekerheid en garanties (vertrouwen) over data, door valideren (‘keurmerk’) en transparantie.&#xD;
+&#xD;
+Het gebruiken van dezelfde brongegevens zorgt voor een verhoging in de kwaliteit doordat meerdere bron- en afnemers zich met deze gegevens bezighouden. Dit vraagt wel om kwaliteitsinstrumenten zoals het eenvoudig interactief kunnen terugmelden of kwaliteitsdashboards waarmee gegevens uit meerdere registraties onderling gecontroleerd kunnen worden.&#xD;
+&#xD;
+We moeten in staat zijn gebruikte bronnen en algoritmen vast te leggen om daarmee zekerheid en transparantie te kunnen bieden.</documentation>
+      <property key="Identificatie" value="DV-02"/>
+    </element>
+    <element xsi:type="archimate:Principle" name="Scheiding van processen en informatie" id="b78e36c6-9581-4aad-9779-4664ee6c36b3">
+      <documentation>Bron:&#xD;
+&#xD;
+Statement:&#xD;
+Registraties zijn een getrouwe weergave van ons beeld van de werkelijkheid.&#xD;
+&#xD;
+Rationale:&#xD;
+Het ministerie van BZK en gemeenten zijn bezig om de beweging in gang te zetten naar een centrale objectenregistratie. De bronhouders willen de registraties vanuit hun eigen werkprocessen kunnen voeden. Geen koppelvlakken meer, maar voor gemeenten en andere bronhouders passende werkprocessen die ervoor zorgen dat de gegevens op verschillende manieren vanuit verschillende applicaties bijgewerkt kunnen worden.&#xD;
+&#xD;
+De gegevens in de basisregistraties geven een basale ordening van de werkelijkheid. We onderscheiden mensen, huizen, auto’s, wegen en andere elementen van de werkelijkheid. We richten de registraties in op basis van ons beeld van de werkelijkheid. En de bijhouding van deze registraties koppelen we aan gebeurtenissen in diezelfde werkelijkheid. &#xD;
+&#xD;
+In de huidige ketenbenadering is sprake van een reactieve bedrijfsvoering.  Met dit principe is een gedeelde informatieverzameling beschikbaar en partijen nemen zelf op basis van veranderingen in de informatie de beslissing om in actie te komen. Het resultaat van wat ze doen, verwerken ze in de informatieverzameling, maar leidt niet tot het geven van duwtjes. Andere partijen beslissen zelf om in actie te komen op basis van de nieuwe informatie.</documentation>
+      <property key="Identificatie" value="EP03"/>
+      <property key="Principe sinds" value="01-01-2019"/>
+      <property key="Versie" value="0.9"/>
+    </element>
+    <element xsi:type="archimate:Requirement" name="Stimuleren van de transformatie" id="47181533-1165-4e76-ab6e-944594cb37fe">
+      <documentation>We stimuleren de transformatie van keten gestuurde processen naar de scheiding in processen en informatie (bij partijen in het eco systeem).</documentation>
+      <property key="Identificatie" value="DV-03"/>
+    </element>
+    <element xsi:type="archimate:Requirement" name="Toestemming en doelbinding" id="250d97af-cd6c-407e-b920-9c150cb14d12">
+      <documentation>Het regelen van toestemmingen en doelbindingen is ene voorwaarden voor het bieden van zekerheid in het gebruik van informatie.</documentation>
+      <property key="Identificatie" value="DV-04"/>
+    </element>
+    <element xsi:type="archimate:Principle" name="Regie door meerdere partijen" id="8cba502f-a0db-45d3-8afd-3638fbf01a80">
+      <documentation>Bron:&#xD;
+&#xD;
+Statement:&#xD;
+(Gegevens)objecten hebben meerdere eigenaren in het eco-systeem.&#xD;
+&#xD;
+Rationale:&#xD;
+De agenda Digitale Overheid zet de autonomie van burger en ondernemers hoog op de agenda. Geconstateerd wordt dat door de voortschrijdende digitalisering de Grondwet en de daaruit voortvloeiende publieke waarden zoals privacy, zelfbeschikking en gelijkheid essentieel zijn om te borgen.&#xD;
+&#xD;
+De digitale agenda stelt het volgende:&#xD;
+> Burgers en ondernemers voeren regie op eigen gegevens.&#xD;
+> De juistheid van gegevens is van groot belang en vraagt om actieve sturing.&#xD;
+> MijnOverheid moet een plek worden waar de burger de regie op zijn (persoons-)gegevens heeft.&#xD;
+> Ondernemers en burgers kunnen onjuist gegevens (laten) corrigeren. Het gevolg van verkeerde gegevens moet worden hersteld.&#xD;
+> Mesen hebben het recht op inzicht wie, op welk moment en voor welk doel, hun gegevens inzien, gebruikt of aan anderen geeft. Dit recht is vastgelegd in de AVG. Dit vraagt veel van alle overheidsorganisaties en mogelijk leidt dit tot gezamenlijke acties.</documentation>
+      <property key="Identificatie" value="EP04"/>
+      <property key="Principe sinds" value="01-01-2019"/>
+      <property key="Versie" value="0.9"/>
+    </element>
+    <element xsi:type="archimate:Principle" name="Fundamentele waarden bij 'Big Data'" id="2fb01237-e189-4441-a1ad-c375677cbfd0">
+      <documentation>Bron:&#xD;
+https://www.rathenau.nl/nl/digitale-samenleving/de-datagedreven-samenleving&#xD;
+https://www.raadvanstate.nl/adviezen/zoeken-in-adviezen/tekst-advies.html?id=13065&#xD;
+https://www.wrr.nl/onderwerpen/big-data-privacy-en-veiligheid&#xD;
+https://www.digitaleoverheid.nl/nldigibeter/&#xD;
+&#xD;
+Statement:&#xD;
+Privacy en andere fundamentele waarden zijn geborgd bij toepassing van 'Big Data'&#xD;
+&#xD;
+Rationale:&#xD;
+Voor het delen van gegevens tussen burgers (als consument), bedrijven en overheidsorganisaties is vertrouwen een noodzakelijke voorwaarde. Zonder vertrouwen, zijn partijen niet bereid om gegevens beschikbaar te stellen. Hetzelfde geldt voor consumenten. Ook zij zullen minder geneigd zijn bedrijven en organisaties toestemming te geven voor het gebruik van hun gegevens, wanneer ze die niet vertrouwen. Garanties op het gebied van datakwaliteit en gegevensbeveiliging dragen bij aan vertrouwen. Daarnaast is er duidelijkheid nodig over hoe gegevens worden verwerkt en wie daarvoor verantwoordelijk is.&#xD;
+&#xD;
+Data genereren we grotendeels zelf, bijvoorbeeld door de sporen die we nalaten via het gebruik van mobiele apparaten. In combinatie met de sterk toegenomen digitale opslagcapaciteit, de groeiende computerkracht en nieuwe data-analysetechnieken spreekt men wel van het tijdperk van de ‘Big Data’.&#xD;
+&#xD;
+Om een goed gebruik van Big Data met stevige waarborgen voor privacy en andere fundamentele waarden vorm te geven, heeft de regering de WRR op 26 mei 2014 een adviesaanvraag over het thema ‘Big Data, privacy en veiligheid’ toegestuurd. In deze aanvraag staan vier hoofdvragen centraal:&#xD;
+Kan en, zo ja, moet er een scherper onderscheid worden gemaakt tussen de toegang tot, de verzameling van en het gebruik van gegevens in privacyrecht en databescherming?&#xD;
+Hoe kan het proces van profiling en datamining en andere analysetechnieken ten behoeve van de veiligheid voldoende transparant zijn zonder de effectiviteit ervan voor het veiligheidsbeleid te doorkruisen?&#xD;
+Wat betekent de komst van kwantumcomputers voor het proces van gegevensverwerking en bescherming (encryptie)?&#xD;
+Wat is de impact van Big Data op de gegevenshuishouding van de overheid en hoe kan de burger daarop invloed hebben?&#xD;
+</documentation>
+      <property key="Identificatie" value="EP05"/>
+      <property key="Principe sinds" value="01-01-2019"/>
+      <property key="Versie" value="0.9"/>
+    </element>
+    <element xsi:type="archimate:Requirement" name="Bieden van tools" id="3d787d52-4f1d-4eaa-a932-7e4c3ab80d69">
+      <documentation>We bieden tools voor analyse en visualisatie waarmee de gebruiker zelf aan de slag kan (expert en niet professional). We stellen technologische middelen (Virtual Reality (VR) - digital twin, Augmented Reality, AI) beschikbaar om data makkelijk te gebruiken.</documentation>
+      <property key="Identificatie" value="IF-01"/>
+    </element>
+    <element xsi:type="archimate:Requirement" name="Partnerrol aan platform gebonden" id="b1745471-317e-4df6-b8d8-7b2ec488f657">
+      <documentation>We verbinden onze partnerrol met het platform. Het platform ondersteunt het beantwoorden van maatschappelijke vraagstukken. Hierdoor verbinden we de maatschappelijke thema’s met het data-gedreven werken.</documentation>
+      <property key="Identificatie" value="DV-05"/>
+    </element>
+    <element xsi:type="archimate:Requirement" name="Kennisopbouw Big Data" id="bd34e270-729d-469c-be24-06e2036a0bb1">
+      <documentation>We investeren in ontwikkelingen en kennis op het gebied van data-analyse en -visualisatie. Het gaat om het bundelen van bestaande kennis op het gebied van eigen data met nog op te bouwen kennis op het gebied van externe data en data-analysecompetenties (statistiek, visualisatie, interpretatie, visualisatie). Hierbij moet ruimte zijn om te investeren in eigen kennis en om samenwerkingsverbanden aan te gaan met externe partijen om onze kennis te verrijken.</documentation>
+      <property key="Identificatie" value="BI-03"/>
+    </element>
+    <element xsi:type="archimate:Principle" name="Toegang voor iedereen" id="370c5133-225d-45dd-9d14-3ae322efe329">
+      <documentation>Bron:&#xD;
+&#xD;
+Statement:&#xD;
+Informatievraagstukken van de klant zijn leidend bij toegang en gebruik van het platform. &#xD;
+&#xD;
+Rationale:&#xD;
+Op het moment dat we meer denken vanuit informatievraagstukken en hoe we hier onze maatschappij (overheid, burgers en ondernemers) het beste bij kunnen helpen, geven we een betere invulling aan onze platformrol en zal de geo-informatie nog meer stromen. Dit zorgt ervoor dat geo-informatie in de haarvaten komt van de elementaire processen van de overheid en de interacties die de burger, ondernemers en overheden met elkaar hebben.</documentation>
+      <property key="Identificatie" value="EP06"/>
+      <property key="Principe sinds" value="01-01-2019"/>
+      <property key="Versie" value="0.9"/>
+    </element>
+    <element xsi:type="archimate:Requirement" name="Ontdekken nieuwe mogelijkheden" id="e3b28974-1b2e-486b-8269-4239f8b59fa1">
+      <documentation>We ontdekken samen met gebruikers nieuwe mogelijkheden.</documentation>
+      <property key="Identificatie" value="DV-06"/>
+    </element>
+    <element xsi:type="archimate:Requirement" name="Direct vind- en bruikbaar" id="7e68479f-9cef-4d14-9f93-76f654c512f4">
+      <documentation>We zorgen dat informatie direct vindbaar, gemakkelijk toegankelijk en bruikbaar is.</documentation>
+      <property key="Identificatie" value="IA-05"/>
+    </element>
+    <element xsi:type="archimate:Requirement" name="Laag drempelig en intuitief" id="425d6426-12f7-45f6-b5fa-72da935b118d">
+      <documentation>Onze gebruikstoepassingen zijn intuïtief en laagdrempelig.</documentation>
+      <property key="Identificatie" value="IA-06"/>
+    </element>
+    <element xsi:type="archimate:Requirement" name="Viruele werkplaats" id="c4ee675a-8cc9-47a8-b645-829ad22a3005">
+      <documentation>Het verder invulling geven aan een ‘virtuele’ plek waar data en kennis gematched kunnen worden met de vragende kant. Blijvend nadenken over de te hanteren concepten en wie hier onze samenwerkende partijen zijn.</documentation>
+      <property key="Identificatie" value="DV-06"/>
+    </element>
+  </folder>
+  <folder name="Implementation &amp; Migration" id="3be9836f-072f-49b2-8b5c-ba8354818c6e" type="implementation_migration">
+    <element xsi:type="archimate:Deliverable" name="Visie/strategie document" id="c2ec03bc-cab2-4730-8689-5fbb3453f733">
+      <documentation>Vanuit de 	&#xD;
+	&#xD;
+</documentation>
+      <property key="Hyperlink" value="kink naar: http://www..archimatetool.comCXCZXCZX"/>
+      <property key="Rationale"/>
+    </element>
+  </folder>
+  <folder name="Other" id="147e0ed7-2b4a-45b1-89ac-3c4b47e5ac90" type="other">
+    <element xsi:type="archimate:Grouping" name="Strategie en beleidsvorming" id="0bbe58db-9743-4d75-8602-717e60a6c2a2">
+      <documentation>Met strategie en beleidsvorming is het volgende bedoeld.&#xD;
+Het bepalen van de doelen van Kadaster alsmede het aangeven van de wegen waarlangs en de voornaamste middelen waarmee deze doelen gerealiseerd moeten worden.</documentation>
+    </element>
+    <element xsi:type="archimate:Grouping" name="Kadaster Enterprise Architectuur (KEA)" id="639125c9-82d6-4284-afb7-31eb4c7437ac">
+      <documentation>Wij hanteren een definitie voor architectuur, die is ontleend aan ISO/IEC/IEEE 42010. Deze is onderstaand weergegeven.&#xD;
+Een samenhangend geheel van fundamentele concepten en/of eigenschappen van een systeem, beschreven in termen van componenten, relaties tussen deze componenten en de principes die richting geven aan het ontwerp en de ontwikkeling van het systeem gericht op het realiseren van (strategische) doelen.&#xD;
+&#xD;
+Fundamenteel: omdat architectuur niet alles beschrijft, maar zich beperkt tot dat wat essentieel is met het oog op de voor Kadaster vereiste wendbaarheid. In die zin is architectuur wezenlijk iets anders dan een ontwerp van een systeem.&#xD;
+&#xD;
+Systeem: naar de betekenis van ISO 15288 als het samenhangend geheel van mensen, processen, faciliteiten, materialen, hardware, software, data en eventuele natuurlijke bronnen.&#xD;
+&#xD;
+Het werken aan of onder architectuur (architecting) is als volgt gedefinieerd.&#xD;
+Het proces waarin de architectuur van Kadaster wordt; bedacht, ontwikkeld, gedocumenteerd, gecommuniceerd, geïmplementeerd en begrepen gedurende de gehele levenscyclus van een systeem.&#xD;
+</documentation>
+    </element>
+    <element xsi:type="archimate:Grouping" name="Intern (ambities)" id="cc519b34-8970-4df5-81cb-093a8ba9a7dd">
+      <documentation>Betekenis&#xD;
+Ambitie is de stuwkracht van ondernemerschap binnen Kadaster. Ambitie is iets dat groeit, naarmate we succesvol zijn en krimpt als plannen minder goed verlopen. Regelmatige reflectie op de ambitie is nodig om ambities op het niveau te houden dat zij een aanjager zijn voor ondernemerschap. Een dergelijke reflectie kan onderdeel zijn van de PDCA cyclus (Deming).&#xD;
+&#xD;
+Vanuit architectuur is ambitie (ArchiMate)Driver gedefinieerd als: een externe of interne conditie op basis waarvan Kadaster haar doelen formuleert die in verandertrajecten worden gerealiseerd.</documentation>
+    </element>
+    <element xsi:type="archimate:Grouping" name="Stakeholders" id="70993982-c029-470a-b934-dc375a2d1715"/>
+    <element xsi:type="archimate:Grouping" name="Speerpunten MBP 2019-2023" id="d34376b1-e519-4b8c-ab27-f144e114c86a"/>
+    <element xsi:type="archimate:Grouping" name="Extern" id="4cca23d3-7351-4e7c-8f92-5013a590c461"/>
+    <element xsi:type="archimate:Grouping" name="Drivers" id="6d29234f-1ef3-452c-bdfe-2e7b093d2aeb"/>
+    <element xsi:type="archimate:Grouping" name="Implicaties" id="87c79e03-be8d-4b2c-bfcd-a0b52b2eee39"/>
+    <element xsi:type="archimate:Grouping" name="KEA Principes" id="553a3a8a-035a-4a56-9394-f0d1904e0d41"/>
+    <element xsi:type="archimate:Location" name="Location" id="26a624bb-16f6-46bb-8531-fc9ae71490b9"/>
+  </folder>
+  <folder name="Relations" id="62f3af9f-73d4-4272-b81b-ba248ef2b2b0" type="relations">
+    <element xsi:type="archimate:CompositionRelationship" id="bd726215-950c-417f-96f7-a894a2d71fbe" source="0bbe58db-9743-4d75-8602-717e60a6c2a2" target="97a93c19-346d-4e20-aca7-77a7dc72cb42"/>
+    <element xsi:type="archimate:CompositionRelationship" id="82f838ef-62ce-47ee-907b-a9fabc28aa1a" source="0bbe58db-9743-4d75-8602-717e60a6c2a2" target="c2ec03bc-cab2-4730-8689-5fbb3453f733"/>
+    <element xsi:type="archimate:CompositionRelationship" id="79c0b2c0-d139-4286-b9b8-dfa361d01a1a" source="0bbe58db-9743-4d75-8602-717e60a6c2a2" target="b1ad4067-94b6-42fb-8957-6545d1884f91"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="ea2e6888-6d25-43f6-b143-149adc73a5cf" source="b1ad4067-94b6-42fb-8957-6545d1884f91" target="97a93c19-346d-4e20-aca7-77a7dc72cb42"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="f08021c7-ea03-45c9-acab-ead1e3e487e5" source="6d29234f-1ef3-452c-bdfe-2e7b093d2aeb" target="b1ad4067-94b6-42fb-8957-6545d1884f91"/>
+    <element xsi:type="archimate:CompositionRelationship" id="0c74015a-b3fb-44ec-afdf-e51a5d941fd3" source="70993982-c029-470a-b934-dc375a2d1715" target="e2d91376-31dd-447f-8bc5-cf8154fa5994"/>
+    <element xsi:type="archimate:CompositionRelationship" id="1c407dc6-e8d5-4d9b-b665-b3bb1b3a2da0" source="70993982-c029-470a-b934-dc375a2d1715" target="fa6d94e6-8271-4b18-92e4-f2d34ba433a3"/>
+    <element xsi:type="archimate:CompositionRelationship" id="ebcf2a84-9df1-41a4-860e-c793621a558c" source="0bbe58db-9743-4d75-8602-717e60a6c2a2" target="70993982-c029-470a-b934-dc375a2d1715"/>
+    <element xsi:type="archimate:CompositionRelationship" id="cd54625c-90c1-4c99-8d76-b04dff8ec2fd" source="cc519b34-8970-4df5-81cb-093a8ba9a7dd" target="29ee6d9f-fd54-4f0f-83e2-ce8a268326dc"/>
+    <element xsi:type="archimate:CompositionRelationship" id="bcfd0c0c-7714-41d7-8624-0e88a51782e7" source="cc519b34-8970-4df5-81cb-093a8ba9a7dd" target="1488b34c-549e-4179-9e48-3a8f64f46bb3"/>
+    <element xsi:type="archimate:CompositionRelationship" id="12346e22-f58f-4417-8997-e5c1f4dc26bd" source="cc519b34-8970-4df5-81cb-093a8ba9a7dd" target="016597cc-438e-4763-8fe1-906a60ea5f64"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Concerns" id="a04701ac-9e69-4fb5-9bb9-8bdb9e805df8" source="70993982-c029-470a-b934-dc375a2d1715" target="6d29234f-1ef3-452c-bdfe-2e7b093d2aeb"/>
+    <element xsi:type="archimate:CompositionRelationship" id="e6dc07ee-afb3-4898-8b9d-9bbe9c28b936" source="0bbe58db-9743-4d75-8602-717e60a6c2a2" target="d34376b1-e519-4b8c-ab27-f144e114c86a"/>
+    <element xsi:type="archimate:CompositionRelationship" id="69be2e15-86f3-417c-a2e2-fc3e4aa23d22" source="d34376b1-e519-4b8c-ab27-f144e114c86a" target="89215189-7f36-4c26-a91b-86548dee33ec"/>
+    <element xsi:type="archimate:CompositionRelationship" id="8f7d20db-5c1d-4ca7-8b8b-877dd7f9d5bd" source="d34376b1-e519-4b8c-ab27-f144e114c86a" target="7831ebcc-5ba8-4162-91a4-0fd2f35ea0b9"/>
+    <element xsi:type="archimate:CompositionRelationship" id="12ab21ad-0c3d-4b99-9260-aacf5d4489c5" source="d34376b1-e519-4b8c-ab27-f144e114c86a" target="69d01ef2-8019-4e53-9224-c1eeb6a202c1"/>
+    <element xsi:type="archimate:CompositionRelationship" id="8b7d27c0-56e6-410e-889f-b434d86ebf94" source="d34376b1-e519-4b8c-ab27-f144e114c86a" target="05e782a2-eb2b-4c7a-a664-7d5087817f62"/>
+    <element xsi:type="archimate:CompositionRelationship" id="70dde1d2-186d-406a-b691-7dcfdb4de669" source="d34376b1-e519-4b8c-ab27-f144e114c86a" target="0a3d0d30-9485-4ec5-a485-135f2d2f3794"/>
+    <element xsi:type="archimate:CompositionRelationship" id="fee81e0b-bf11-4d62-9b2d-b72a2285f99b" source="d34376b1-e519-4b8c-ab27-f144e114c86a" target="89132d34-b552-4b85-8176-0c22549fcf59"/>
+    <element xsi:type="archimate:CompositionRelationship" id="60b3b197-bc1c-4d39-91a8-dfaa3e631797" source="d34376b1-e519-4b8c-ab27-f144e114c86a" target="115c241c-25ee-4c5d-abf5-9301129a86eb"/>
+    <element xsi:type="archimate:CompositionRelationship" id="0ec82154-b4f2-47c4-b4fe-f45d5abd0655" source="d34376b1-e519-4b8c-ab27-f144e114c86a" target="4114cb78-5751-4189-bafa-832283cbffe9"/>
+    <element xsi:type="archimate:CompositionRelationship" id="695f5701-3154-44ff-9063-41731b27cc8a" source="d34376b1-e519-4b8c-ab27-f144e114c86a" target="d775caaf-80d4-4180-88a6-0e7916f890a3"/>
+    <element xsi:type="archimate:CompositionRelationship" id="2036d7c8-0cb3-46a6-89bb-3c0331738326" source="4cca23d3-7351-4e7c-8f92-5013a590c461" target="9c7d12fd-5753-4a51-af48-e8048a2d4d8f"/>
+    <element xsi:type="archimate:CompositionRelationship" id="359f4ffa-9791-4b71-bd0e-89bffb027e7c" source="4cca23d3-7351-4e7c-8f92-5013a590c461" target="2777ab78-c0f2-459d-9dd1-0f39317f140a"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Interesse, invloed en support" id="0059f760-9563-47a3-8e82-860b8705773e" source="70993982-c029-470a-b934-dc375a2d1715" target="d34376b1-e519-4b8c-ab27-f144e114c86a">
+      <documentation>De relatie tussen Stakeholders en (strategische) doelen (speerpunten) is op onderstaande drie aspecten gemodelleerd.&#xD;
+•	De mate van hun interesse in de realisatie van (strategische) doelen (I).&#xD;
+•	De mate van invloed die zij hebben op de realisatie van deze doelen (M).&#xD;
+•	De mate waarin zij bereid zijn actief de realisatie ervan te ondersteunen (S).&#xD;
+Op elk van deze aspecten is onderscheid gemaakt in Hoog - Middel - Laag.&#xD;
+&#xD;
+Door dit te consolideren in een zogenoemd Stakeholder kwadrant, wordt duidelijk welke wijze van betrokkenheid van stakeholders het meest succesvol is.</documentation>
+    </element>
+    <element xsi:type="archimate:CompositionRelationship" id="841e0b37-d539-416d-916f-b23914afacf2" source="0bbe58db-9743-4d75-8602-717e60a6c2a2" target="d9a60605-62db-4ad4-b80c-445ece409122"/>
+    <element xsi:type="archimate:AssociationRelationship" id="99c2c3ee-13b1-4768-92cd-e994dcda83db" source="4cca23d3-7351-4e7c-8f92-5013a590c461" target="d9a60605-62db-4ad4-b80c-445ece409122"/>
+    <element xsi:type="archimate:AssociationRelationship" id="f345d142-d24f-4e14-8d89-23300bd8051b" source="cc519b34-8970-4df5-81cb-093a8ba9a7dd" target="d9a60605-62db-4ad4-b80c-445ece409122"/>
+    <element xsi:type="archimate:AssociationRelationship" id="b9ad6a18-1a18-4d05-a820-826b46e99253" source="d9a60605-62db-4ad4-b80c-445ece409122" target="d34376b1-e519-4b8c-ab27-f144e114c86a"/>
+    <element xsi:type="archimate:CompositionRelationship" id="3ba4bedd-4ef9-4cfb-8f67-1b3fbc960310" source="0bbe58db-9743-4d75-8602-717e60a6c2a2" target="6d29234f-1ef3-452c-bdfe-2e7b093d2aeb"/>
+    <element xsi:type="archimate:CompositionRelationship" id="5301839c-c3b1-48dc-b979-2b464ac0fa57" source="6d29234f-1ef3-452c-bdfe-2e7b093d2aeb" target="cc519b34-8970-4df5-81cb-093a8ba9a7dd"/>
+    <element xsi:type="archimate:CompositionRelationship" id="bdf51b2d-45c6-46f6-9b08-533d6ee2c57f" source="6d29234f-1ef3-452c-bdfe-2e7b093d2aeb" target="4cca23d3-7351-4e7c-8f92-5013a590c461"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="0b503ba7-e8ce-474f-8042-718312074d47" source="c2ec03bc-cab2-4730-8689-5fbb3453f733" target="d34376b1-e519-4b8c-ab27-f144e114c86a"/>
+    <element xsi:type="archimate:CompositionRelationship" id="61880fff-aab9-4876-ae5b-3e91c5d0b576" source="87c79e03-be8d-4b2c-bfcd-a0b52b2eee39" target="fb2d8a2e-bd48-4681-b550-0f546a19dd6d"/>
+    <element xsi:type="archimate:RealizationRelationship" id="6c7db8d1-e513-44c2-9407-fa6a444e2262" source="fb2d8a2e-bd48-4681-b550-0f546a19dd6d" target="2944df9c-b0b8-4189-b701-33c5a8f58ca1"/>
+    <element xsi:type="archimate:CompositionRelationship" id="7355af13-229d-41e6-b1d8-9de4676526d0" source="87c79e03-be8d-4b2c-bfcd-a0b52b2eee39" target="17c272d6-6476-4375-ad11-e2b3d3e7c4f4"/>
+    <element xsi:type="archimate:CompositionRelationship" id="7f364645-9d25-49bb-9cf8-38fb4031e5cb" source="87c79e03-be8d-4b2c-bfcd-a0b52b2eee39" target="7480ed99-f18b-4128-8125-6dfdee6e32e9"/>
+    <element xsi:type="archimate:CompositionRelationship" id="119db4b9-8382-448f-89eb-aaa12970f82e" source="87c79e03-be8d-4b2c-bfcd-a0b52b2eee39" target="e45cf5b2-1647-48f4-954d-6479fcc0412e"/>
+    <element xsi:type="archimate:RealizationRelationship" id="47952b3b-7db4-449c-835c-62cad6381d70" source="e45cf5b2-1647-48f4-954d-6479fcc0412e" target="2944df9c-b0b8-4189-b701-33c5a8f58ca1"/>
+    <element xsi:type="archimate:RealizationRelationship" id="7f73480e-2dab-4a6d-939c-26b363ba3871" source="17c272d6-6476-4375-ad11-e2b3d3e7c4f4" target="2944df9c-b0b8-4189-b701-33c5a8f58ca1"/>
+    <element xsi:type="archimate:RealizationRelationship" id="39cc3e21-8398-4a87-bd0c-4118769f7689" source="7480ed99-f18b-4128-8125-6dfdee6e32e9" target="2944df9c-b0b8-4189-b701-33c5a8f58ca1"/>
+    <element xsi:type="archimate:CompositionRelationship" id="75c2de26-503c-426f-8369-8d8733bab77e" source="87c79e03-be8d-4b2c-bfcd-a0b52b2eee39" target="fe7afec7-a5d6-4adf-bcdf-d76205c56a78"/>
+    <element xsi:type="archimate:RealizationRelationship" id="257f3fb0-4725-4d49-8b39-a7ca08436672" source="fe7afec7-a5d6-4adf-bcdf-d76205c56a78" target="2944df9c-b0b8-4189-b701-33c5a8f58ca1"/>
+    <element xsi:type="archimate:RealizationRelationship" id="fa486050-b308-4d81-9cba-574ceaefd373" source="2944df9c-b0b8-4189-b701-33c5a8f58ca1" target="89132d34-b552-4b85-8176-0c22549fcf59"/>
+    <element xsi:type="archimate:RealizationRelationship" id="8ba2adc0-f0b2-4ba6-b442-93ba782de68e" source="2944df9c-b0b8-4189-b701-33c5a8f58ca1" target="89215189-7f36-4c26-a91b-86548dee33ec"/>
+    <element xsi:type="archimate:CompositionRelationship" id="d31b2ae4-538b-4e68-8589-5bd778debe08" source="87c79e03-be8d-4b2c-bfcd-a0b52b2eee39" target="b8a2a4bf-fa96-466c-8aa9-85cbcc8f0611"/>
+    <element xsi:type="archimate:CompositionRelationship" id="6d8ea28b-5953-4af8-a022-a064c2277a6b" source="87c79e03-be8d-4b2c-bfcd-a0b52b2eee39" target="7f094874-331d-44eb-b9c2-cb6211f94ae2"/>
+    <element xsi:type="archimate:RealizationRelationship" id="6578c8c9-8454-4a4d-af93-e746f30a1da0" source="7f094874-331d-44eb-b9c2-cb6211f94ae2" target="d40b967f-043d-4200-a130-07b690b0b7f4"/>
+    <element xsi:type="archimate:RealizationRelationship" id="506ab6b6-6287-49f2-888f-03e6b0c4dae9" source="fe7afec7-a5d6-4adf-bcdf-d76205c56a78" target="d40b967f-043d-4200-a130-07b690b0b7f4"/>
+    <element xsi:type="archimate:RealizationRelationship" id="7af092b5-8c42-43fa-8680-0c11698e29df" source="b8a2a4bf-fa96-466c-8aa9-85cbcc8f0611" target="d40b967f-043d-4200-a130-07b690b0b7f4"/>
+    <element xsi:type="archimate:RealizationRelationship" id="de7ebbe1-71f2-4eac-a1a4-42bdc44cde21" source="d40b967f-043d-4200-a130-07b690b0b7f4" target="7831ebcc-5ba8-4162-91a4-0fd2f35ea0b9"/>
+    <element xsi:type="archimate:RealizationRelationship" id="0d51e2d0-7636-4df0-9796-044114cbbddb" source="d40b967f-043d-4200-a130-07b690b0b7f4" target="05e782a2-eb2b-4c7a-a664-7d5087817f62"/>
+    <element xsi:type="archimate:RealizationRelationship" id="df89d3d1-11af-4727-8659-c9eb9fd4407b" source="d40b967f-043d-4200-a130-07b690b0b7f4" target="115c241c-25ee-4c5d-abf5-9301129a86eb"/>
+    <element xsi:type="archimate:RealizationRelationship" id="019acfd9-bf16-4ca8-b472-fd70da25faff" source="b8a2a4bf-fa96-466c-8aa9-85cbcc8f0611" target="b78e36c6-9581-4aad-9779-4664ee6c36b3"/>
+    <element xsi:type="archimate:RealizationRelationship" id="91aca9d1-1616-4b69-824d-7f18c5b9705d" source="7f094874-331d-44eb-b9c2-cb6211f94ae2" target="b78e36c6-9581-4aad-9779-4664ee6c36b3"/>
+    <element xsi:type="archimate:CompositionRelationship" id="f0ace464-ef23-46ac-b1a4-1ab9e0172c5e" source="87c79e03-be8d-4b2c-bfcd-a0b52b2eee39" target="47181533-1165-4e76-ab6e-944594cb37fe"/>
+    <element xsi:type="archimate:RealizationRelationship" id="401c8020-0897-4dad-bd15-536383d55c95" source="47181533-1165-4e76-ab6e-944594cb37fe" target="b78e36c6-9581-4aad-9779-4664ee6c36b3"/>
+    <element xsi:type="archimate:CompositionRelationship" id="59cf03f5-6055-414c-82c9-3acd85fa26d7" source="87c79e03-be8d-4b2c-bfcd-a0b52b2eee39" target="250d97af-cd6c-407e-b920-9c150cb14d12"/>
+    <element xsi:type="archimate:RealizationRelationship" id="41f032ea-b20f-480d-9b5b-478c74059b5b" source="250d97af-cd6c-407e-b920-9c150cb14d12" target="b78e36c6-9581-4aad-9779-4664ee6c36b3"/>
+    <element xsi:type="archimate:RealizationRelationship" id="d1f438dc-45ad-449a-924c-22559ed386f7" source="b78e36c6-9581-4aad-9779-4664ee6c36b3" target="05e782a2-eb2b-4c7a-a664-7d5087817f62"/>
+    <element xsi:type="archimate:RealizationRelationship" id="defe28ba-9b18-4846-bbab-4063f0cef8d5" source="b78e36c6-9581-4aad-9779-4664ee6c36b3" target="115c241c-25ee-4c5d-abf5-9301129a86eb"/>
+    <element xsi:type="archimate:RealizationRelationship" id="a4032e8b-8015-4fb4-b019-8c6eb31877a0" source="2944df9c-b0b8-4189-b701-33c5a8f58ca1" target="d775caaf-80d4-4180-88a6-0e7916f890a3"/>
+    <element xsi:type="archimate:RealizationRelationship" id="084bf7a6-a95a-42b8-83e8-7c455fed2fc8" source="b78e36c6-9581-4aad-9779-4664ee6c36b3" target="d775caaf-80d4-4180-88a6-0e7916f890a3"/>
+    <element xsi:type="archimate:RealizationRelationship" id="c91e0020-126b-4140-b320-013254f9805a" source="250d97af-cd6c-407e-b920-9c150cb14d12" target="8cba502f-a0db-45d3-8afd-3638fbf01a80"/>
+    <element xsi:type="archimate:RealizationRelationship" id="5958ca8f-ca5e-4665-9968-625656bdc9d3" source="7f094874-331d-44eb-b9c2-cb6211f94ae2" target="8cba502f-a0db-45d3-8afd-3638fbf01a80"/>
+    <element xsi:type="archimate:CompositionRelationship" id="91c6c16f-5409-461b-956b-a2fb948c8d0a" source="87c79e03-be8d-4b2c-bfcd-a0b52b2eee39" target="3d787d52-4f1d-4eaa-a932-7e4c3ab80d69"/>
+    <element xsi:type="archimate:RealizationRelationship" id="746acfdf-a192-41c6-814b-79566f65c002" source="3d787d52-4f1d-4eaa-a932-7e4c3ab80d69" target="2fb01237-e189-4441-a1ad-c375677cbfd0"/>
+    <element xsi:type="archimate:RealizationRelationship" id="bb49bb7d-727c-42a7-b1ba-dbb6a60d75b3" source="7f094874-331d-44eb-b9c2-cb6211f94ae2" target="2fb01237-e189-4441-a1ad-c375677cbfd0"/>
+    <element xsi:type="archimate:CompositionRelationship" id="c3dafe01-4720-4d76-bd73-009e744a9069" source="87c79e03-be8d-4b2c-bfcd-a0b52b2eee39" target="b1745471-317e-4df6-b8d8-7b2ec488f657"/>
+    <element xsi:type="archimate:RealizationRelationship" id="c5f543cd-9f13-4673-9f03-18cf1f094e79" source="b1745471-317e-4df6-b8d8-7b2ec488f657" target="2fb01237-e189-4441-a1ad-c375677cbfd0"/>
+    <element xsi:type="archimate:CompositionRelationship" id="cb467b74-a675-4577-bcc4-8390a0746797" source="87c79e03-be8d-4b2c-bfcd-a0b52b2eee39" target="bd34e270-729d-469c-be24-06e2036a0bb1"/>
+    <element xsi:type="archimate:RealizationRelationship" id="3143e5fc-08b0-4c4e-9436-76d13fe5df10" source="bd34e270-729d-469c-be24-06e2036a0bb1" target="2fb01237-e189-4441-a1ad-c375677cbfd0"/>
+    <element xsi:type="archimate:CompositionRelationship" id="1c0413e9-619d-4050-a66b-d2eff376ee06" source="87c79e03-be8d-4b2c-bfcd-a0b52b2eee39" target="e3b28974-1b2e-486b-8269-4239f8b59fa1"/>
+    <element xsi:type="archimate:CompositionRelationship" id="8dfead86-dcc0-4de0-ae50-9e53aa04ff21" source="87c79e03-be8d-4b2c-bfcd-a0b52b2eee39" target="7e68479f-9cef-4d14-9f93-76f654c512f4"/>
+    <element xsi:type="archimate:RealizationRelationship" id="8de657fc-78eb-4511-8ad7-1002cfb44c7d" source="3d787d52-4f1d-4eaa-a932-7e4c3ab80d69" target="370c5133-225d-45dd-9d14-3ae322efe329"/>
+    <element xsi:type="archimate:RealizationRelationship" id="ee9e4f63-1b88-4a29-8b99-0d9b6b7ee769" source="e3b28974-1b2e-486b-8269-4239f8b59fa1" target="370c5133-225d-45dd-9d14-3ae322efe329"/>
+    <element xsi:type="archimate:RealizationRelationship" id="06fbb082-bdd4-4c68-8bad-fd0cf0edb117" source="7e68479f-9cef-4d14-9f93-76f654c512f4" target="370c5133-225d-45dd-9d14-3ae322efe329"/>
+    <element xsi:type="archimate:CompositionRelationship" id="ddb9fb3a-d949-4220-b729-44f7a7c21764" source="87c79e03-be8d-4b2c-bfcd-a0b52b2eee39" target="425d6426-12f7-45f6-b5fa-72da935b118d"/>
+    <element xsi:type="archimate:RealizationRelationship" id="6fa7e35a-a688-41f1-a6f1-e6edefdb9b0c" source="425d6426-12f7-45f6-b5fa-72da935b118d" target="370c5133-225d-45dd-9d14-3ae322efe329"/>
+    <element xsi:type="archimate:CompositionRelationship" id="cf28cf94-fa66-4310-a41f-26b62bee9da8" source="87c79e03-be8d-4b2c-bfcd-a0b52b2eee39" target="c4ee675a-8cc9-47a8-b645-829ad22a3005"/>
+    <element xsi:type="archimate:RealizationRelationship" id="44e30fc6-9e6c-4154-82ea-14aeb5545172" source="c4ee675a-8cc9-47a8-b645-829ad22a3005" target="370c5133-225d-45dd-9d14-3ae322efe329"/>
+    <element xsi:type="archimate:CompositionRelationship" id="9663642b-0b74-4b2a-a59e-2ff761cccfe8" source="553a3a8a-035a-4a56-9394-f0d1904e0d41" target="d40b967f-043d-4200-a130-07b690b0b7f4"/>
+    <element xsi:type="archimate:CompositionRelationship" id="8af9b644-ad3f-4ec3-9cda-3c0a86f533ce" source="553a3a8a-035a-4a56-9394-f0d1904e0d41" target="2fb01237-e189-4441-a1ad-c375677cbfd0"/>
+    <element xsi:type="archimate:CompositionRelationship" id="3cea20cd-392d-4078-bcc5-631936ad0bad" source="553a3a8a-035a-4a56-9394-f0d1904e0d41" target="2944df9c-b0b8-4189-b701-33c5a8f58ca1"/>
+    <element xsi:type="archimate:CompositionRelationship" id="1b98b5fb-d08e-4ef0-bebf-4ab5b7b7964b" source="553a3a8a-035a-4a56-9394-f0d1904e0d41" target="370c5133-225d-45dd-9d14-3ae322efe329"/>
+    <element xsi:type="archimate:CompositionRelationship" id="b321ae4b-6c66-47a1-ad40-b15eefc45102" source="553a3a8a-035a-4a56-9394-f0d1904e0d41" target="8cba502f-a0db-45d3-8afd-3638fbf01a80"/>
+    <element xsi:type="archimate:CompositionRelationship" id="9b35bb38-8d82-467e-8400-2805357bedaa" source="553a3a8a-035a-4a56-9394-f0d1904e0d41" target="b78e36c6-9581-4aad-9779-4664ee6c36b3"/>
+  </folder>
+  <folder name="Views" id="6e6d2a3a-f211-4c25-ad60-cfc690f98f2b" type="diagrams">
+    <folder name="Solution Architectuur" id="e1d43787-489b-4aae-827c-df6f4f7441cb">
+      <element xsi:type="archimate:ArchimateDiagramModel" name="Motivatie" id="2d1072f6-62ee-45b0-9f16-d2bcb7d8c178"/>
+    </folder>
+    <folder name="KEA" id="bf6e02c1-7006-4c7f-953e-187fbe581096">
+      <folder name="Domeinarchitectuur views" id="f539a2fc-3596-4aa2-b2f5-41c5021d47a9">
+        <documentation>Domeinarchitecturen in de KEA zijn een verzameling van architectuurconcepten vanuit het gezichtspunt van de in de KEA onderkende domeinen, zoals daar zijn:&#xD;
+> Dienstverlening&#xD;
+> Bedrijfsinrichting&#xD;
+> Informatie en applicaties&#xD;
+> Infrastructuur en facilities&#xD;
+&#xD;
+Vooralsnog zijn de domeinarchitecturen beperkt tot de voor dat domein geldende principes. In voereenstemming met het MetaModel zijn dit verbijzonderingen van de onderkende KEA Principes (ArchiMate)Specialization.&#xD;
+&#xD;
+Bij het maken van referentiearchitecturen en solutionarchitecturen worden concepten eveneens gemodelleerd vanuit deze domeinen. Impliciet ontstaan daardoor architectuurconcepten (anders dan principes) die onderdeel uitmaken van een domeinarchitectuur.&#xD;
+&#xD;
+Het autonoom en zonder samenhang modelleren van architectuurconcepten binnen één domein ligt niet zo voor de hand. Zij krijgen pas betekenis voor het Kadaster indien er vanuit strategie en beleid wordt gemodelleerd op de samenhang over de domeinen (zoals dit het geval is bij een referentie archtiectuur en een solution architectuur)&#xD;
+</documentation>
+        <element xsi:type="archimate:ArchimateDiagramModel" name="DA: Bedrijfsinrichting" id="33f1b251-9d1f-4065-ab6c-4a98e15166be">
+          <child xsi:type="archimate:DiagramObject" id="0b3f0aa8-d07e-483c-8341-726346aefbb7" font="1|Arial|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Arial" textAlignment="1" fillColor="#c0c0c0" archimateElement="553a3a8a-035a-4a56-9394-f0d1904e0d41">
+            <bounds x="24" y="12" width="1381" height="132"/>
+            <sourceConnection xsi:type="archimate:Connection" id="11392df6-d4fe-407f-a742-c5b6afbe563c" source="0b3f0aa8-d07e-483c-8341-726346aefbb7" target="40890e1b-dba4-43f4-9265-393250208b43" archimateRelationship="3cea20cd-392d-4078-bcc5-631936ad0bad"/>
+            <sourceConnection xsi:type="archimate:Connection" id="c9e9e056-ce6b-4987-aa9a-2f31c259a8f5" source="0b3f0aa8-d07e-483c-8341-726346aefbb7" target="3d7942a6-de0d-4bcb-9ff4-0a43b63b9ee9" archimateRelationship="9b35bb38-8d82-467e-8400-2805357bedaa"/>
+            <sourceConnection xsi:type="archimate:Connection" id="871e1170-de47-46f0-8d14-2bcc92079d40" source="0b3f0aa8-d07e-483c-8341-726346aefbb7" target="ac872618-5fc9-4e43-8a21-8daffad06a24" archimateRelationship="9663642b-0b74-4b2a-a59e-2ff761cccfe8"/>
+            <sourceConnection xsi:type="archimate:Connection" id="3caaf1c3-1cf8-4929-bcd9-d06d9211ce9c" source="0b3f0aa8-d07e-483c-8341-726346aefbb7" target="ac437ad4-cfc2-4177-8f3b-d05020f810c2" archimateRelationship="b321ae4b-6c66-47a1-ad40-b15eefc45102"/>
+            <sourceConnection xsi:type="archimate:Connection" id="22298639-a920-4a1b-8c52-0a294e2f0618" source="0b3f0aa8-d07e-483c-8341-726346aefbb7" target="ccc2db13-3b0b-4769-9832-ad43409961ca" archimateRelationship="1b98b5fb-d08e-4ef0-bebf-4ab5b7b7964b"/>
+            <sourceConnection xsi:type="archimate:Connection" id="303e7705-8f53-439a-b180-e2f058fb6564" source="0b3f0aa8-d07e-483c-8341-726346aefbb7" target="77a1e039-735c-4a2b-a373-20243d8b7263" archimateRelationship="8af9b644-ad3f-4ec3-9cda-3c0a86f533ce"/>
+            <child xsi:type="archimate:DiagramObject" id="ac872618-5fc9-4e43-8a21-8daffad06a24" targetConnections="871e1170-de47-46f0-8d14-2bcc92079d40" archimateElement="d40b967f-043d-4200-a130-07b690b0b7f4">
+              <bounds x="12" y="72" width="198" height="55"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="77a1e039-735c-4a2b-a373-20243d8b7263" targetConnections="303e7705-8f53-439a-b180-e2f058fb6564" archimateElement="2fb01237-e189-4441-a1ad-c375677cbfd0">
+              <bounds x="240" y="72" width="198" height="55"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="40890e1b-dba4-43f4-9265-393250208b43" targetConnections="11392df6-d4fe-407f-a742-c5b6afbe563c" archimateElement="2944df9c-b0b8-4189-b701-33c5a8f58ca1">
+              <bounds x="467" y="72" width="198" height="55"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="ccc2db13-3b0b-4769-9832-ad43409961ca" targetConnections="22298639-a920-4a1b-8c52-0a294e2f0618" archimateElement="370c5133-225d-45dd-9d14-3ae322efe329">
+              <bounds x="696" y="72" width="198" height="55"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="ac437ad4-cfc2-4177-8f3b-d05020f810c2" targetConnections="3caaf1c3-1cf8-4929-bcd9-d06d9211ce9c" archimateElement="8cba502f-a0db-45d3-8afd-3638fbf01a80">
+              <bounds x="924" y="72" width="198" height="55"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="3d7942a6-de0d-4bcb-9ff4-0a43b63b9ee9" targetConnections="c9e9e056-ce6b-4987-aa9a-2f31c259a8f5" archimateElement="b78e36c6-9581-4aad-9779-4664ee6c36b3">
+              <bounds x="1164" y="72" width="198" height="55"/>
+            </child>
+            <child xsi:type="archimate:DiagramModelReference" id="79250166-ab80-4832-b806-50f0464ea8fa" model="2d59ef72-d60b-4e5d-875b-751e7339f9b2">
+              <bounds x="12" y="24" width="1349" height="36"/>
+            </child>
+          </child>
+        </element>
+        <element xsi:type="archimate:ArchimateDiagramModel" name="DA: Dienstverlening" id="3d77daec-1b6e-4cc8-b9fd-80160f179114">
+          <child xsi:type="archimate:DiagramObject" id="1f73adcd-82a8-4c39-8b91-350998208ec7" font="1|Arial|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Arial" textAlignment="1" fillColor="#c0c0c0" archimateElement="553a3a8a-035a-4a56-9394-f0d1904e0d41">
+            <bounds x="12" y="12" width="1381" height="132"/>
+            <sourceConnection xsi:type="archimate:Connection" id="a64b4dac-a7a7-433c-94b2-9b102f647fb3" source="1f73adcd-82a8-4c39-8b91-350998208ec7" target="ec8a08af-4ae3-4375-bf6f-fb993929b01c" archimateRelationship="3cea20cd-392d-4078-bcc5-631936ad0bad"/>
+            <sourceConnection xsi:type="archimate:Connection" id="d6af539b-8a64-44f2-ad2e-2a20dc736f2e" source="1f73adcd-82a8-4c39-8b91-350998208ec7" target="362ee8c7-f4e0-4f46-9fae-5f8cab4bb312" archimateRelationship="9663642b-0b74-4b2a-a59e-2ff761cccfe8"/>
+            <sourceConnection xsi:type="archimate:Connection" id="f05f4fa8-3fd2-4b35-8a19-1c1dab447f0b" source="1f73adcd-82a8-4c39-8b91-350998208ec7" target="f22356a1-8267-4bf9-8e3a-7e75298f5c95" archimateRelationship="b321ae4b-6c66-47a1-ad40-b15eefc45102"/>
+            <sourceConnection xsi:type="archimate:Connection" id="02719a8a-968c-4520-84ed-6ec7d2501976" source="1f73adcd-82a8-4c39-8b91-350998208ec7" target="9c1e18d3-c117-41ea-ad5b-de467ef0003d" archimateRelationship="1b98b5fb-d08e-4ef0-bebf-4ab5b7b7964b"/>
+            <sourceConnection xsi:type="archimate:Connection" id="de8af91a-15e0-4011-987e-5d96a14fac56" source="1f73adcd-82a8-4c39-8b91-350998208ec7" target="1bb0874b-482f-4e5e-b25d-22ddf2054b06" archimateRelationship="8af9b644-ad3f-4ec3-9cda-3c0a86f533ce"/>
+            <sourceConnection xsi:type="archimate:Connection" id="40e8e937-8f11-499a-b343-731b9830d93d" source="1f73adcd-82a8-4c39-8b91-350998208ec7" target="3803777f-2ecd-4845-a1cb-137410a01e25" archimateRelationship="9b35bb38-8d82-467e-8400-2805357bedaa"/>
+            <child xsi:type="archimate:DiagramObject" id="362ee8c7-f4e0-4f46-9fae-5f8cab4bb312" targetConnections="d6af539b-8a64-44f2-ad2e-2a20dc736f2e" archimateElement="d40b967f-043d-4200-a130-07b690b0b7f4">
+              <bounds x="12" y="72" width="198" height="55"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="1bb0874b-482f-4e5e-b25d-22ddf2054b06" targetConnections="de8af91a-15e0-4011-987e-5d96a14fac56" archimateElement="2fb01237-e189-4441-a1ad-c375677cbfd0">
+              <bounds x="240" y="72" width="198" height="55"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="ec8a08af-4ae3-4375-bf6f-fb993929b01c" targetConnections="a64b4dac-a7a7-433c-94b2-9b102f647fb3" archimateElement="2944df9c-b0b8-4189-b701-33c5a8f58ca1">
+              <bounds x="467" y="72" width="198" height="55"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="9c1e18d3-c117-41ea-ad5b-de467ef0003d" targetConnections="02719a8a-968c-4520-84ed-6ec7d2501976" archimateElement="370c5133-225d-45dd-9d14-3ae322efe329">
+              <bounds x="696" y="72" width="198" height="55"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="f22356a1-8267-4bf9-8e3a-7e75298f5c95" targetConnections="f05f4fa8-3fd2-4b35-8a19-1c1dab447f0b" archimateElement="8cba502f-a0db-45d3-8afd-3638fbf01a80">
+              <bounds x="924" y="72" width="198" height="55"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="3803777f-2ecd-4845-a1cb-137410a01e25" targetConnections="40e8e937-8f11-499a-b343-731b9830d93d" archimateElement="b78e36c6-9581-4aad-9779-4664ee6c36b3">
+              <bounds x="1164" y="72" width="198" height="55"/>
+            </child>
+            <child xsi:type="archimate:DiagramModelReference" id="cf2e04da-ef2f-4a32-87b6-b96f38508362" model="2d59ef72-d60b-4e5d-875b-751e7339f9b2">
+              <bounds x="12" y="24" width="1349" height="36"/>
+            </child>
+          </child>
+        </element>
+        <element xsi:type="archimate:ArchimateDiagramModel" name="DA: Informatie en Applicaties" id="a9f40666-8c5f-48c4-b70e-0b463989e748">
+          <child xsi:type="archimate:DiagramObject" id="9aceefa0-4bcc-4fda-8baf-c55c28860cab" font="1|Arial|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Arial" textAlignment="1" fillColor="#c0c0c0" archimateElement="553a3a8a-035a-4a56-9394-f0d1904e0d41">
+            <bounds x="24" y="12" width="1381" height="132"/>
+            <sourceConnection xsi:type="archimate:Connection" id="06f86412-e90b-4e4f-939d-088a11412957" source="9aceefa0-4bcc-4fda-8baf-c55c28860cab" target="f7474745-8966-4dba-b3ae-27eabee36c06" archimateRelationship="3cea20cd-392d-4078-bcc5-631936ad0bad"/>
+            <sourceConnection xsi:type="archimate:Connection" id="b5d12116-77a3-4e6e-bb00-0e55f39ffbcf" source="9aceefa0-4bcc-4fda-8baf-c55c28860cab" target="a7d061bc-3dd7-4d7a-b048-45b7dd4e8d44" archimateRelationship="9663642b-0b74-4b2a-a59e-2ff761cccfe8"/>
+            <sourceConnection xsi:type="archimate:Connection" id="947f2425-d76b-4bf1-a222-70bb0be10e3c" source="9aceefa0-4bcc-4fda-8baf-c55c28860cab" target="274bc1d8-a018-490a-ace9-04c36995922f" archimateRelationship="b321ae4b-6c66-47a1-ad40-b15eefc45102"/>
+            <sourceConnection xsi:type="archimate:Connection" id="987e3382-23fe-4be7-88a5-22a63533599a" source="9aceefa0-4bcc-4fda-8baf-c55c28860cab" target="0dba1879-0f2c-4136-8414-87d06e67ca2a" archimateRelationship="1b98b5fb-d08e-4ef0-bebf-4ab5b7b7964b"/>
+            <sourceConnection xsi:type="archimate:Connection" id="7d1e1309-cd3e-4f0c-acc9-8365478a4c90" source="9aceefa0-4bcc-4fda-8baf-c55c28860cab" target="24d473d5-1063-4a3e-95a6-5eb26a8fb4ce" archimateRelationship="8af9b644-ad3f-4ec3-9cda-3c0a86f533ce"/>
+            <sourceConnection xsi:type="archimate:Connection" id="6e9eb5ae-114a-46d2-bbe2-1519a63f57dc" source="9aceefa0-4bcc-4fda-8baf-c55c28860cab" target="54ccdc06-b8b4-4642-aa8e-4a1fcb855688" archimateRelationship="9b35bb38-8d82-467e-8400-2805357bedaa"/>
+            <child xsi:type="archimate:DiagramObject" id="a7d061bc-3dd7-4d7a-b048-45b7dd4e8d44" targetConnections="b5d12116-77a3-4e6e-bb00-0e55f39ffbcf" archimateElement="d40b967f-043d-4200-a130-07b690b0b7f4">
+              <bounds x="12" y="72" width="198" height="55"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="24d473d5-1063-4a3e-95a6-5eb26a8fb4ce" targetConnections="7d1e1309-cd3e-4f0c-acc9-8365478a4c90" archimateElement="2fb01237-e189-4441-a1ad-c375677cbfd0">
+              <bounds x="240" y="72" width="198" height="55"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="f7474745-8966-4dba-b3ae-27eabee36c06" targetConnections="06f86412-e90b-4e4f-939d-088a11412957" archimateElement="2944df9c-b0b8-4189-b701-33c5a8f58ca1">
+              <bounds x="467" y="72" width="198" height="55"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="0dba1879-0f2c-4136-8414-87d06e67ca2a" targetConnections="987e3382-23fe-4be7-88a5-22a63533599a" archimateElement="370c5133-225d-45dd-9d14-3ae322efe329">
+              <bounds x="696" y="72" width="198" height="55"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="274bc1d8-a018-490a-ace9-04c36995922f" targetConnections="947f2425-d76b-4bf1-a222-70bb0be10e3c" archimateElement="8cba502f-a0db-45d3-8afd-3638fbf01a80">
+              <bounds x="924" y="72" width="198" height="55"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="54ccdc06-b8b4-4642-aa8e-4a1fcb855688" targetConnections="6e9eb5ae-114a-46d2-bbe2-1519a63f57dc" archimateElement="b78e36c6-9581-4aad-9779-4664ee6c36b3">
+              <bounds x="1164" y="72" width="198" height="55"/>
+            </child>
+            <child xsi:type="archimate:DiagramModelReference" id="cfe866b5-c319-44fe-9b8c-53cbc74a76c7" model="2d59ef72-d60b-4e5d-875b-751e7339f9b2">
+              <bounds x="12" y="24" width="1349" height="36"/>
+            </child>
+          </child>
+        </element>
+        <element xsi:type="archimate:ArchimateDiagramModel" name="DA: Infrastructuur en facilities" id="57b3d69d-fbf5-470d-be29-9a9e6537bdca">
+          <child xsi:type="archimate:DiagramObject" id="a7937a01-76be-4485-84ad-b86b4b6a848f" font="1|Arial|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Arial" textAlignment="1" fillColor="#c0c0c0" archimateElement="553a3a8a-035a-4a56-9394-f0d1904e0d41">
+            <bounds x="12" y="12" width="1381" height="132"/>
+            <sourceConnection xsi:type="archimate:Connection" id="333654d4-e430-48bc-83a2-62119a9524b0" source="a7937a01-76be-4485-84ad-b86b4b6a848f" target="061c6935-8bff-4fb5-88b6-03c65bf769dc" archimateRelationship="3cea20cd-392d-4078-bcc5-631936ad0bad"/>
+            <sourceConnection xsi:type="archimate:Connection" id="b497b8ee-4d7e-4778-a7b6-773f4a4686a4" source="a7937a01-76be-4485-84ad-b86b4b6a848f" target="31757966-fc1e-49a1-b036-55d2a5f99ba4" archimateRelationship="9663642b-0b74-4b2a-a59e-2ff761cccfe8"/>
+            <sourceConnection xsi:type="archimate:Connection" id="1fa3ff72-0ff3-4553-82ce-2e6d23b4b700" source="a7937a01-76be-4485-84ad-b86b4b6a848f" target="024c3603-77e2-49f2-b6e9-0dde23f5d43b" archimateRelationship="b321ae4b-6c66-47a1-ad40-b15eefc45102"/>
+            <sourceConnection xsi:type="archimate:Connection" id="5a17c6ac-b370-4d8f-bd38-dfdb634b5c57" source="a7937a01-76be-4485-84ad-b86b4b6a848f" target="f84bca1e-d488-4db0-899d-9b50283e903e" archimateRelationship="1b98b5fb-d08e-4ef0-bebf-4ab5b7b7964b"/>
+            <sourceConnection xsi:type="archimate:Connection" id="037b5c78-fcf4-4493-85c2-c96c443536b8" source="a7937a01-76be-4485-84ad-b86b4b6a848f" target="6a800b76-4e5d-4ce6-837d-4cbf79f00ed2" archimateRelationship="8af9b644-ad3f-4ec3-9cda-3c0a86f533ce"/>
+            <sourceConnection xsi:type="archimate:Connection" id="bc6c81fd-3119-4392-b2f4-edf0066f2810" source="a7937a01-76be-4485-84ad-b86b4b6a848f" target="cf1e8c7f-72a3-452b-bb0c-807bad4edeee" archimateRelationship="9b35bb38-8d82-467e-8400-2805357bedaa"/>
+            <child xsi:type="archimate:DiagramObject" id="31757966-fc1e-49a1-b036-55d2a5f99ba4" targetConnections="b497b8ee-4d7e-4778-a7b6-773f4a4686a4" archimateElement="d40b967f-043d-4200-a130-07b690b0b7f4">
+              <bounds x="12" y="72" width="198" height="55"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="6a800b76-4e5d-4ce6-837d-4cbf79f00ed2" targetConnections="037b5c78-fcf4-4493-85c2-c96c443536b8" archimateElement="2fb01237-e189-4441-a1ad-c375677cbfd0">
+              <bounds x="240" y="72" width="198" height="55"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="061c6935-8bff-4fb5-88b6-03c65bf769dc" targetConnections="333654d4-e430-48bc-83a2-62119a9524b0" archimateElement="2944df9c-b0b8-4189-b701-33c5a8f58ca1">
+              <bounds x="467" y="72" width="198" height="55"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="f84bca1e-d488-4db0-899d-9b50283e903e" targetConnections="5a17c6ac-b370-4d8f-bd38-dfdb634b5c57" archimateElement="370c5133-225d-45dd-9d14-3ae322efe329">
+              <bounds x="696" y="72" width="198" height="55"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="024c3603-77e2-49f2-b6e9-0dde23f5d43b" targetConnections="1fa3ff72-0ff3-4553-82ce-2e6d23b4b700" archimateElement="8cba502f-a0db-45d3-8afd-3638fbf01a80">
+              <bounds x="924" y="72" width="198" height="55"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="cf1e8c7f-72a3-452b-bb0c-807bad4edeee" targetConnections="bc6c81fd-3119-4392-b2f4-edf0066f2810" archimateElement="b78e36c6-9581-4aad-9779-4664ee6c36b3">
+              <bounds x="1164" y="72" width="198" height="55"/>
+            </child>
+            <child xsi:type="archimate:DiagramModelReference" id="7c4be215-097b-4871-913f-24754b1813db" model="2d59ef72-d60b-4e5d-875b-751e7339f9b2">
+              <bounds x="12" y="24" width="1349" height="36"/>
+            </child>
+          </child>
+        </element>
+      </folder>
+      <element xsi:type="archimate:ArchimateDiagramModel" name="KEA: Principes" id="2d59ef72-d60b-4e5d-875b-751e7339f9b2">
+        <child xsi:type="archimate:Group" id="bd07e35f-a669-4ff6-b649-e0f15288702a" name="Strategische doelen vanuit het MPB" font="1|Arial|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Arial" textAlignment="1">
+          <bounds x="-108" y="12" width="1848" height="144"/>
+          <child xsi:type="archimate:DiagramObject" id="ffdaaeb6-bbc7-4bce-a283-2b1610ae9cb0" targetConnections="1fc709b0-6e03-400f-a38a-4d32608c1033" archimateElement="7831ebcc-5ba8-4162-91a4-0fd2f35ea0b9">
+            <bounds x="612" y="83" width="181" height="48"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="e607ee27-e391-4eaa-a981-f6134f61dd3c" archimateElement="4114cb78-5751-4189-bafa-832283cbffe9">
+            <bounds x="804" y="83" width="181" height="48"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="7594609c-7e0a-4c9a-9cda-33a99be9dfac" targetConnections="7c30fc02-c766-4b81-bd6a-58733c8f96d9 f3c1e87a-4af0-4cf1-ae74-fbe8a27def2d" archimateElement="05e782a2-eb2b-4c7a-a664-7d5087817f62">
+            <bounds x="996" y="84" width="181" height="48"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="4bfd31d6-2a99-412a-8e7a-fa7288f2373e" archimateElement="69d01ef2-8019-4e53-9224-c1eeb6a202c1">
+            <bounds x="1188" y="83" width="181" height="48"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="d9335ca4-1b0b-42cd-9168-f6a0d5cb6daf" targetConnections="e6a8e8f0-bee7-4fe2-bf2b-9b5ff08be472 5f98714c-933e-4885-87fc-c41686eae11a" archimateElement="115c241c-25ee-4c5d-abf5-9301129a86eb">
+            <bounds x="1392" y="83" width="181" height="48"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="fdfbab34-c844-442b-ab40-ec4209ba2b13" targetConnections="4fc67069-4000-4c34-985c-c05abaff5fe0 5c03c8dc-5e56-49ab-acfe-acab58a3722e" archimateElement="d775caaf-80d4-4180-88a6-0e7916f890a3">
+            <bounds x="1584" y="83" width="181" height="48"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="473e7e7d-b82f-4d87-8fac-82408c947877" targetConnections="207c779c-c411-4224-8984-94ae2dd18b43" archimateElement="89215189-7f36-4c26-a91b-86548dee33ec">
+            <bounds x="420" y="83" width="181" height="48"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="e4e2a874-cbd2-488e-8dd8-cc166b622a71" archimateElement="0a3d0d30-9485-4ec5-a485-135f2d2f3794">
+            <bounds x="228" y="82" width="181" height="48"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="833393ab-a0a0-4591-9bb5-0b4b6250f219" targetConnections="ae8da30e-e11b-4c35-abe3-b8534ef72b23" archimateElement="89132d34-b552-4b85-8176-0c22549fcf59">
+            <bounds x="25" y="85" width="181" height="42"/>
+          </child>
+          <child xsi:type="archimate:DiagramModelReference" id="2e1b7813-83fd-44d5-8a3e-185c324025aa" model="70c949f5-01fb-4dc3-a8c6-691c58d13639">
+            <bounds x="25" y="36" width="1740" height="36"/>
+          </child>
+          <documentation>Deze speerpunten zijn dezelfde speerpunten als in de view &quot;MetaModel&quot;.</documentation>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="fa15eb5c-8feb-4b65-90e2-ea58b2daece0" targetConnections="dc48e0bb-7bed-440f-af63-8951ce98193e 39f3a1b3-397b-46b1-aa03-a4887a475318 04cb8e82-6f78-4952-9eaf-c5dd56e08f73 046afa6c-edcf-423c-a699-eff135d2ca95 1493993f-33f6-4093-8989-b6786bfb5872" archimateElement="2944df9c-b0b8-4189-b701-33c5a8f58ca1">
+          <bounds x="168" y="312" width="168" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="ae8da30e-e11b-4c35-abe3-b8534ef72b23" source="fa15eb5c-8feb-4b65-90e2-ea58b2daece0" target="833393ab-a0a0-4591-9bb5-0b4b6250f219" archimateRelationship="fa486050-b308-4d81-9cba-574ceaefd373"/>
+          <sourceConnection xsi:type="archimate:Connection" id="207c779c-c411-4224-8984-94ae2dd18b43" source="fa15eb5c-8feb-4b65-90e2-ea58b2daece0" target="473e7e7d-b82f-4d87-8fac-82408c947877" archimateRelationship="8ba2adc0-f0b2-4ba6-b442-93ba782de68e"/>
+          <sourceConnection xsi:type="archimate:Connection" id="4fc67069-4000-4c34-985c-c05abaff5fe0" source="fa15eb5c-8feb-4b65-90e2-ea58b2daece0" target="fdfbab34-c844-442b-ab40-ec4209ba2b13" archimateRelationship="a4032e8b-8015-4fb4-b019-8c6eb31877a0"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="a5af5142-8dab-442f-95f3-4d3571ece3df" textAlignment="1" archimateElement="87c79e03-be8d-4b2c-bfcd-a0b52b2eee39">
+          <bounds x="-72" y="480" width="1812" height="312"/>
+          <sourceConnection xsi:type="archimate:Connection" id="f059d454-6fcf-4481-8330-c430891c5b92" source="a5af5142-8dab-442f-95f3-4d3571ece3df" target="58627f84-a8a4-4cc5-b8d5-44c4465ff2f4" archimateRelationship="61880fff-aab9-4876-ae5b-3e91c5d0b576"/>
+          <sourceConnection xsi:type="archimate:Connection" id="32a586c8-4e53-48d4-8265-55ff05d40a72" source="a5af5142-8dab-442f-95f3-4d3571ece3df" target="fe406475-3344-45e5-8d27-39e16008a49d" archimateRelationship="7355af13-229d-41e6-b1d8-9de4676526d0"/>
+          <sourceConnection xsi:type="archimate:Connection" id="698a4b77-d0ac-4129-833c-4a8e609715a6" source="a5af5142-8dab-442f-95f3-4d3571ece3df" target="d204fddd-8ab0-495b-9493-2a3f3da87a05" archimateRelationship="7f364645-9d25-49bb-9cf8-38fb4031e5cb"/>
+          <sourceConnection xsi:type="archimate:Connection" id="584603dc-67f9-4b66-87b5-e636d09063af" source="a5af5142-8dab-442f-95f3-4d3571ece3df" target="0e61e6cc-5ea6-40ae-ac04-e5edf8d3d129" archimateRelationship="119db4b9-8382-448f-89eb-aaa12970f82e"/>
+          <sourceConnection xsi:type="archimate:Connection" id="9226e9fd-1394-4450-bb5e-d7fae5fb5947" source="a5af5142-8dab-442f-95f3-4d3571ece3df" target="cc281173-6508-4f7a-a2dd-b4387caabac2" archimateRelationship="75c2de26-503c-426f-8369-8d8733bab77e"/>
+          <sourceConnection xsi:type="archimate:Connection" id="0b763629-4758-4d5e-9634-26eac99eb6b3" source="a5af5142-8dab-442f-95f3-4d3571ece3df" target="6a191367-48ba-4fc8-b42e-5c699579047c" archimateRelationship="d31b2ae4-538b-4e68-8589-5bd778debe08"/>
+          <sourceConnection xsi:type="archimate:Connection" id="0c1465d7-3cbe-4971-9c44-d7f8a0bb8b19" source="a5af5142-8dab-442f-95f3-4d3571ece3df" target="10f441cf-f9ee-4214-b91d-99fcead3038e" archimateRelationship="6d8ea28b-5953-4af8-a022-a064c2277a6b"/>
+          <sourceConnection xsi:type="archimate:Connection" id="3a460115-3325-4c1b-bd73-830bec32b83d" source="a5af5142-8dab-442f-95f3-4d3571ece3df" target="23d9d103-a340-4e7a-afa5-0fad902e5623" archimateRelationship="f0ace464-ef23-46ac-b1a4-1ab9e0172c5e"/>
+          <sourceConnection xsi:type="archimate:Connection" id="02cfb3ee-574c-4821-9097-01ed1fd0ba55" source="a5af5142-8dab-442f-95f3-4d3571ece3df" target="1cc3b4be-d2d8-4d64-84ea-0c5daf90da3b" archimateRelationship="59cf03f5-6055-414c-82c9-3acd85fa26d7"/>
+          <sourceConnection xsi:type="archimate:Connection" id="991de3a5-713f-4697-bbd8-08a6e87cdc7e" source="a5af5142-8dab-442f-95f3-4d3571ece3df" target="959e5e69-0fd3-49f5-bbf4-e7f338133bff" archimateRelationship="91c6c16f-5409-461b-956b-a2fb948c8d0a"/>
+          <sourceConnection xsi:type="archimate:Connection" id="476e7d7d-d04f-456a-b330-5e7bf399eef1" source="a5af5142-8dab-442f-95f3-4d3571ece3df" target="5fba9903-b5b9-4b87-8a51-921bbc6ca905" archimateRelationship="c3dafe01-4720-4d76-bd73-009e744a9069"/>
+          <sourceConnection xsi:type="archimate:Connection" id="4c058aea-36f5-434b-8f29-c3e5140c638c" source="a5af5142-8dab-442f-95f3-4d3571ece3df" target="868ce566-ef7e-40ec-bbd2-3cda341fb7d7" archimateRelationship="cb467b74-a675-4577-bcc4-8390a0746797"/>
+          <sourceConnection xsi:type="archimate:Connection" id="043c2984-5dc6-443b-913b-e67dc6f63848" source="a5af5142-8dab-442f-95f3-4d3571ece3df" target="55565635-c9f1-4530-8746-a13527b09fbb" archimateRelationship="1c0413e9-619d-4050-a66b-d2eff376ee06"/>
+          <sourceConnection xsi:type="archimate:Connection" id="c0f34869-a1a1-458f-8f62-a9f3eef67884" source="a5af5142-8dab-442f-95f3-4d3571ece3df" target="dca42aba-1ff6-48d3-aea6-df80e4a385e3" archimateRelationship="8dfead86-dcc0-4de0-ae50-9e53aa04ff21"/>
+          <sourceConnection xsi:type="archimate:Connection" id="e256a792-956a-4ed4-bbae-490dc01c276f" source="a5af5142-8dab-442f-95f3-4d3571ece3df" target="d26305d4-0d98-4dd2-be92-2a6106c19b89" archimateRelationship="ddb9fb3a-d949-4220-b729-44f7a7c21764"/>
+          <sourceConnection xsi:type="archimate:Connection" id="27417f78-c807-40ed-bc31-59225df86f11" source="a5af5142-8dab-442f-95f3-4d3571ece3df" target="16485e61-11f6-4b6e-83d9-6fbd8734c9e2" archimateRelationship="cf28cf94-fa66-4310-a41f-26b62bee9da8"/>
+          <child xsi:type="archimate:DiagramObject" id="d204fddd-8ab0-495b-9493-2a3f3da87a05" targetConnections="698a4b77-d0ac-4129-833c-4a8e609715a6" fillColor="#00ffff" archimateElement="7480ed99-f18b-4128-8125-6dfdee6e32e9">
+            <bounds x="227" y="240" width="180" height="48"/>
+            <sourceConnection xsi:type="archimate:Connection" id="046afa6c-edcf-423c-a699-eff135d2ca95" source="d204fddd-8ab0-495b-9493-2a3f3da87a05" target="fa15eb5c-8feb-4b65-90e2-ea58b2daece0" archimateRelationship="39cc3e21-8398-4a87-bd0c-4118769f7689">
+              <bendpoint startX="-136" endX="-144" endY="406"/>
+              <bendpoint startX="-136" startY="-408" endX="-144" endY="-2"/>
+            </sourceConnection>
+          </child>
+          <child xsi:type="archimate:Note" id="ca34d933-cb94-4b7f-8a46-f27d99f13514" fontColor="#ffffff" textAlignment="1" fillColor="#0080ff">
+            <bounds x="12" y="27" width="132" height="48"/>
+            <content>DV: Dienstverlening</content>
+          </child>
+          <child xsi:type="archimate:Note" id="dbeecfe1-922a-4667-9298-731ef4f69cb1" fontColor="#000000" textAlignment="1" fillColor="#80ffff">
+            <bounds x="12" y="121" width="132" height="48"/>
+            <content>IA: Informatie en applicaties</content>
+          </child>
+          <child xsi:type="archimate:Note" id="02999440-e573-4110-a62a-8dfb0f2459dc" fontColor="#ffffff" textAlignment="1" fillColor="#ff0000">
+            <bounds x="12" y="168" width="132" height="48"/>
+            <content>IF: Infrasstructuur en faclitities</content>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="0e61e6cc-5ea6-40ae-ac04-e5edf8d3d129" targetConnections="584603dc-67f9-4b66-87b5-e636d09063af" fontColor="#000000" fillColor="#ffff00" archimateElement="e45cf5b2-1647-48f4-954d-6479fcc0412e">
+            <bounds x="227" y="84" width="180" height="48"/>
+            <sourceConnection xsi:type="archimate:Connection" id="39f3a1b3-397b-46b1-aa03-a4887a475318" source="0e61e6cc-5ea6-40ae-ac04-e5edf8d3d129" target="fa15eb5c-8feb-4b65-90e2-ea58b2daece0" archimateRelationship="47952b3b-7db4-449c-835c-62cad6381d70">
+              <bendpoint startX="-136" endX="-144" endY="250"/>
+              <bendpoint startX="-136" startY="-252" endX="-144" endY="-2"/>
+            </sourceConnection>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="fe406475-3344-45e5-8d27-39e16008a49d" targetConnections="32a586c8-4e53-48d4-8265-55ff05d40a72" fontColor="#000000" fillColor="#ffff00" archimateElement="17c272d6-6476-4375-ad11-e2b3d3e7c4f4">
+            <bounds x="227" y="131" width="180" height="48"/>
+            <sourceConnection xsi:type="archimate:Connection" id="04cb8e82-6f78-4952-9eaf-c5dd56e08f73" source="fe406475-3344-45e5-8d27-39e16008a49d" target="fa15eb5c-8feb-4b65-90e2-ea58b2daece0" archimateRelationship="7f73480e-2dab-4a6d-939c-26b363ba3871">
+              <bendpoint startX="-136" startY="2" endX="-144" endY="298"/>
+              <bendpoint startX="-136" startY="-298" endX="-144" endY="-2"/>
+            </sourceConnection>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="58627f84-a8a4-4cc5-b8d5-44c4465ff2f4" targetConnections="f059d454-6fcf-4481-8330-c430891c5b92" fillColor="#00ffff" archimateElement="fb2d8a2e-bd48-4681-b550-0f546a19dd6d">
+            <bounds x="227" y="193" width="180" height="48"/>
+            <sourceConnection xsi:type="archimate:Connection" id="dc48e0bb-7bed-440f-af63-8951ce98193e" source="58627f84-a8a4-4cc5-b8d5-44c4465ff2f4" target="fa15eb5c-8feb-4b65-90e2-ea58b2daece0" archimateRelationship="6c7db8d1-e513-44c2-9407-fa6a444e2262">
+              <bendpoint startX="-136" endX="-144" endY="358"/>
+              <bendpoint startX="-136" startY="-360" endX="-144" endY="-2"/>
+            </sourceConnection>
+          </child>
+          <child xsi:type="archimate:Note" id="3fcf46de-2646-4bf8-be81-8a65e96c4d43" fontColor="#000000" textAlignment="1" fillColor="#ffff00">
+            <bounds x="12" y="74" width="132" height="48"/>
+            <content>BI: Bedrijfsinrichting</content>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="cc281173-6508-4f7a-a2dd-b4387caabac2" targetConnections="9226e9fd-1394-4450-bb5e-d7fae5fb5947" fontColor="#ffffff" fillColor="#0080ff" archimateElement="fe7afec7-a5d6-4adf-bcdf-d76205c56a78">
+            <bounds x="227" y="27" width="180" height="48"/>
+            <sourceConnection xsi:type="archimate:Connection" id="1493993f-33f6-4093-8989-b6786bfb5872" source="cc281173-6508-4f7a-a2dd-b4387caabac2" target="fa15eb5c-8feb-4b65-90e2-ea58b2daece0" archimateRelationship="257f3fb0-4725-4d49-8b39-a7ca08436672">
+              <bendpoint startX="-136" startY="-2" endX="-144" endY="190"/>
+              <bendpoint startX="-136" startY="-194" endX="-144" endY="-2"/>
+            </sourceConnection>
+            <sourceConnection xsi:type="archimate:Connection" id="3e19b4cf-f101-4275-9317-3382dc05222c" source="cc281173-6508-4f7a-a2dd-b4387caabac2" target="c7694cb0-a530-4724-a3f9-39df34892272" archimateRelationship="506ab6b6-6287-49f2-888f-03e6b0c4dae9">
+              <bendpoint startX="104" startY="-2" endX="-168" endY="190"/>
+              <bendpoint startX="152" startY="-98" endX="-120" endY="4"/>
+            </sourceConnection>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="6a191367-48ba-4fc8-b42e-5c699579047c" targetConnections="0b763629-4758-4d5e-9634-26eac99eb6b3" fillColor="#00ffff" archimateElement="b8a2a4bf-fa96-466c-8aa9-85cbcc8f0611">
+            <bounds x="504" y="84" width="180" height="48"/>
+            <sourceConnection xsi:type="archimate:Connection" id="fcd3a1a3-5b42-475d-9361-d12916453fb9" source="6a191367-48ba-4fc8-b42e-5c699579047c" target="c7694cb0-a530-4724-a3f9-39df34892272" archimateRelationship="7af092b5-8c42-43fa-8680-0c11698e29df">
+              <bendpoint startX="-125" endX="-120" endY="250"/>
+              <bendpoint startX="-125" startY="-156" endX="-120" endY="4"/>
+            </sourceConnection>
+            <sourceConnection xsi:type="archimate:Connection" id="47de26da-3b50-4315-8a96-91da3a9aef35" source="6a191367-48ba-4fc8-b42e-5c699579047c" target="e7f0cc78-3634-42f6-8f0b-9d57a6116e23" archimateRelationship="019acfd9-bf16-4ca8-b472-fd70da25faff">
+              <bendpoint startX="127" endX="-132" endY="250"/>
+              <bendpoint startX="151" startY="-168" endX="-108" endY="-2"/>
+            </sourceConnection>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="10f441cf-f9ee-4214-b91d-99fcead3038e" targetConnections="0c1465d7-3cbe-4971-9c44-d7f8a0bb8b19" fontColor="#ffffff" fillColor="#0080ff" archimateElement="7f094874-331d-44eb-b9c2-cb6211f94ae2">
+            <bounds x="504" y="27" width="180" height="48"/>
+            <sourceConnection xsi:type="archimate:Connection" id="d0934ee5-d9c6-40bd-adf7-3e60329653c7" source="10f441cf-f9ee-4214-b91d-99fcead3038e" target="c7694cb0-a530-4724-a3f9-39df34892272" archimateRelationship="6578c8c9-8454-4a4d-af93-e746f30a1da0">
+              <bendpoint startX="-125" startY="-2" endX="-120" endY="190"/>
+              <bendpoint startX="-125" startY="-98" endX="-120" endY="4"/>
+            </sourceConnection>
+            <sourceConnection xsi:type="archimate:Connection" id="f8fe9ca2-7881-4966-8ad5-bdd93a147b4b" source="10f441cf-f9ee-4214-b91d-99fcead3038e" target="e7f0cc78-3634-42f6-8f0b-9d57a6116e23" archimateRelationship="91aca9d1-1616-4b69-824d-7f18c5b9705d">
+              <bendpoint startX="115" startY="-2" endX="-144" endY="106"/>
+              <bendpoint startX="151" startY="-110" endX="-108" endY="-2"/>
+            </sourceConnection>
+            <sourceConnection xsi:type="archimate:Connection" id="efbebeaa-009a-461b-8c9d-135ebb781d4d" source="10f441cf-f9ee-4214-b91d-99fcead3038e" target="9306c49e-c2b7-44c3-9e8d-e812b6ec6293" archimateRelationship="5958ca8f-ca5e-4665-9968-625656bdc9d3">
+              <bendpoint startX="115" startY="-2" endX="-420" endY="190"/>
+              <bendpoint startX="415" startY="-110" endX="-120" endY="-2"/>
+            </sourceConnection>
+            <sourceConnection xsi:type="archimate:Connection" id="b633f3fa-2ea1-4001-9da2-3de79a56c0aa" source="10f441cf-f9ee-4214-b91d-99fcead3038e" target="84206e84-b4ef-439b-8368-f92ade919d87" archimateRelationship="bb49bb7d-727c-42a7-b1ba-dbb6a60d75b3">
+              <bendpoint startX="103" startY="-2" endX="-672" endY="190"/>
+              <bendpoint startX="655" startY="-170" endX="-120" endY="22"/>
+            </sourceConnection>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="23d9d103-a340-4e7a-afa5-0fad902e5623" targetConnections="3a460115-3325-4c1b-bd73-830bec32b83d" fontColor="#ffffff" fillColor="#0080ff" archimateElement="47181533-1165-4e76-ab6e-944594cb37fe">
+            <bounds x="768" y="27" width="180" height="48"/>
+            <sourceConnection xsi:type="archimate:Connection" id="ab60c93c-52bb-47e0-9c48-81dfa55ff66a" source="23d9d103-a340-4e7a-afa5-0fad902e5623" target="e7f0cc78-3634-42f6-8f0b-9d57a6116e23" archimateRelationship="401c8020-0897-4dad-bd15-536383d55c95">
+              <bendpoint startX="-113" startY="-2" endX="-108" endY="190"/>
+              <bendpoint startX="-113" startY="-110" endX="-108" endY="-2"/>
+            </sourceConnection>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="1cc3b4be-d2d8-4d64-84ea-0c5daf90da3b" targetConnections="02cfb3ee-574c-4821-9097-01ed1fd0ba55" fontColor="#ffffff" fillColor="#0080ff" archimateElement="250d97af-cd6c-407e-b920-9c150cb14d12">
+            <bounds x="768" y="72" width="180" height="48"/>
+            <sourceConnection xsi:type="archimate:Connection" id="d822022d-49d3-4d8b-863a-9ee3e307c9fe" source="1cc3b4be-d2d8-4d64-84ea-0c5daf90da3b" target="e7f0cc78-3634-42f6-8f0b-9d57a6116e23" archimateRelationship="41f032ea-b20f-480d-9b5b-478c74059b5b">
+              <bendpoint startX="-113" endX="-108" endY="238"/>
+              <bendpoint startX="-113" startY="-156" endX="-108" endY="-2"/>
+            </sourceConnection>
+            <sourceConnection xsi:type="archimate:Connection" id="1708b5fb-c52e-46ec-b2ca-cef4ec808bc1" source="1cc3b4be-d2d8-4d64-84ea-0c5daf90da3b" target="9306c49e-c2b7-44c3-9e8d-e812b6ec6293" archimateRelationship="c91e0020-126b-4140-b320-013254f9805a">
+              <bendpoint startX="115" endX="-156" endY="238"/>
+              <bendpoint startX="151" startY="-156" endX="-120" endY="-2"/>
+            </sourceConnection>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="959e5e69-0fd3-49f5-bbf4-e7f338133bff" targetConnections="991de3a5-713f-4697-bbd8-08a6e87cdc7e" fontColor="#ffffff" fillColor="#ff0000" archimateElement="3d787d52-4f1d-4eaa-a932-7e4c3ab80d69">
+            <bounds x="1296" y="146" width="180" height="48"/>
+            <sourceConnection xsi:type="archimate:Connection" id="2fd1a9a7-8c98-4c28-80fa-df4154b9a91b" source="959e5e69-0fd3-49f5-bbf4-e7f338133bff" target="84206e84-b4ef-439b-8368-f92ade919d87" archimateRelationship="746acfdf-a192-41c6-814b-79566f65c002">
+              <bendpoint startX="-125" startY="-1" endX="-108" endY="310"/>
+              <bendpoint startX="-125" startY="-289" endX="-108" endY="22"/>
+            </sourceConnection>
+            <sourceConnection xsi:type="archimate:Connection" id="e421d886-4f16-4c34-a5b7-d42c8ad3344a" source="959e5e69-0fd3-49f5-bbf4-e7f338133bff" target="cd7b8ad1-86a6-4a46-a69a-1e2605261a06" archimateRelationship="8de657fc-78eb-4511-8ad7-1002cfb44c7d">
+              <bendpoint startX="115" startY="-1" endX="-156" endY="310"/>
+              <bendpoint startX="151" startY="-277" endX="-120" endY="34"/>
+            </sourceConnection>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="5fba9903-b5b9-4b87-8a51-921bbc6ca905" targetConnections="476e7d7d-d04f-456a-b330-5e7bf399eef1" fontColor="#ffffff" fillColor="#0080ff" archimateElement="b1745471-317e-4df6-b8d8-7b2ec488f657">
+            <bounds x="1296" y="27" width="180" height="48"/>
+            <sourceConnection xsi:type="archimate:Connection" id="e67c3e24-6342-4974-ada7-b06251852ec0" source="5fba9903-b5b9-4b87-8a51-921bbc6ca905" target="84206e84-b4ef-439b-8368-f92ade919d87" archimateRelationship="c5f543cd-9f13-4673-9f03-18cf1f094e79">
+              <bendpoint startX="-125" startY="-2" endX="-108" endY="190"/>
+              <bendpoint startX="-125" startY="-170" endX="-108" endY="22"/>
+            </sourceConnection>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="868ce566-ef7e-40ec-bbd2-3cda341fb7d7" targetConnections="4c058aea-36f5-434b-8f29-c3e5140c638c" fontColor="#000000" fillColor="#ffff00" archimateElement="bd34e270-729d-469c-be24-06e2036a0bb1">
+            <bounds x="1296" y="84" width="180" height="48"/>
+            <sourceConnection xsi:type="archimate:Connection" id="d18de087-bdeb-4531-b3c3-6e21f54bd8ad" source="868ce566-ef7e-40ec-bbd2-3cda341fb7d7" target="84206e84-b4ef-439b-8368-f92ade919d87" archimateRelationship="3143e5fc-08b0-4c4e-9436-76d13fe5df10">
+              <bendpoint startX="-125" endX="-108" endY="250"/>
+              <bendpoint startX="-125" startY="-228" endX="-108" endY="22"/>
+            </sourceConnection>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="55565635-c9f1-4530-8746-a13527b09fbb" targetConnections="043c2984-5dc6-443b-913b-e67dc6f63848" fontColor="#ffffff" fillColor="#0080ff" archimateElement="e3b28974-1b2e-486b-8269-4239f8b59fa1">
+            <bounds x="1584" y="27" width="180" height="48"/>
+            <sourceConnection xsi:type="archimate:Connection" id="a07b6170-2aa2-4e0e-a9a4-bc357072ddfa" source="55565635-c9f1-4530-8746-a13527b09fbb" target="cd7b8ad1-86a6-4a46-a69a-1e2605261a06" archimateRelationship="ee9e4f63-1b88-4a29-8b99-0d9b6b7ee769">
+              <bendpoint startX="-137" startY="-2" endX="-120" endY="190"/>
+              <bendpoint startX="-137" startY="-170" endX="-120" endY="22"/>
+            </sourceConnection>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="dca42aba-1ff6-48d3-aea6-df80e4a385e3" targetConnections="c0f34869-a1a1-458f-8f62-a9f3eef67884" fillColor="#00ffff" archimateElement="7e68479f-9cef-4d14-9f93-76f654c512f4">
+            <bounds x="1584" y="146" width="180" height="48"/>
+            <sourceConnection xsi:type="archimate:Connection" id="940e04c4-4096-4933-81f2-59954244a71b" source="dca42aba-1ff6-48d3-aea6-df80e4a385e3" target="cd7b8ad1-86a6-4a46-a69a-1e2605261a06" archimateRelationship="06fbb082-bdd4-4c68-8bad-fd0cf0edb117">
+              <bendpoint startX="-137" startY="-1" endX="-120" endY="310"/>
+              <bendpoint startX="-137" startY="-289" endX="-120" endY="22"/>
+            </sourceConnection>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="d26305d4-0d98-4dd2-be92-2a6106c19b89" targetConnections="e256a792-956a-4ed4-bbae-490dc01c276f" fillColor="#00ffff" archimateElement="425d6426-12f7-45f6-b5fa-72da935b118d">
+            <bounds x="1584" y="208" width="180" height="48"/>
+            <sourceConnection xsi:type="archimate:Connection" id="972dd380-aed1-444c-b8ad-6aed411ec9d5" source="d26305d4-0d98-4dd2-be92-2a6106c19b89" target="cd7b8ad1-86a6-4a46-a69a-1e2605261a06" archimateRelationship="6fa7e35a-a688-41f1-a6f1-e6edefdb9b0c">
+              <bendpoint startX="-137" startY="-4" endX="-120" endY="370"/>
+              <bendpoint startX="-137" startY="-352" endX="-120" endY="22"/>
+            </sourceConnection>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="16485e61-11f6-4b6e-83d9-6fbd8734c9e2" targetConnections="27417f78-c807-40ed-bc31-59225df86f11" fontColor="#ffffff" fillColor="#0080ff" archimateElement="c4ee675a-8cc9-47a8-b645-829ad22a3005">
+            <bounds x="1584" y="84" width="180" height="48"/>
+            <sourceConnection xsi:type="archimate:Connection" id="e9d88def-8fdb-4992-ac4e-c16cf27240d3" source="16485e61-11f6-4b6e-83d9-6fbd8734c9e2" target="cd7b8ad1-86a6-4a46-a69a-1e2605261a06" archimateRelationship="44e30fc6-9e6c-4154-82ea-14aeb5545172">
+              <bendpoint startX="-137" endX="-120" endY="250"/>
+              <bendpoint startX="-137" startY="-228" endX="-120" endY="22"/>
+            </sourceConnection>
+          </child>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="c7694cb0-a530-4724-a3f9-39df34892272" targetConnections="d0934ee5-d9c6-40bd-adf7-3e60329653c7 3e19b4cf-f101-4275-9317-3382dc05222c fcd3a1a3-5b42-475d-9361-d12916453fb9" archimateElement="d40b967f-043d-4200-a130-07b690b0b7f4">
+          <bounds x="432" y="312" width="168" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="1fc709b0-6e03-400f-a38a-4d32608c1033" source="c7694cb0-a530-4724-a3f9-39df34892272" target="ffdaaeb6-bbc7-4bce-a283-2b1610ae9cb0" archimateRelationship="de7ebbe1-71f2-4eac-a1a4-42bdc44cde21"/>
+          <sourceConnection xsi:type="archimate:Connection" id="7c30fc02-c766-4b81-bd6a-58733c8f96d9" source="c7694cb0-a530-4724-a3f9-39df34892272" target="7594609c-7e0a-4c9a-9cda-33a99be9dfac" archimateRelationship="0d51e2d0-7636-4df0-9796-044114cbbddb"/>
+          <sourceConnection xsi:type="archimate:Connection" id="e6a8e8f0-bee7-4fe2-bf2b-9b5ff08be472" source="c7694cb0-a530-4724-a3f9-39df34892272" target="d9335ca4-1b0b-42cd-9168-f6a0d5cb6daf" archimateRelationship="df89d3d1-11af-4727-8659-c9eb9fd4407b"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="e7f0cc78-3634-42f6-8f0b-9d57a6116e23" targetConnections="47de26da-3b50-4315-8a96-91da3a9aef35 f8fe9ca2-7881-4966-8ad5-bdd93a147b4b ab60c93c-52bb-47e0-9c48-81dfa55ff66a d822022d-49d3-4d8b-863a-9ee3e307c9fe" archimateElement="b78e36c6-9581-4aad-9779-4664ee6c36b3">
+          <bounds x="696" y="312" width="168" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="f3c1e87a-4af0-4cf1-ae74-fbe8a27def2d" source="e7f0cc78-3634-42f6-8f0b-9d57a6116e23" target="7594609c-7e0a-4c9a-9cda-33a99be9dfac" archimateRelationship="d1f438dc-45ad-449a-924c-22559ed386f7"/>
+          <sourceConnection xsi:type="archimate:Connection" id="5f98714c-933e-4885-87fc-c41686eae11a" source="e7f0cc78-3634-42f6-8f0b-9d57a6116e23" target="d9335ca4-1b0b-42cd-9168-f6a0d5cb6daf" archimateRelationship="defe28ba-9b18-4846-bbab-4063f0cef8d5"/>
+          <sourceConnection xsi:type="archimate:Connection" id="5c03c8dc-5e56-49ab-acfe-acab58a3722e" source="e7f0cc78-3634-42f6-8f0b-9d57a6116e23" target="fdfbab34-c844-442b-ab40-ec4209ba2b13" archimateRelationship="084bf7a6-a95a-42b8-83e8-7c455fed2fc8"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="9306c49e-c2b7-44c3-9e8d-e812b6ec6293" targetConnections="1708b5fb-c52e-46ec-b2ca-cef4ec808bc1 efbebeaa-009a-461b-8c9d-135ebb781d4d" archimateElement="8cba502f-a0db-45d3-8afd-3638fbf01a80">
+          <bounds x="972" y="312" width="168" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="84206e84-b4ef-439b-8368-f92ade919d87" targetConnections="2fd1a9a7-8c98-4c28-80fa-df4154b9a91b b633f3fa-2ea1-4001-9da2-3de79a56c0aa e67c3e24-6342-4974-ada7-b06251852ec0 d18de087-bdeb-4531-b3c3-6e21f54bd8ad" archimateElement="2fb01237-e189-4441-a1ad-c375677cbfd0">
+          <bounds x="1212" y="312" width="168" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="cd7b8ad1-86a6-4a46-a69a-1e2605261a06" targetConnections="e421d886-4f16-4c34-a5b7-d42c8ad3344a a07b6170-2aa2-4e0e-a9a4-bc357072ddfa 940e04c4-4096-4933-81f2-59954244a71b 972dd380-aed1-444c-b8ad-6aed411ec9d5 e9d88def-8fdb-4992-ac4e-c16cf27240d3" archimateElement="370c5133-225d-45dd-9d14-3ae322efe329">
+          <bounds x="1500" y="312" width="168" height="55"/>
+        </child>
+      </element>
+      <element xsi:type="archimate:ArchimateDiagramModel" name="MetaModel" id="70c949f5-01fb-4dc3-a8c6-691c58d13639">
+        <child xsi:type="archimate:DiagramObject" id="f36a2faf-fbb6-437a-8285-1a91d24636f3" font="1|Arial|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Arial" fontColor="#ffffff" textAlignment="1" fillColor="#0080ff" archimateElement="0bbe58db-9743-4d75-8602-717e60a6c2a2">
+          <bounds x="264" y="24" width="1069" height="673"/>
+          <sourceConnection xsi:type="archimate:Connection" id="aa2f0c09-b5e4-4c0b-8114-ba1150a2031f" source="f36a2faf-fbb6-437a-8285-1a91d24636f3" target="e431ac2c-da78-4df9-b2b0-73a583b1f43e" archimateRelationship="ebcf2a84-9df1-41a4-860e-c793621a558c"/>
+          <sourceConnection xsi:type="archimate:Connection" id="64658930-1bc4-4437-b760-2b483db6b5d7" source="f36a2faf-fbb6-437a-8285-1a91d24636f3" target="43fa5364-a7b4-4ae4-89aa-f2e41b7674f6" archimateRelationship="79c0b2c0-d139-4286-b9b8-dfa361d01a1a"/>
+          <sourceConnection xsi:type="archimate:Connection" id="4bde40b3-128d-4f72-b148-4b9d1eab7721" source="f36a2faf-fbb6-437a-8285-1a91d24636f3" target="1d3cfab3-6fa6-47da-aa60-f6d23fddf484" archimateRelationship="82f838ef-62ce-47ee-907b-a9fabc28aa1a"/>
+          <sourceConnection xsi:type="archimate:Connection" id="6f15419b-765c-46ba-8f95-55690600f0ef" source="f36a2faf-fbb6-437a-8285-1a91d24636f3" target="47d4719d-e1c7-466e-82e3-9137b8fd080f" archimateRelationship="bd726215-950c-417f-96f7-a894a2d71fbe"/>
+          <sourceConnection xsi:type="archimate:Connection" id="bbe39bd6-1225-4b69-adc9-17321ab0987b" source="f36a2faf-fbb6-437a-8285-1a91d24636f3" target="ae081ffc-7007-4e41-91f4-50ad64f5f566" archimateRelationship="e6dc07ee-afb3-4898-8b9d-9bbe9c28b936"/>
+          <sourceConnection xsi:type="archimate:Connection" id="78de4641-3bf3-466d-8eee-6953da9414b4" source="f36a2faf-fbb6-437a-8285-1a91d24636f3" target="3064cdb6-624e-46b2-8ce9-e7a120f31570" archimateRelationship="841e0b37-d539-416d-916f-b23914afacf2"/>
+          <sourceConnection xsi:type="archimate:Connection" id="46e9829b-d133-4a56-914a-cc0ff1d53a27" source="f36a2faf-fbb6-437a-8285-1a91d24636f3" target="5bb3b0b8-696d-495d-858b-d61f24b122c3" archimateRelationship="3ba4bedd-4ef9-4cfb-8f67-1b3fbc960310"/>
+          <child xsi:type="archimate:DiagramObject" id="5bb3b0b8-696d-495d-858b-d61f24b122c3" targetConnections="46e9829b-d133-4a56-914a-cc0ff1d53a27 7f07d749-0254-47e3-b9d6-c765b06cd046" font="1|Arial|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Arial" textAlignment="1" alpha="100" archimateElement="6d29234f-1ef3-452c-bdfe-2e7b093d2aeb">
+            <bounds x="48" y="180" width="708" height="132"/>
+            <feature name="lineAlpha" value="100"/>
+            <sourceConnection xsi:type="archimate:Connection" id="aefeb3fb-c11e-46ea-904e-9253a05a8ebe" source="5bb3b0b8-696d-495d-858b-d61f24b122c3" target="37b74a3e-0f40-40d8-a4d8-fb5ce18b5ce3" archimateRelationship="5301839c-c3b1-48dc-b979-2b464ac0fa57"/>
+            <sourceConnection xsi:type="archimate:Connection" id="425e8391-bde3-41a2-a76f-37060d29eb81" source="5bb3b0b8-696d-495d-858b-d61f24b122c3" target="5b73b622-b92f-4db1-82ac-4857723c712d" archimateRelationship="bdf51b2d-45c6-46f6-9b08-533d6ee2c57f"/>
+            <sourceConnection xsi:type="archimate:Connection" id="241219cc-f390-4396-8dfa-9ad8ac593005" source="5bb3b0b8-696d-495d-858b-d61f24b122c3" target="43fa5364-a7b4-4ae4-89aa-f2e41b7674f6" archimateRelationship="f08021c7-ea03-45c9-acab-ead1e3e487e5"/>
+            <child xsi:type="archimate:DiagramObject" id="37b74a3e-0f40-40d8-a4d8-fb5ce18b5ce3" targetConnections="aefeb3fb-c11e-46ea-904e-9253a05a8ebe" font="1|Arial|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Arial" textAlignment="1" alpha="100" archimateElement="cc519b34-8970-4df5-81cb-093a8ba9a7dd">
+              <bounds x="276" y="36" width="421" height="85"/>
+              <feature name="lineAlpha" value="100"/>
+              <sourceConnection xsi:type="archimate:Connection" id="08e9c1a8-e9a6-494f-a62d-17fad723a3af" source="37b74a3e-0f40-40d8-a4d8-fb5ce18b5ce3" target="bf9d5266-7be0-48a5-83b4-3947e35e0c98" archimateRelationship="12346e22-f58f-4417-8997-e5c1f4dc26bd"/>
+              <sourceConnection xsi:type="archimate:Connection" id="c5a8ef6f-a63c-4ecf-a00c-aa07c3409f09" source="37b74a3e-0f40-40d8-a4d8-fb5ce18b5ce3" target="33666f60-466c-4dde-bfbe-d595624a93c2" archimateRelationship="bcfd0c0c-7714-41d7-8624-0e88a51782e7"/>
+              <sourceConnection xsi:type="archimate:Connection" id="8baafa64-6f89-45b9-aadc-66810142c7ef" source="37b74a3e-0f40-40d8-a4d8-fb5ce18b5ce3" target="fefb0cba-3ee1-4b74-893c-54802d897f63" archimateRelationship="cd54625c-90c1-4c99-8d76-b04dff8ec2fd"/>
+              <sourceConnection xsi:type="archimate:Connection" id="186b21c1-392c-41a0-9220-a1d814b38240" source="37b74a3e-0f40-40d8-a4d8-fb5ce18b5ce3" target="3064cdb6-624e-46b2-8ce9-e7a120f31570" archimateRelationship="f345d142-d24f-4e14-8d89-23300bd8051b"/>
+              <child xsi:type="archimate:DiagramObject" id="fefb0cba-3ee1-4b74-893c-54802d897f63" targetConnections="8baafa64-6f89-45b9-aadc-66810142c7ef" archimateElement="29ee6d9f-fd54-4f0f-83e2-ce8a268326dc">
+                <bounds x="12" y="36" width="120" height="33"/>
+              </child>
+              <child xsi:type="archimate:DiagramObject" id="33666f60-466c-4dde-bfbe-d595624a93c2" targetConnections="c5a8ef6f-a63c-4ecf-a00c-aa07c3409f09" archimateElement="1488b34c-549e-4179-9e48-3a8f64f46bb3">
+                <bounds x="144" y="36" width="120" height="33"/>
+              </child>
+              <child xsi:type="archimate:DiagramObject" id="bf9d5266-7be0-48a5-83b4-3947e35e0c98" targetConnections="08e9c1a8-e9a6-494f-a62d-17fad723a3af" archimateElement="016597cc-438e-4763-8fe1-906a60ea5f64">
+                <bounds x="276" y="36" width="120" height="33"/>
+              </child>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="5b73b622-b92f-4db1-82ac-4857723c712d" targetConnections="425e8391-bde3-41a2-a76f-37060d29eb81" font="1|Arial|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Arial" textAlignment="1" alpha="100" archimateElement="4cca23d3-7351-4e7c-8f92-5013a590c461">
+              <bounds x="12" y="36" width="253" height="85"/>
+              <feature name="lineAlpha" value="100"/>
+              <sourceConnection xsi:type="archimate:Connection" id="60a30708-b19a-4df1-badc-3e1d9f17f8e5" source="5b73b622-b92f-4db1-82ac-4857723c712d" target="2c31a931-72dc-4cf5-80e9-a8714f144be5" archimateRelationship="2036d7c8-0cb3-46a6-89bb-3c0331738326"/>
+              <sourceConnection xsi:type="archimate:Connection" id="6581dad3-e857-4ee9-b051-acccdd4f5945" source="5b73b622-b92f-4db1-82ac-4857723c712d" target="1ae20c2a-5ce4-4d05-9020-c29281d4d379" archimateRelationship="359f4ffa-9791-4b71-bd0e-89bffb027e7c"/>
+              <sourceConnection xsi:type="archimate:Connection" id="4c391ec2-d034-4262-b5a0-e423b1c1c51e" source="5b73b622-b92f-4db1-82ac-4857723c712d" target="3064cdb6-624e-46b2-8ce9-e7a120f31570" archimateRelationship="99c2c3ee-13b1-4768-92cd-e994dcda83db"/>
+              <child xsi:type="archimate:DiagramObject" id="2c31a931-72dc-4cf5-80e9-a8714f144be5" targetConnections="60a30708-b19a-4df1-badc-3e1d9f17f8e5" archimateElement="9c7d12fd-5753-4a51-af48-e8048a2d4d8f">
+                <bounds y="24" width="121" height="49"/>
+              </child>
+              <child xsi:type="archimate:DiagramObject" id="1ae20c2a-5ce4-4d05-9020-c29281d4d379" targetConnections="6581dad3-e857-4ee9-b051-acccdd4f5945" archimateElement="2777ab78-c0f2-459d-9dd1-0f39317f140a">
+                <bounds x="120" y="24" width="121" height="49"/>
+              </child>
+            </child>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="ae081ffc-7007-4e41-91f4-50ad64f5f566" targetConnections="bbe39bd6-1225-4b69-adc9-17321ab0987b 4169fd5e-9648-4a4a-b831-b164e3e7bf90 0f299da5-e8db-4807-af3e-eee7f014b5dd af33b9b5-d740-4924-945e-0d458ade3b40" font="1|Arial|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Arial" textAlignment="1" alpha="100" archimateElement="d34376b1-e519-4b8c-ab27-f144e114c86a">
+            <bounds x="48" y="420" width="967" height="121"/>
+            <feature name="lineAlpha" value="100"/>
+            <sourceConnection xsi:type="archimate:Connection" id="262a804c-78d0-4492-8e15-1fc65c659a51" source="ae081ffc-7007-4e41-91f4-50ad64f5f566" target="a754b562-b479-49ab-8b31-e3218e5090a2" archimateRelationship="69be2e15-86f3-417c-a2e2-fc3e4aa23d22"/>
+            <sourceConnection xsi:type="archimate:Connection" id="e7221bc4-2618-48d4-9424-0ed132991d8a" source="ae081ffc-7007-4e41-91f4-50ad64f5f566" target="f754e931-5598-4242-89da-323a59a45819" archimateRelationship="8f7d20db-5c1d-4ca7-8b8b-877dd7f9d5bd"/>
+            <sourceConnection xsi:type="archimate:Connection" id="3a3c571d-d79e-4485-b128-ae0e26f5fe7b" source="ae081ffc-7007-4e41-91f4-50ad64f5f566" target="6cbd8316-0592-4644-8744-9a0ed663b5f2" archimateRelationship="12ab21ad-0c3d-4b99-9260-aacf5d4489c5"/>
+            <sourceConnection xsi:type="archimate:Connection" id="566bab9f-cf43-43e3-9cf0-d894ac27eafc" source="ae081ffc-7007-4e41-91f4-50ad64f5f566" target="459cf58f-a3f7-483e-8ca0-a0058eda1471" archimateRelationship="8b7d27c0-56e6-410e-889f-b434d86ebf94"/>
+            <sourceConnection xsi:type="archimate:Connection" id="6ace417d-fe56-4c36-916b-fe2b5304fef1" source="ae081ffc-7007-4e41-91f4-50ad64f5f566" target="ba3b216d-cc92-4782-8630-15fdd9f527ba" archimateRelationship="70dde1d2-186d-406a-b691-7dcfdb4de669"/>
+            <sourceConnection xsi:type="archimate:Connection" id="641e9a49-9323-4fa7-99cb-5d995cc03d3c" source="ae081ffc-7007-4e41-91f4-50ad64f5f566" target="9e567d83-c4a0-426b-96fa-b482d4f15c2e" archimateRelationship="fee81e0b-bf11-4d62-9b2d-b72a2285f99b"/>
+            <sourceConnection xsi:type="archimate:Connection" id="2eed96ed-cd34-4e08-99e5-d099ca29d353" source="ae081ffc-7007-4e41-91f4-50ad64f5f566" target="5bc17d36-0111-4553-a542-ea8c67c5482a" archimateRelationship="60b3b197-bc1c-4d39-91a8-dfaa3e631797"/>
+            <sourceConnection xsi:type="archimate:Connection" id="5f161a53-94f5-441e-9db3-2b9978af8b5e" source="ae081ffc-7007-4e41-91f4-50ad64f5f566" target="06fe9e5c-4a83-42d1-bc69-0b6baa87cf45" archimateRelationship="0ec82154-b4f2-47c4-b4fe-f45d5abd0655"/>
+            <sourceConnection xsi:type="archimate:Connection" id="eb62d070-f16a-4a41-a99a-e4f8189f075f" source="ae081ffc-7007-4e41-91f4-50ad64f5f566" target="d36b9cd5-2fa0-4ed7-8335-49877390a519" archimateRelationship="695f5701-3154-44ff-9063-41731b27cc8a"/>
+            <child xsi:type="archimate:DiagramObject" id="a754b562-b479-49ab-8b31-e3218e5090a2" targetConnections="262a804c-78d0-4492-8e15-1fc65c659a51" font="1|Arial|9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|3|2|1|34|Arial" lineColor="#000000" fillColor="#adb0ff" archimateElement="89215189-7f36-4c26-a91b-86548dee33ec">
+              <bounds x="12" y="72" width="169" height="48"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="f754e931-5598-4242-89da-323a59a45819" targetConnections="e7221bc4-2618-48d4-9424-0ed132991d8a" font="1|Arial|9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|3|2|1|34|Arial" lineColor="#000000" fillColor="#adb0ff" archimateElement="7831ebcc-5ba8-4162-91a4-0fd2f35ea0b9">
+              <bounds x="204" y="24" width="169" height="48"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="6cbd8316-0592-4644-8744-9a0ed663b5f2" targetConnections="3a3c571d-d79e-4485-b128-ae0e26f5fe7b" font="1|Arial|9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|3|2|1|34|Arial" lineColor="#000000" fillColor="#adb0ff" archimateElement="69d01ef2-8019-4e53-9224-c1eeb6a202c1">
+              <bounds x="384" y="72" width="169" height="48"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="459cf58f-a3f7-483e-8ca0-a0058eda1471" targetConnections="566bab9f-cf43-43e3-9cf0-d894ac27eafc" font="1|Arial|9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|3|2|1|34|Arial" lineColor="#000000" fillColor="#adb0ff" archimateElement="05e782a2-eb2b-4c7a-a664-7d5087817f62">
+              <bounds x="384" y="24" width="169" height="48"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="ba3b216d-cc92-4782-8630-15fdd9f527ba" targetConnections="6ace417d-fe56-4c36-916b-fe2b5304fef1" font="1|Arial|9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|3|2|1|34|Arial" lineColor="#000000" fillColor="#adb0ff" archimateElement="0a3d0d30-9485-4ec5-a485-135f2d2f3794">
+              <bounds x="204" y="72" width="169" height="48"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="9e567d83-c4a0-426b-96fa-b482d4f15c2e" targetConnections="641e9a49-9323-4fa7-99cb-5d995cc03d3c" font="1|Arial|9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|3|2|1|34|Arial" lineColor="#000000" fillColor="#adb0ff" archimateElement="89132d34-b552-4b85-8176-0c22549fcf59">
+              <bounds x="12" y="24" width="169" height="48"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="5bc17d36-0111-4553-a542-ea8c67c5482a" targetConnections="2eed96ed-cd34-4e08-99e5-d099ca29d353" font="1|Arial|9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|3|2|1|34|Arial" lineColor="#000000" fillColor="#adb0ff" archimateElement="115c241c-25ee-4c5d-abf5-9301129a86eb">
+              <bounds x="576" y="24" width="169" height="48"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="06fe9e5c-4a83-42d1-bc69-0b6baa87cf45" targetConnections="5f161a53-94f5-441e-9db3-2b9978af8b5e" font="1|Arial|9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|3|2|1|34|Arial" lineColor="#000000" fillColor="#adb0ff" archimateElement="4114cb78-5751-4189-bafa-832283cbffe9">
+              <bounds x="576" y="72" width="169" height="48"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="d36b9cd5-2fa0-4ed7-8335-49877390a519" targetConnections="eb62d070-f16a-4a41-a99a-e4f8189f075f" font="1|Arial|9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|3|2|1|34|Arial" lineColor="#000000" fillColor="#adb0ff" archimateElement="d775caaf-80d4-4180-88a6-0e7916f890a3">
+              <bounds x="768" y="24" width="169" height="48"/>
+            </child>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="47d4719d-e1c7-466e-82e3-9137b8fd080f" targetConnections="2d624ea7-79dd-4846-af4f-c8cbc96aa0a9 6f15419b-765c-46ba-8f95-55690600f0ef" font="1|Arial|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Arial" textPosition="1" archimateElement="97a93c19-346d-4e20-aca7-77a7dc72cb42">
+            <bounds x="48" y="48" width="685" height="37"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="1d3cfab3-6fa6-47da-aa60-f6d23fddf484" targetConnections="4bde40b3-128d-4f72-b148-4b9d1eab7721" archimateElement="c2ec03bc-cab2-4730-8689-5fbb3453f733">
+            <bounds x="894" y="600" width="121" height="61"/>
+            <sourceConnection xsi:type="archimate:Connection" id="af33b9b5-d740-4924-945e-0d458ade3b40" source="1d3cfab3-6fa6-47da-aa60-f6d23fddf484" target="ae081ffc-7007-4e41-91f4-50ad64f5f566" archimateRelationship="0b503ba7-e8ce-474f-8042-718312074d47"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="43fa5364-a7b4-4ae4-89aa-f2e41b7674f6" targetConnections="64658930-1bc4-4437-b760-2b483db6b5d7 241219cc-f390-4396-8dfa-9ad8ac593005" font="1|Arial|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Arial" textPosition="1" archimateElement="b1ad4067-94b6-42fb-8957-6545d1884f91">
+            <bounds x="47" y="108" width="685" height="37"/>
+            <sourceConnection xsi:type="archimate:Connection" id="2d624ea7-79dd-4846-af4f-c8cbc96aa0a9" source="43fa5364-a7b4-4ae4-89aa-f2e41b7674f6" target="47d4719d-e1c7-466e-82e3-9137b8fd080f" archimateRelationship="ea2e6888-6d25-43f6-b143-149adc73a5cf"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="e431ac2c-da78-4df9-b2b0-73a583b1f43e" targetConnections="aa2f0c09-b5e4-4c0b-8114-ba1150a2031f" textAlignment="1" alpha="100" archimateElement="70993982-c029-470a-b934-dc375a2d1715">
+            <bounds x="852" y="48" width="181" height="265"/>
+            <feature name="lineAlpha" value="100"/>
+            <sourceConnection xsi:type="archimate:Connection" id="c32c1764-e2fe-4056-b88b-a4418649fb8a" source="e431ac2c-da78-4df9-b2b0-73a583b1f43e" target="b4ad3891-0864-41b4-941b-ce13810d0db5" archimateRelationship="1c407dc6-e8d5-4d9b-b665-b3bb1b3a2da0"/>
+            <sourceConnection xsi:type="archimate:Connection" id="4f72164a-3992-41d5-b889-14e74e9715b8" source="e431ac2c-da78-4df9-b2b0-73a583b1f43e" target="d516edd7-52f4-4727-a8e6-c84b7a5c1cf5" archimateRelationship="0c74015a-b3fb-44ec-afdf-e51a5d941fd3"/>
+            <sourceConnection xsi:type="archimate:Connection" id="4169fd5e-9648-4a4a-b831-b164e3e7bf90" source="e431ac2c-da78-4df9-b2b0-73a583b1f43e" target="ae081ffc-7007-4e41-91f4-50ad64f5f566" archimateRelationship="0059f760-9563-47a3-8e82-860b8705773e"/>
+            <sourceConnection xsi:type="archimate:Connection" id="7f07d749-0254-47e3-b9d6-c765b06cd046" source="e431ac2c-da78-4df9-b2b0-73a583b1f43e" target="5bb3b0b8-696d-495d-858b-d61f24b122c3" archimateRelationship="a04701ac-9e69-4fb5-9bb9-8bdb9e805df8"/>
+            <child xsi:type="archimate:DiagramObject" id="d516edd7-52f4-4727-a8e6-c84b7a5c1cf5" targetConnections="4f72164a-3992-41d5-b889-14e74e9715b8" archimateElement="e2d91376-31dd-447f-8bc5-cf8154fa5994">
+              <bounds x="36" y="168" width="120" height="55"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="b4ad3891-0864-41b4-941b-ce13810d0db5" targetConnections="c32c1764-e2fe-4056-b88b-a4418649fb8a" archimateElement="fa6d94e6-8271-4b18-92e4-f2d34ba433a3">
+              <bounds x="36" y="48" width="120" height="55"/>
+            </child>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="3064cdb6-624e-46b2-8ce9-e7a120f31570" targetConnections="78de4641-3bf3-466d-8eee-6953da9414b4 4c391ec2-d034-4262-b5a0-e423b1c1c51e 186b21c1-392c-41a0-9220-a1d814b38240" font="1|Arial|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Arial" archimateElement="d9a60605-62db-4ad4-b80c-445ece409122">
+            <bounds x="48" y="336" width="684" height="48"/>
+            <sourceConnection xsi:type="archimate:Connection" id="0f299da5-e8db-4807-af3e-eee7f014b5dd" source="3064cdb6-624e-46b2-8ce9-e7a120f31570" target="ae081ffc-7007-4e41-91f4-50ad64f5f566" archimateRelationship="b9ad6a18-1a18-4d05-a820-826b46e99253"/>
+          </child>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="d89858e3-4a40-4179-88f8-7572fa19d191" font="1|Arial|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Arial" textAlignment="1" archimateElement="639125c9-82d6-4284-afb7-31eb4c7437ac">
+          <bounds x="264" y="756" width="877" height="649"/>
+          <child xsi:type="archimate:DiagramModelReference" id="3d24e002-54b4-439d-9e85-da1d9ca764b2" font="1|Arial|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Arial" model="2d59ef72-d60b-4e5d-875b-751e7339f9b2">
+            <bounds x="36" y="36" width="540" height="55"/>
+          </child>
+          <child xsi:type="archimate:DiagramModelReference" id="753742dd-a132-4daa-b970-4e031fe89b92" font="1|Arial|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Arial" fontColor="#ffffff" fillColor="#0080ff" model="3d77daec-1b6e-4cc8-b9fd-80160f179114">
+            <bounds x="36" y="108" width="540" height="120"/>
+            <sourceConnection id="41c73f83-59b3-4660-8a53-af6ed6f4065d" source="753742dd-a132-4daa-b970-4e031fe89b92" target="af4f2a78-e362-43c7-b97e-9e6c5da52978"/>
+          </child>
+          <child xsi:type="archimate:DiagramModelReference" id="4757a80c-7b48-4052-9f84-58463ac27085" font="1|Arial|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Arial" fillColor="#ffff00" model="33f1b251-9d1f-4065-ab6c-4a98e15166be">
+            <bounds x="36" y="240" width="540" height="120"/>
+            <sourceConnection id="3cf71be3-32c7-4426-855e-080f84eb8d70" source="4757a80c-7b48-4052-9f84-58463ac27085" target="20fcc350-4975-45b8-a6d9-5cef266ee570"/>
+          </child>
+          <child xsi:type="archimate:DiagramModelReference" id="126207c1-4668-472d-b348-3bac2114c673" font="1|Arial|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Arial" fillColor="#80ffff" model="a9f40666-8c5f-48c4-b70e-0b463989e748">
+            <bounds x="36" y="372" width="540" height="120"/>
+            <sourceConnection id="2ff7fc8d-0251-442f-9d2f-644e8e0451ea" source="126207c1-4668-472d-b348-3bac2114c673" target="6018384a-b9d4-4f6a-a00e-cc70d813b8fb"/>
+          </child>
+          <child xsi:type="archimate:DiagramModelReference" id="c0066bd0-8cf6-4c42-bf65-a5ec71812cf7" font="1|Arial|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Arial" fontColor="#ffffff" fillColor="#ff0000" model="57b3d69d-fbf5-470d-be29-9a9e6537bdca">
+            <bounds x="36" y="504" width="539" height="108"/>
+            <sourceConnection id="c5481290-3946-49fa-a550-0ff27006fe50" source="c0066bd0-8cf6-4c42-bf65-a5ec71812cf7" target="ea29efc4-b5fa-4a00-98cc-fcbd7dbb5a56"/>
+          </child>
+        </child>
+        <child xsi:type="archimate:Note" id="af4f2a78-e362-43c7-b97e-9e6c5da52978" targetConnections="41c73f83-59b3-4660-8a53-af6ed6f4065d" fontColor="#ffffff" textAlignment="1" fillColor="#0080ff">
+          <bounds y="864" width="252" height="120"/>
+          <content>Klanten en markten &#xD;
+Producten en diensten &#xD;
+Kanalen &#xD;
+Bedieningsconcepten &#xD;
+Leveranciers </content>
+        </child>
+        <child xsi:type="archimate:Note" id="20fcc350-4975-45b8-a6d9-5cef266ee570" targetConnections="3cf71be3-32c7-4426-855e-080f84eb8d70" fontColor="#000000" textAlignment="1" fillColor="#ffff00">
+          <bounds y="996" width="252" height="120"/>
+          <content>Bedrijfsprocessen &#xD;
+Bedrijfsfuncties &#xD;
+Medewerkers &#xD;
+Organisatie &#xD;
+Besturing</content>
+        </child>
+        <child xsi:type="archimate:Note" id="6018384a-b9d4-4f6a-a00e-cc70d813b8fb" targetConnections="2ff7fc8d-0251-442f-9d2f-644e8e0451ea" fontColor="#000000" textAlignment="1" fillColor="#80ffff">
+          <bounds y="1128" width="252" height="120"/>
+          <content>Objecten en gegevens &#xD;
+Informatie &#xD;
+Applicaties en applicatie componenten &#xD;
+Interfaces &#xD;
+Services</content>
+        </child>
+        <child xsi:type="archimate:Note" id="ea29efc4-b5fa-4a00-98cc-fcbd7dbb5a56" targetConnections="c5481290-3946-49fa-a550-0ff27006fe50" fontColor="#ffffff" textAlignment="1" fillColor="#ff0000">
+          <bounds y="1260" width="252" height="120"/>
+          <content>Infrastructuur services &#xD;
+Netwerk en transport &#xD;
+Kantoor voorzieningen</content>
+        </child>
+        <documentation>&#xD;
+</documentation>
+      </element>
+    </folder>
+  </folder>
+</archimate:model>

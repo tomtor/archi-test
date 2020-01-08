@@ -438,9 +438,6 @@ Door dit te consolideren in een zogenoemd Stakeholder kwadrant, wordt duidelijk 
     <element xsi:type="archimate:CompositionRelationship" id="9b35bb38-8d82-467e-8400-2805357bedaa" source="553a3a8a-035a-4a56-9394-f0d1904e0d41" target="b78e36c6-9581-4aad-9779-4664ee6c36b3"/>
   </folder>
   <folder name="Views" id="6e6d2a3a-f211-4c25-ad60-cfc690f98f2b" type="diagrams">
-    <folder name="Solution Architectuur" id="e1d43787-489b-4aae-827c-df6f4f7441cb">
-      <element xsi:type="archimate:ArchimateDiagramModel" name="Motivatie" id="2d1072f6-62ee-45b0-9f16-d2bcb7d8c178"/>
-    </folder>
     <folder name="KEA" id="bf6e02c1-7006-4c7f-953e-187fbe581096">
       <folder name="Domeinarchitectuur views" id="f539a2fc-3596-4aa2-b2f5-41c5021d47a9">
         <documentation>Domeinarchitecturen in de KEA zijn een verzameling van architectuurconcepten vanuit het gezichtspunt van de in de KEA onderkende domeinen, zoals daar zijn:&#xD;

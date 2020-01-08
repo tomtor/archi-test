@@ -4,10 +4,10 @@ BN=$(basename "$i")
 echo COPY "$BN"
 cp "$i" "$BN"
 git add "$BN"
-git commit -a -m "update"
-git push
+git commit -m "update"
 done
 
 python merge.py
 git add Kadaster-Repository.archimate
+git commit -m "New Merged Repository"
 git push

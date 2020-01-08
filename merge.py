@@ -8,7 +8,7 @@ archifiles = [f for f in listdir(".") if isfile(f) and f.endswith(".archimate") 
 
 root = ET.Element("archimate:model")
 #root.attrib["xmlns:xsi"] = "http://www.w3.org/2001/XMLSchema-instance"
-#root.attrib["xmlns:archimate"] = "http://www.archimatetool.com/archimate"
+root.attrib["xmlns:archimate"] = "http://www.archimatetool.com/archimate"
 root.attrib["name"] = "Kadaster"
 root.attrib["id"] = str(uuid.uuid4())
 root.attrib["version"] = "4.6.0"
@@ -28,9 +28,6 @@ for af in archifiles:
         data = ET.parse(af)
         for c in data.getroot():
             subfolder.append(c)
-
-# ET.SubElement(folder, "field1", name="blah").text = "some value1"
-# ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
 
 tree = ET.ElementTree(root)
 tree.write("Kadaster-Repository.archimate")

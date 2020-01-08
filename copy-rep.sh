@@ -6,3 +6,7 @@ git add "$BN"
 git commit -a -m "update"
 git push
 done
+
+python merge.py
+git add Kadaster-Repository.archimate
+git push

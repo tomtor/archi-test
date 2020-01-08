@@ -4,8 +4,10 @@ from os.path import isfile, join
 import xml.etree.cElementTree as ET
 import uuid
 
-archifiles = [f for f in listdir(".") if isfile(f) and f.endswith(".archimate") and not "-Repo" in f]
+archifiles = [f for f in listdir(".") if isfile(
+    f) and f.endswith(".archimate") and "-Repo" not in f and "project" not in f]
 
+#ET.register_namespace("archimate", "http://www.archimatetool.com/archimate")
 root = ET.Element("archimate:model")
 #root.attrib["xmlns:xsi"] = "http://www.w3.org/2001/XMLSchema-instance"
 root.attrib["xmlns:archimate"] = "http://www.archimatetool.com/archimate"
@@ -20,14 +22,29 @@ folder.attrib["type"] = "other"
 
 for af in archifiles:
     print("Parsing: ", af)
-    with open(af, 'r') as file:
-        subfolder = ET.SubElement(folder, "folder")
-        subfolder.attrib["name"] = af
-        subfolder.attrib["id"] = str(uuid.uuid4())
-        subfolder.attrib["type"] = "other"
-        data = ET.parse(af)
-        for c in data.getroot():
-            subfolder.append(c)
+    subfolder = ET.SubElement(folder, "folder")
+    subfolder.attrib["name"] = af
+    subfolder.attrib["id"] = str(uuid.uuid4())
+    subfolder.attrib["type"] = "other"
+    data = ET.parse(af)
+    
+    for c in data.getroot():
+        old_repo = c.find(".//folder[@name='Kadaster Repository']")
+        if old_repo:
+            c.remove(old_repo)
+            print("old repo removed")
+        subfolder.append(c)
+
+no_save = False
+count = 0
+for e in root.findall(".//child[@archimateElement]"):
+    aelem = e.get("archimateElement")
+    count += 1
+    if not root.findall(".//element[@id='" + aelem + "']"):
+        print("Removed: ", aelem)
+        no_save = True
+print("Nr of elements: ", count)
 
 tree = ET.ElementTree(root)
-tree.write("Kadaster-Repository.archimate")
+if not no_save:
+    tree.write("Kadaster-Repository.archimate")

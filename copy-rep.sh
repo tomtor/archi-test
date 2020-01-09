@@ -1,4 +1,4 @@
-for i in "/v/IT/Architectuur/Domein Architectuur/Archi Repository/"*.archimate
+for i in "/v/IT/Architectuur/Domein Architectuur/Z_Archi Repository/"*.archimate
 do
   BN=$(basename "$i")
   echo COPY "$BN"
@@ -11,3 +11,5 @@ python merge.py
 git add Kadaster-Repository.archimate
 git commit -m "New Merged Repository"
 git push
+
+cp Kadaster-Repository.archimate "/v/IT/Architectuur/Domein Architectuur/Z_Archi Repository/"

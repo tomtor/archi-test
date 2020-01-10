@@ -5,23 +5,15 @@
   <folder name="Application" id="ca941149-5c23-4734-9971-6c404f97dbbf" type="application"/>
   <folder name="Technology &amp; Physical" id="0fbacd27-ccb6-44e6-ba0c-a07bf2c0e43d" type="technology">
     <element xsi:type="archimate:Node" name="B-tom" id="41c5251e-5901-4b47-924e-59e2f7a43bc2"/>
-    <element xsi:type="archimate:Node" name="C-tom" id="140a8e72-9d84-445e-a705-a7cb95043414"/>
   </folder>
   <folder name="Motivation" id="cafe8245-0ede-4f85-8678-3d72adbab188" type="motivation"/>
   <folder name="Implementation &amp; Migration" id="a217fa07-e827-4e7f-a790-5bdbbd4c5f81" type="implementation_migration"/>
   <folder name="Other" id="6055ba01-be81-4d43-ae34-5f314675b96b" type="other"/>
-  <folder name="Relations" id="e68f0f1c-193c-4e5a-9b52-3e5e604a5f0d" type="relations">
-    <element xsi:type="archimate:AssociationRelationship" id="828c7851-be6e-45d1-a112-3807a6e96317" source="140a8e72-9d84-445e-a705-a7cb95043414" target="140a8e72-9d84-445e-a705-a7cb95043414"/>
-    <element xsi:type="archimate:AssociationRelationship" id="79f9a5cf-d780-44a2-93db-e71b6c18b249" source="140a8e72-9d84-445e-a705-a7cb95043414" target="41c5251e-5901-4b47-924e-59e2f7a43bc2"/>
-  </folder>
+  <folder name="Relations" id="e68f0f1c-193c-4e5a-9b52-3e5e604a5f0d" type="relations"/>
   <folder name="Views" id="fdc88a61-e86c-49d9-9452-46250284e52b" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="21e726c5-421c-415c-b8a5-bd48f55dab85">
-      <child xsi:type="archimate:DiagramObject" id="998ddb41-200b-44cd-bdf9-4e521a083c63" targetConnections="52972c6b-037a-44ac-84f5-78b1bb8d0358" archimateElement="41c5251e-5901-4b47-924e-59e2f7a43bc2">
+      <child xsi:type="archimate:DiagramObject" id="998ddb41-200b-44cd-bdf9-4e521a083c63" archimateElement="41c5251e-5901-4b47-924e-59e2f7a43bc2">
         <bounds x="527" y="393" width="120" height="55"/>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="2ff9c8be-6744-4d51-8fda-3df2aa4e5680" archimateElement="140a8e72-9d84-445e-a705-a7cb95043414">
-        <bounds x="290" y="205" width="120" height="55"/>
-        <sourceConnection xsi:type="archimate:Connection" id="52972c6b-037a-44ac-84f5-78b1bb8d0358" source="2ff9c8be-6744-4d51-8fda-3df2aa4e5680" target="998ddb41-200b-44cd-bdf9-4e521a083c63" archimateRelationship="79f9a5cf-d780-44a2-93db-e71b6c18b249"/>
       </child>
     </element>
   </folder>

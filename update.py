@@ -16,6 +16,9 @@ new_repo = response.read()
 new_repo = ET.fromstring(new_repo)
 
 data = ET.parse("project.archimate")
+
+# ============== update code start ====================
+
 root = data.getroot()
 root.attrib["xmlns:archimate"] = "http://www.archimatetool.com/archimate"
 
@@ -42,4 +45,7 @@ for e in root.findall(".//child[@archimateElement]"):
         old.append(aelem)
 
 tree = ET.ElementTree(root)
+
+# ========== end update code ===========
+
 tree.write("project-new.archimate")

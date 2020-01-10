@@ -1,4 +1,4 @@
-<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="092a95b3-a637-40fe-b5bc-47338f34a736" name="Kadaster" version="4.6.0" xmlns:archimate="http://www.archimatetool.com/archimate"><folder id="c3c68b62-3f04-4549-ae1e-a0d37b7d9bd8" name="Kadaster Repository" type="other"><folder id="880ab259-c4eb-4dc1-a252-8a188678e93d" name="00054-KEA_V0.2.Archimate.archimate" type="other"><folder id="e1bde187-052e-4bdb-9cc3-86d21bfd5b14" name="Strategy" type="strategy" />
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="1d07399a-347e-47eb-8072-c3d01851a082" name="Kadaster" version="4.6.0" xmlns:archimate="http://www.archimatetool.com/archimate"><folder id="f6a9e5ea-10ef-4bac-bd9c-8db7114db4a1" name="Kadaster Repository" type="other"><folder id="333fe8f1-6c7c-45f9-9dbb-396b0076544e" name="00054-KEA_V0.2.Archimate.archimate" type="other"><folder id="e1bde187-052e-4bdb-9cc3-86d21bfd5b14" name="Strategy" type="strategy" />
   <folder id="79c73e17-2f16-497e-8ce7-ced6c00485f8" name="Business" type="business" />
   <folder id="9f66887b-bb7d-4580-9f3d-d58cc0a909b7" name="Application" type="application" />
   <folder id="e433a135-a788-49f0-a6c1-dcf331113fbd" name="Technology &amp; Physical" type="technology" />
@@ -1063,7 +1063,7 @@ Kantoor voorzieningen</content>
       </element>
     </folder>
   </folder>
-</folder><folder id="e1c3d1af-f0a0-452f-8eb0-ef99e4722375" name="19-12-27, Klantenservice services en componenten.archimate" type="other"><folder id="cec908d5-fddd-4be8-8555-5918abaf50a7" name="Strategy" type="strategy" />
+</folder><folder id="78a80a9f-98ed-4509-831a-ed19741309d1" name="19-12-27, Klantenservice services en componenten.archimate" type="other"><folder id="cec908d5-fddd-4be8-8555-5918abaf50a7" name="Strategy" type="strategy" />
   <folder id="c0e4d211-b8fc-4399-9108-1e20af681a20" name="Business" type="business">
     <element id="aa0b9c76-0b15-4644-9212-7a3a54b9b36f" name="Klant registratie" xsi:type="archimate:BusinessService" />
     <element id="fc043f09-cbad-426b-b626-2d160b519595" name="KCC" xsi:type="archimate:BusinessRole" />
@@ -2219,7 +2219,7 @@ Kantoor voorzieningen</content>
       </child>
     </element>
   </folder>
-</folder><folder id="bfae2cb2-f6f8-400b-8fca-f90e861705c8" name="Bedrijfsvoering.archimate" type="other"><folder id="5e9d7d31-47e1-454d-a4bb-d564a2bd6be6" name="Strategy" type="strategy" />
+</folder><folder id="569413ac-2d13-4084-b932-831a86d6f9a2" name="Bedrijfsvoering.archimate" type="other"><folder id="5e9d7d31-47e1-454d-a4bb-d564a2bd6be6" name="Strategy" type="strategy" />
   <folder id="e9d023eb-a509-47db-91db-a92d7dc2d995" name="Business" type="business">
     <element id="3b39dbbc-b9a2-499e-af29-f2f8b2fdebdc" name="Inhuur flexibel Personeel" xsi:type="archimate:BusinessService" />
     <element id="af7010bb-ec47-4bee-bfaa-a315a53960e2" name="Opleidingen" xsi:type="archimate:BusinessService" />
@@ -3339,7 +3339,7 @@ Kantoor voorzieningen</content>
       </child>
     </element>
   </folder>
-</folder><folder id="034f0545-e37a-4fa8-985f-aae0f353ba80" name="OnlineVerkoopDirecteLevering.archimate" type="other"><folder id="c9df5cb5-290e-499d-beb6-f09beea186b1" name="Strategy" type="strategy">
+</folder><folder id="b30c2181-0096-4f94-a6d3-14815694dba5" name="OnlineVerkoopDirecteLevering.archimate" type="other"><folder id="c9df5cb5-290e-499d-beb6-f09beea186b1" name="Strategy" type="strategy">
     <element id="ea7e647b-7395-46c5-a074-76c9c3560771" name="Resource" xsi:type="archimate:Resource" />
   </folder>
   <folder id="ce90f7bf-8ac0-411d-ae6d-aa2cf4e6d68a" name="Business" type="business">
@@ -3617,6 +3617,30 @@ Ook kan deze authenticatie worden gebruikt </documentation>
       </child>
       <child archimateElement="09c35170-e3b5-4942-ba0a-f3739f83a7a7" id="dc90fb9c-c97b-48cc-b880-ea30d0b291a7" xsi:type="archimate:DiagramObject">
         <bounds height="55" width="120" x="684" y="578" />
+      </child>
+    </element>
+  </folder>
+</folder><folder id="4b0a0eaf-6773-4cc5-8e73-2d89e38b88b7" name="TomTest.archimate" type="other"><folder id="f8e373a3-3239-4e76-af19-4dc75a92bd01" name="Strategy" type="strategy" />
+  <folder id="0428cd63-92a0-42e3-8f10-6d15c2c347ee" name="Business" type="business" />
+  <folder id="ca941149-5c23-4734-9971-6c404f97dbbf" name="Application" type="application" />
+  <folder id="0fbacd27-ccb6-44e6-ba0c-a07bf2c0e43d" name="Technology &amp; Physical" type="technology">
+    <element id="9bf63a00-985b-491a-8823-99be6e4d60f3" name="k8s.v7f.eu" xsi:type="archimate:Node" />
+    <element id="66530329-48f8-4afb-966c-3b189293211d" name="DNS" xsi:type="archimate:Node" />
+  </folder>
+  <folder id="cafe8245-0ede-4f85-8678-3d72adbab188" name="Motivation" type="motivation" />
+  <folder id="a217fa07-e827-4e7f-a790-5bdbbd4c5f81" name="Implementation &amp; Migration" type="implementation_migration" />
+  <folder id="6055ba01-be81-4d43-ae34-5f314675b96b" name="Other" type="other" />
+  <folder id="e68f0f1c-193c-4e5a-9b52-3e5e604a5f0d" name="Relations" type="relations">
+    <element id="bdb92492-a0ee-4d64-9684-0ff653dc24fb" source="9bf63a00-985b-491a-8823-99be6e4d60f3" target="66530329-48f8-4afb-966c-3b189293211d" xsi:type="archimate:AssociationRelationship" />
+  </folder>
+  <folder id="fdc88a61-e86c-49d9-9452-46250284e52b" name="Views" type="diagrams">
+    <element id="21e726c5-421c-415c-b8a5-bd48f55dab85" name="Default View" xsi:type="archimate:ArchimateDiagramModel">
+      <child archimateElement="9bf63a00-985b-491a-8823-99be6e4d60f3" id="d842df17-88b2-4301-bf1f-950f2ec6867c" xsi:type="archimate:DiagramObject">
+        <bounds height="55" width="120" x="313" y="308" />
+        <sourceConnection archimateRelationship="bdb92492-a0ee-4d64-9684-0ff653dc24fb" id="ec7eb575-f81c-4717-8345-f43af2ecddae" source="d842df17-88b2-4301-bf1f-950f2ec6867c" target="0f2fac5a-5d24-4752-8df0-7d5ff1872b64" xsi:type="archimate:Connection" />
+      </child>
+      <child archimateElement="66530329-48f8-4afb-966c-3b189293211d" id="0f2fac5a-5d24-4752-8df0-7d5ff1872b64" targetConnections="ec7eb575-f81c-4717-8345-f43af2ecddae" xsi:type="archimate:DiagramObject">
+        <bounds height="55" width="120" x="414" y="172" />
       </child>
     </element>
   </folder>

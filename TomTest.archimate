@@ -3,18 +3,12 @@
   <folder name="Strategy" id="f8e373a3-3239-4e76-af19-4dc75a92bd01" type="strategy"/>
   <folder name="Business" id="0428cd63-92a0-42e3-8f10-6d15c2c347ee" type="business"/>
   <folder name="Application" id="ca941149-5c23-4734-9971-6c404f97dbbf" type="application"/>
-  <folder name="Technology &amp; Physical" id="0fbacd27-ccb6-44e6-ba0c-a07bf2c0e43d" type="technology">
-    <element xsi:type="archimate:Node" name="DNS" id="66530329-48f8-4afb-966c-3b189293211d"/>
-  </folder>
+  <folder name="Technology &amp; Physical" id="0fbacd27-ccb6-44e6-ba0c-a07bf2c0e43d" type="technology"/>
   <folder name="Motivation" id="cafe8245-0ede-4f85-8678-3d72adbab188" type="motivation"/>
   <folder name="Implementation &amp; Migration" id="a217fa07-e827-4e7f-a790-5bdbbd4c5f81" type="implementation_migration"/>
   <folder name="Other" id="6055ba01-be81-4d43-ae34-5f314675b96b" type="other"/>
   <folder name="Relations" id="e68f0f1c-193c-4e5a-9b52-3e5e604a5f0d" type="relations"/>
   <folder name="Views" id="fdc88a61-e86c-49d9-9452-46250284e52b" type="diagrams">
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="21e726c5-421c-415c-b8a5-bd48f55dab85">
-      <child xsi:type="archimate:DiagramObject" id="0f2fac5a-5d24-4752-8df0-7d5ff1872b64" archimateElement="66530329-48f8-4afb-966c-3b189293211d">
-        <bounds x="414" y="172" width="120" height="55"/>
-      </child>
-    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="21e726c5-421c-415c-b8a5-bd48f55dab85"/>
   </folder>
 </archimate:model>

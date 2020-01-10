@@ -3,9 +3,7 @@
   <folder name="Strategy" id="f8e373a3-3239-4e76-af19-4dc75a92bd01" type="strategy"/>
   <folder name="Business" id="0428cd63-92a0-42e3-8f10-6d15c2c347ee" type="business"/>
   <folder name="Application" id="ca941149-5c23-4734-9971-6c404f97dbbf" type="application"/>
-  <folder name="Technology &amp; Physical" id="0fbacd27-ccb6-44e6-ba0c-a07bf2c0e43d" type="technology">
-    <element xsi:type="archimate:Node" name="X-Node" id="37b63dcd-30d0-4ba4-94d1-182f7ee66150"/>
-  </folder>
+  <folder name="Technology &amp; Physical" id="0fbacd27-ccb6-44e6-ba0c-a07bf2c0e43d" type="technology"/>
   <folder name="Motivation" id="cafe8245-0ede-4f85-8678-3d72adbab188" type="motivation"/>
   <folder name="Implementation &amp; Migration" id="a217fa07-e827-4e7f-a790-5bdbbd4c5f81" type="implementation_migration"/>
   <folder name="Other" id="6055ba01-be81-4d43-ae34-5f314675b96b" type="other"/>

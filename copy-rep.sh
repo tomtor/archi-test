@@ -1,3 +1,5 @@
+rm *.archimate
+
 for i in "/v/IT/Architectuur/Domein Architectuur/Z_Archi Repository/"*.archimate
 do
   BN=$(basename "$i")

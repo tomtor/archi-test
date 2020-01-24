@@ -19,6 +19,20 @@ def update_repo(filename):
         root.remove(old_repo)
     else:
         print("no old repo", filename)
+
+    # Find duplicated items in repo
+    for f in new_repo.findall(".//folder"):
+      # print(f)
+      for e in f.findall("./"):
+        if "id" in e.attrib:
+            # print(e)
+            for o in root.findall(".//element[@id='" + e.attrib["id"] + "']"):
+                print("DEL: ", e.attrib["id"], o.attrib["id"])
+                f.remove(e)
+        else:
+            pass
+            # print("No ID:", e)
+
     root.insert(0, new_repo.find(".//folder[@name='Kadaster Repository']"))
 
     for e in root.findall(".//child[@archimateElement]"):

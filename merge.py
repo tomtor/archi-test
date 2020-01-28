@@ -29,7 +29,7 @@ for af in archifiles:
     data = ET.parse(af)
 
     afroot = data.getroot()
-    old_repo = afroot.find(".//folder[@name='Kadaster Repository']")
+    old_repo = afroot.find("./folder[@name='Kadaster Repository']")
     if old_repo:
         afroot.remove(old_repo)
         print("old repo removed")

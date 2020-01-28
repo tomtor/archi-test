@@ -1,4 +1,5 @@
-<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="cd575ec0-cdec-4db8-86dd-8e29ee8a494b" name="Kadaster" version="4.6.0" xmlns:archimate="http://www.archimatetool.com/archimate"><folder id="ae8982c6-6ea0-4f98-895a-ecc93d0e06a8" name="Kadaster Repository" type="other"><folder id="e4e92c8b-7a38-4ef3-98de-ce996f388100" name="19-12-27, Klantenservice services en componenten.archimate" type="other"><folder id="cec908d5-fddd-4be8-8555-5918abaf50a7" name="Strategy" type="strategy" />
+<archimate:model xmlns:ns0="http://www.archimatetool.com/archimate" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="d990030a-2bb7-4a1d-9317-1b8c6512f354" name="Kadaster" version="4.6.0" xmlns:archimate="http://www.archimatetool.com/archimate"><folder id="34f0a4d9-f236-439b-9c98-1585dc109b8d" name="Kadaster Repository" type="other"><folder id="41338a1b-5c31-44d3-8822-7b02dc0cf6b4" name="19-12-27, Klantenservice services en componenten.archimate" type="other"><ns0:model id="e2be44bd-c2cd-4134-8b52-09f2f632b542" name="Klanten service " version="4.6.0">
+  <folder id="cec908d5-fddd-4be8-8555-5918abaf50a7" name="Strategy" type="strategy" />
   <folder id="c0e4d211-b8fc-4399-9108-1e20af681a20" name="Business" type="business">
     <element id="aa0b9c76-0b15-4644-9212-7a3a54b9b36f" name="Klant registratie" xsi:type="archimate:BusinessService" />
     <element id="fc043f09-cbad-426b-b626-2d160b519595" name="KCC" xsi:type="archimate:BusinessRole" />
@@ -1154,7 +1155,8 @@
       </child>
     </element>
   </folder>
-</folder><folder id="891007af-34a4-4e20-a9b5-572d5830c134" name="Bedrijfsvoering.archimate" type="other"><folder id="5e9d7d31-47e1-454d-a4bb-d564a2bd6be6" name="Strategy" type="strategy" />
+</ns0:model></folder><folder id="13f3b17c-3aee-40df-8c4a-97bd6fe4e5ed" name="Bedrijfsvoering.archimate" type="other"><ns0:model id="077e3f7c-5bd8-433f-a722-7ec277508280" name="Bedrijfsvoering" version="4.4.0">
+  <folder id="5e9d7d31-47e1-454d-a4bb-d564a2bd6be6" name="Strategy" type="strategy" />
   <folder id="e9d023eb-a509-47db-91db-a92d7dc2d995" name="Business" type="business">
     <element id="3b39dbbc-b9a2-499e-af29-f2f8b2fdebdc" name="Inhuur flexibel Personeel" xsi:type="archimate:BusinessService" />
     <element id="af7010bb-ec47-4bee-bfaa-a315a53960e2" name="Opleidingen" xsi:type="archimate:BusinessService" />
@@ -2274,7 +2276,8 @@
       </child>
     </element>
   </folder>
-</folder><folder id="6c18fec0-073a-4f86-919f-df9f2a4cba6f" name="KEA2020R1-200121.archimate" type="other"><folder id="e1bde187-052e-4bdb-9cc3-86d21bfd5b14" name="Strategy" type="strategy">
+</ns0:model></folder><folder id="503b2685-cc32-467c-8c38-fa79c1ba9b5f" name="KEA2020R1-200121.archimate" type="other"><ns0:model id="867c0502-0a85-47a0-a3b1-b227970be7eb" name="KEA" version="4.6.0">
+  <folder id="e1bde187-052e-4bdb-9cc3-86d21bfd5b14" name="Strategy" type="strategy">
     <element id="2919d605-5abc-4349-9530-cd3608cc2b2d" name="Value Stream" xsi:type="archimate:ValueStream" />
   </folder>
   <folder id="79c73e17-2f16-497e-8ce7-ced6c00485f8" name="Business" type="business">
@@ -4270,7 +4273,8 @@ Kantoor voorzieningen</content>
       </element>
     </folder>
   </folder>
-</folder><folder id="bcff0d7a-db6d-44dc-9521-ad0cf1d0ff43" name="OnlineVerkoopDirecteLevering.archimate" type="other"><folder id="c9df5cb5-290e-499d-beb6-f09beea186b1" name="Strategy" type="strategy">
+</ns0:model></folder><folder id="c910fdae-4f04-4356-9efd-c6111ea09e38" name="OnlineVerkoopDirecteLevering.archimate" type="other"><ns0:model id="1130e29d-256a-41f8-9b6d-c4d3f9810153" name="OnlineVerkoopDirecteLevering" version="4.6.0">
+  <folder id="c9df5cb5-290e-499d-beb6-f09beea186b1" name="Strategy" type="strategy">
     <element id="ea7e647b-7395-46c5-a074-76c9c3560771" name="Resource" xsi:type="archimate:Resource" />
   </folder>
   <folder id="ce90f7bf-8ac0-411d-ae6d-aa2cf4e6d68a" name="Business" type="business">
@@ -4551,7 +4555,8 @@ Ook kan deze authenticatie worden gebruikt </documentation>
       </child>
     </element>
   </folder>
-</folder><folder id="14460168-fd6e-4853-9496-fcac768bb18d" name="tomtest.archimate" type="other"><folder id="f772162a-9bf3-41b1-bf54-785a31b84059" name="Strategy" type="strategy" />
+</ns0:model></folder><folder id="f98c326d-b4e5-4a55-a8f5-ece5d5aa913b" name="tomtest.archimate" type="other"><ns0:model id="41e2f36e-0eb0-48ee-9e80-bf568823d4a6" name="Tom Test" version="4.6.0">
+  <folder id="f772162a-9bf3-41b1-bf54-785a31b84059" name="Strategy" type="strategy" />
   <folder id="76f30cd5-4e79-4112-9e6f-c22744e2214f" name="Business" type="business" />
   <folder id="c4ad9582-6fcb-4128-8cee-02aa12f77f67" name="Application" type="application" />
   <folder id="637a6261-e758-4673-ba04-98ae905fdd89" name="Technology &amp; Physical" type="technology">
@@ -4568,4 +4573,4 @@ Ook kan deze authenticatie worden gebruikt </documentation>
       </child>
     </element>
   </folder>
-</folder></folder></archimate:model>
+</ns0:model></folder></folder></archimate:model>

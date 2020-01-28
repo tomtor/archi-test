@@ -5,8 +5,6 @@ do
   BN=$(basename "$i")
   echo COPY "$BN"
   cp "$i" "$BN"
-  #git add "$BN"
-  #git commit -m "update"
 done
 
 python merge.py

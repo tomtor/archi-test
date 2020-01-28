@@ -27,13 +27,13 @@ for af in archifiles:
     subfolder.attrib["id"] = str(uuid.uuid4())
     subfolder.attrib["type"] = "other"
     data = ET.parse(af)
-    
-    for c in data.getroot():
-        old_repo = c.find(".//folder[@name='Kadaster Repository']")
-        if old_repo:
-            c.remove(old_repo)
-            print("old repo removed")
-        subfolder.append(c)
+
+    afroot = data.getroot()
+    old_repo = afroot.find(".//folder[@name='Kadaster Repository']")
+    if old_repo:
+        afroot.remove(old_repo)
+        print("old repo removed")
+    subfolder.append(afroot)
 
 no_save = False
 count = 0

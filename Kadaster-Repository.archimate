@@ -1,4 +1,4 @@
-<archimate:model xmlns:ns0="http://www.archimatetool.com/archimate" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="127199a2-d476-4de1-8585-1a2a78cb03d5" name="Kadaster" version="4.6.0" xmlns:archimate="http://www.archimatetool.com/archimate"><folder id="0a804234-d833-481a-a71c-a57ea4690f52" name="Kadaster Repository" type="other"><folder id="8ff1e817-a66f-41a5-a240-bf1fbf64915f" name="19-12-27, Klantenservice services en componenten.archimate" type="other"><ns0:model id="e2be44bd-c2cd-4134-8b52-09f2f632b542" name="Klanten service " version="4.6.0">
+<archimate:model xmlns:ns0="http://www.archimatetool.com/archimate" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="b2cf03c9-c3c2-47f9-b6d8-88657bf30c60" name="Kadaster" version="4.6.0" xmlns:archimate="http://www.archimatetool.com/archimate"><folder id="a53a564b-09e6-44d0-b0d8-f035ded06b06" name="Kadaster Repository" type="other"><folder id="928de4ad-28c5-4a39-a115-7be2a67b9aeb" name="19-12-27, Klantenservice services en componenten.archimate" type="other"><ns0:model id="e2be44bd-c2cd-4134-8b52-09f2f632b542" name="Klanten service " version="4.6.0">
   <folder id="cec908d5-fddd-4be8-8555-5918abaf50a7" name="Strategy" type="strategy" />
   <folder id="c0e4d211-b8fc-4399-9108-1e20af681a20" name="Business" type="business">
     <element id="aa0b9c76-0b15-4644-9212-7a3a54b9b36f" name="Klant registratie" xsi:type="archimate:BusinessService" />
@@ -1155,7 +1155,7 @@
       </child>
     </element>
   </folder>
-</ns0:model></folder><folder id="741f6349-ffff-477d-aca2-8382a0277aaa" name="3D-produktie-200128.archimate" type="other"><ns0:model id="68cb19ce-aee1-4394-99c4-64d9c4de0f34" name="3D Monique" version="4.6.0">
+</ns0:model></folder><folder id="1c476f60-ef85-4638-8ee6-36929223cad5" name="3D-produktie-200128.archimate" type="other"><ns0:model id="68cb19ce-aee1-4394-99c4-64d9c4de0f34" name="3D Monique" version="4.6.0">
   <folder id="f69080d8-f277-4d09-ad39-2301bfaa799a" name="Strategy" type="strategy" />
   <folder id="cace2c3b-c7ce-4c22-b737-c9b2ca4ec2a2" name="Business" type="business">
     <element id="6b9df840-6c44-498f-9c46-8d4b67a96fee" name="Klaarzetten data" xsi:type="archimate:BusinessProcess">
@@ -1445,13 +1445,9 @@ Dataset uit top 10 nl voor bos gebieden, alleen voor naamgeving.
     <element id="e7d8ffe6-49f5-4d86-bfbe-45c76ad72497" source="1bad2993-6b67-4522-b8a2-f95bb6ed6ad3" target="9d46217a-7f7c-457b-8afc-f16dea0dea71" xsi:type="archimate:AssociationRelationship" />
     <element id="40b82dd0-0f7e-4d9f-89e1-2e2573273a90" source="2d71db38-2ea5-4ade-8ae6-3fbab06cb49c" target="95f371e7-5f13-4d92-b00c-273996b669ae" xsi:type="archimate:AccessRelationship" />
     <element id="d074b612-1ec5-41e6-ad5b-227de9d85642" source="127ffd0d-a571-4344-afb7-a655bce19635" target="bc4cd488-db14-476a-887e-2a20ca46c70d" xsi:type="archimate:AccessRelationship" />
-    <element id="b0257625-93c5-486a-bcc8-4e1138437dcd" source="09356995-a8f9-426f-9c35-5fe4d8c701fc" target="fe5bfeda-f24f-4648-9610-dab2de335ac1" xsi:type="archimate:CompositionRelationship" />
-    <element id="f3d7733a-7019-4479-8507-7ed2bf34f910" source="09356995-a8f9-426f-9c35-5fe4d8c701fc" target="5ff8088f-8a2e-4808-bbca-e76655afa001" xsi:type="archimate:CompositionRelationship" />
-    <element id="fed58392-b47f-4620-9e25-547be2ee40a3" source="09356995-a8f9-426f-9c35-5fe4d8c701fc" target="643acc80-2403-46fe-91fb-64be7899123a" xsi:type="archimate:CompositionRelationship" />
     <element id="f5057d25-0ded-4657-8e44-b2020ec02610" source="ae018ccc-eaa2-4b50-a63f-f33443c2bd5b" target="03575178-c43e-4097-bd6c-9b943da4a9b8" xsi:type="archimate:AssociationRelationship" />
     <element id="cc8c8ede-6131-4bf3-8066-f4ddc3f00647" source="ae018ccc-eaa2-4b50-a63f-f33443c2bd5b" target="03575178-c43e-4097-bd6c-9b943da4a9b8" xsi:type="archimate:AssociationRelationship" />
     <element id="0476454f-7ec5-4575-a2db-98974da2b08d" source="f50fc072-f94b-48d6-a376-22adab6153d8" target="ae018ccc-eaa2-4b50-a63f-f33443c2bd5b" xsi:type="archimate:AssociationRelationship" />
-    <element id="babbcbe1-b696-444a-89dd-ffd37935d747" source="035b7aa8-5e52-4260-9e96-4b4f71681a1f" target="1c3729e4-9b69-45a3-bcdd-0a95ba51e35a" xsi:type="archimate:AggregationRelationship" />
     <element id="9f141be6-7316-4d21-a9dc-a32a4bf0175b" source="6d1fc911-ea81-40d6-b14e-e01f03c6b485" target="7556c37f-fd5a-434f-af36-046285b47e83" xsi:type="archimate:AssociationRelationship" />
     <element id="e78b3f79-f76d-41d0-b818-c57104a67578" source="7556c37f-fd5a-434f-af36-046285b47e83" target="56a50ca2-3d61-4c1c-93d3-d52de1106191" xsi:type="archimate:AssociationRelationship" />
     <element id="e7d285a8-2957-482a-8eda-8ef2d46246ad" source="9a771d52-8ab7-472a-bc56-b827c90982d8" target="190ddc5e-fbcb-401d-8a10-564a17faa329" xsi:type="archimate:AggregationRelationship" />
@@ -2206,13 +2202,6 @@ Dataset uit top 10 nl voor bos gebieden, alleen voor naamgeving.
             <bounds height="55" width="120" x="24" y="336" />
           </child>
         </child>
-        <child archimateElement="035b7aa8-5e52-4260-9e96-4b4f71681a1f" id="8ed22c01-8e8e-44e5-bb73-0bcb1f8bfaed" textAlignment="1" xsi:type="archimate:DiagramObject">
-          <bounds height="97" width="145" x="91" y="540" />
-          <sourceConnection archimateRelationship="babbcbe1-b696-444a-89dd-ffd37935d747" id="f4d4d7c4-d41f-40ea-83d9-59d27cd61d8d" source="8ed22c01-8e8e-44e5-bb73-0bcb1f8bfaed" target="d2a5764b-4f57-49e4-a8cb-622636d2325e" xsi:type="archimate:Connection" />
-          <child archimateElement="1c3729e4-9b69-45a3-bcdd-0a95ba51e35a" id="d2a5764b-4f57-49e4-a8cb-622636d2325e" targetConnections="f4d4d7c4-d41f-40ea-83d9-59d27cd61d8d" xsi:type="archimate:DiagramObject">
-            <bounds height="55" width="120" x="12" y="36" />
-          </child>
-        </child>
       </element>
       <element id="82c7deda-eab4-4551-95b8-335d35b54382" name="Lijn 0" xsi:type="archimate:ArchimateDiagramModel">
         <child id="ab9fe2ad-2fd5-4a14-9e21-cf2e248aac39" name="Lijn 00" textAlignment="1" xsi:type="archimate:Group">
@@ -2356,21 +2345,6 @@ Dataset uit top 10 nl voor bos gebieden, alleen voor naamgeving.
           <bounds height="409" width="1321" y="48" />
           <child id="3fc887e2-4f02-407e-a754-ea455a3a9c24" name="Lijn A" textAlignment="1" xsi:type="archimate:Group">
             <bounds height="385" width="1321" y="24" />
-            <child archimateElement="09356995-a8f9-426f-9c35-5fe4d8c701fc" id="3ea7c623-a4c6-4e3e-a186-143e70e8cd40" textAlignment="1" xsi:type="archimate:DiagramObject">
-              <bounds height="205" width="217" x="168" y="156" />
-              <sourceConnection archimateRelationship="b0257625-93c5-486a-bcc8-4e1138437dcd" id="ef903c79-824d-42fd-aae4-88381de94fe4" source="3ea7c623-a4c6-4e3e-a186-143e70e8cd40" target="b50d7442-4624-4264-a62e-a078a92f3abf" xsi:type="archimate:Connection" />
-              <sourceConnection archimateRelationship="f3d7733a-7019-4479-8507-7ed2bf34f910" id="bf58931b-0ddd-4310-9fbd-b108426dcde0" source="3ea7c623-a4c6-4e3e-a186-143e70e8cd40" target="315248c1-28f3-42dd-94a0-787c7552af11" xsi:type="archimate:Connection" />
-              <sourceConnection archimateRelationship="fed58392-b47f-4620-9e25-547be2ee40a3" id="7f4459f6-1374-4b14-b3fe-c9625a308938" source="3ea7c623-a4c6-4e3e-a186-143e70e8cd40" target="e41d4bf8-adcc-4cb9-a573-7ece0e5f2012" xsi:type="archimate:Connection" />
-              <child archimateElement="fe5bfeda-f24f-4648-9610-dab2de335ac1" id="b50d7442-4624-4264-a62e-a078a92f3abf" targetConnections="2bde878c-ab81-455d-aa97-f9cd1877bffa ef903c79-824d-42fd-aae4-88381de94fe4" xsi:type="archimate:DiagramObject">
-                <bounds height="48" width="97" x="12" y="24" />
-              </child>
-              <child archimateElement="5ff8088f-8a2e-4808-bbca-e76655afa001" id="315248c1-28f3-42dd-94a0-787c7552af11" targetConnections="9f2a64af-92bf-4356-9dbc-e0d6e6602db7 bf58931b-0ddd-4310-9fbd-b108426dcde0" xsi:type="archimate:DiagramObject">
-                <bounds height="48" width="84" x="84" y="84" />
-              </child>
-              <child archimateElement="643acc80-2403-46fe-91fb-64be7899123a" id="e41d4bf8-adcc-4cb9-a573-7ece0e5f2012" targetConnections="ae8c823b-8df7-47b1-8468-dbe8c155818a 7f4459f6-1374-4b14-b3fe-c9625a308938" xsi:type="archimate:DiagramObject">
-                <bounds height="48" width="84" x="132" y="144" />
-              </child>
-            </child>
             <child archimateElement="c18cd86b-4ca4-484e-928c-e72a1a4be82c" id="b427d50c-e6ef-4461-b5cd-64d3ba60f52f" targetConnections="644198f9-5b46-4060-9b3e-ade034f97f7c 870a9df4-5ba1-4c00-b2d7-f80ce3e0bb1c 83742446-eee3-4129-acb2-05a1ad2c2555" xsi:type="archimate:DiagramObject">
               <bounds height="55" width="132" x="516" y="36" />
               <sourceConnection archimateRelationship="d7a7bcd4-1d9a-4528-8820-6a377ced6ebe" id="6de656c9-4309-4e17-94e6-a3c7a4d68f89" source="b427d50c-e6ef-4461-b5cd-64d3ba60f52f" target="47aa4770-305c-4989-b044-004638a8581a" xsi:type="archimate:Connection" />
@@ -2391,9 +2365,6 @@ Dataset uit top 10 nl voor bos gebieden, alleen voor naamgeving.
             <child archimateElement="33ce66c1-7967-4af2-8209-88800f86ebb3" id="e6406993-fd07-447e-b362-a9b216f80353" targetConnections="6192db31-3231-4318-bd19-df2f45a436da" xsi:type="archimate:DiagramObject">
               <bounds height="55" width="323" x="168" y="36" />
               <sourceConnection archimateRelationship="13463b36-9a9f-4eab-b88f-1841095c37ee" id="644198f9-5b46-4060-9b3e-ade034f97f7c" source="e6406993-fd07-447e-b362-a9b216f80353" target="b427d50c-e6ef-4461-b5cd-64d3ba60f52f" xsi:type="archimate:Connection" />
-              <sourceConnection archimateRelationship="8f30173d-d41e-4c69-a5c7-b1e702d7c9a8" id="2bde878c-ab81-455d-aa97-f9cd1877bffa" source="e6406993-fd07-447e-b362-a9b216f80353" target="b50d7442-4624-4264-a62e-a078a92f3abf" xsi:type="archimate:Connection" />
-              <sourceConnection archimateRelationship="7cd42e54-8fd0-4dd8-b087-bd41d04ec2eb" id="9f2a64af-92bf-4356-9dbc-e0d6e6602db7" source="e6406993-fd07-447e-b362-a9b216f80353" target="315248c1-28f3-42dd-94a0-787c7552af11" xsi:type="archimate:Connection" />
-              <sourceConnection archimateRelationship="62cc93f4-469b-405b-a3b0-eb42c5a86677" id="ae8c823b-8df7-47b1-8468-dbe8c155818a" source="e6406993-fd07-447e-b362-a9b216f80353" target="e41d4bf8-adcc-4cb9-a573-7ece0e5f2012" xsi:type="archimate:Connection" />
               <sourceConnection archimateRelationship="59e8d0e8-80da-4000-b9e8-a11693bcef4b" id="7eb37b54-26d2-4a1e-aba4-3ebafa77562f" source="e6406993-fd07-447e-b362-a9b216f80353" target="776f70f2-27f3-4550-ada3-e21216ea36c2" xsi:type="archimate:Connection" />
             </child>
             <child archimateElement="9d46217a-7f7c-457b-8afc-f16dea0dea71" id="1bb9d29b-7228-460e-ac78-1ccefd0810f4" targetConnections="9b8d20ff-dcce-43b8-9cfe-46e0c3a6ef85 7129c118-32b4-4ad8-b123-b376f1dbf060" xsi:type="archimate:DiagramObject">
@@ -2787,7 +2758,7 @@ Dataset uit top 10 nl voor bos gebieden, alleen voor naamgeving.
       </child>
     </element>
   </folder>
-</ns0:model></folder><folder id="f91b4dbe-de2c-43d3-a71d-cb035ec3ff08" name="Bedrijfsvoering.archimate" type="other"><ns0:model id="077e3f7c-5bd8-433f-a722-7ec277508280" name="Bedrijfsvoering" version="4.4.0">
+</ns0:model></folder><folder id="b07f12b5-caa8-46c9-b5a5-25542b620f88" name="Bedrijfsvoering.archimate" type="other"><ns0:model id="077e3f7c-5bd8-433f-a722-7ec277508280" name="Bedrijfsvoering" version="4.4.0">
   <folder id="5e9d7d31-47e1-454d-a4bb-d564a2bd6be6" name="Strategy" type="strategy" />
   <folder id="e9d023eb-a509-47db-91db-a92d7dc2d995" name="Business" type="business">
     <element id="3b39dbbc-b9a2-499e-af29-f2f8b2fdebdc" name="Inhuur flexibel Personeel" xsi:type="archimate:BusinessService" />
@@ -3908,7 +3879,7 @@ Dataset uit top 10 nl voor bos gebieden, alleen voor naamgeving.
       </child>
     </element>
   </folder>
-</ns0:model></folder><folder id="0594ac4a-a5e7-4c83-aaa3-8c00f821b23f" name="KEA2020R1-200121.archimate" type="other"><ns0:model id="867c0502-0a85-47a0-a3b1-b227970be7eb" name="KEA" version="4.6.0">
+</ns0:model></folder><folder id="19615c7d-97c9-4825-854d-388efec1f791" name="KEA2020R1-200121.archimate" type="other"><ns0:model id="867c0502-0a85-47a0-a3b1-b227970be7eb" name="KEA" version="4.6.0">
   <folder id="e1bde187-052e-4bdb-9cc3-86d21bfd5b14" name="Strategy" type="strategy">
     <element id="2919d605-5abc-4349-9530-cd3608cc2b2d" name="Value Stream" xsi:type="archimate:ValueStream" />
   </folder>
@@ -5905,7 +5876,7 @@ Kantoor voorzieningen</content>
       </element>
     </folder>
   </folder>
-</ns0:model></folder><folder id="ae10a4f6-63e8-4d19-8f90-1667083be46e" name="OnlineVerkoopDirecteLevering.archimate" type="other"><ns0:model id="1130e29d-256a-41f8-9b6d-c4d3f9810153" name="OnlineVerkoopDirecteLevering" version="4.6.0">
+</ns0:model></folder><folder id="a95147f7-1a9b-4791-aa2a-870bc2b7d397" name="OnlineVerkoopDirecteLevering.archimate" type="other"><ns0:model id="1130e29d-256a-41f8-9b6d-c4d3f9810153" name="OnlineVerkoopDirecteLevering" version="4.6.0">
   <folder id="c9df5cb5-290e-499d-beb6-f09beea186b1" name="Strategy" type="strategy">
     <element id="ea7e647b-7395-46c5-a074-76c9c3560771" name="Resource" xsi:type="archimate:Resource" />
   </folder>

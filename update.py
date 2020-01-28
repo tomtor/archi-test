@@ -33,7 +33,8 @@ def update_repo(filename):
             pass
             # print("No ID:", e)
 
-    root.insert(0, new_repo.find(".//folder[@name='Kadaster Repository']"))
+    #root.insert(0, new_repo.find(".//folder[@name='Kadaster Repository']"))
+    root.append(new_repo.find(".//folder[@name='Kadaster Repository']"))
 
     for e in root.findall(".//child[@archimateElement]"):
         aelem = e.get("archimateElement")
@@ -45,7 +46,7 @@ def update_repo(filename):
                 old = ET.SubElement(root, "folder")
                 old.attrib["name"] = "OLD-Repo"
                 old.attrib["id"] = str(uuid.uuid4())
-                old.attrib["type"] = "other"
+                #old.attrib["type"] = "other"
             else:
                 old = old[0]
             aelem = old_repo.find(".//element[@id='" + aelem + "']")

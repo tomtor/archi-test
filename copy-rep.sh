@@ -13,5 +13,3 @@ git commit -m "New Merged Repository"
 git push
 
 git push tom@k8s.v7f.eu:archi-test master
-
-cp Kadaster-Repository.archimate "/v/IT/Architectuur/Domein Architectuur/Z_Archi Repository/"

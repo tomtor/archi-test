@@ -1,4 +1,4 @@
-<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="7cbe6540-e02d-40b9-bcd2-2c34c4178481" name="Kadaster" version="4.6.0" xmlns:archimate="http://www.archimatetool.com/archimate"><folder id="5529fcb8-4f19-41eb-8e86-942a75d7e22c" name="Kadaster Repository"><folder id="e78e8d78-8b04-46e4-9e5e-2b98a7cd1b57" name="19-12-27, Klantenservice services en componenten.archimate"><folder id="cec908d5-fddd-4be8-8555-5918abaf50a7" name="Strategy" type="strategy" />
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="25e2044c-357a-4aa7-b294-e91ca57454d1" name="Kadaster" version="4.6.0" xmlns:archimate="http://www.archimatetool.com/archimate"><folder id="14a2f122-19f7-4a19-8d96-b2d12fe307c5" name="Kadaster Repository"><folder id="ae326009-7709-4de9-819d-8b61cda006fc" name="19-12-27, Klantenservice services en componenten.archimate"><folder id="cec908d5-fddd-4be8-8555-5918abaf50a7" name="Strategy" type="strategy" />
   <folder id="c0e4d211-b8fc-4399-9108-1e20af681a20" name="Business" type="business">
     <element id="aa0b9c76-0b15-4644-9212-7a3a54b9b36f" name="Klant registratie" xsi:type="archimate:BusinessService" />
     <element id="fc043f09-cbad-426b-b626-2d160b519595" name="KCC" xsi:type="archimate:BusinessRole" />
@@ -1154,7 +1154,7 @@
       </child>
     </element>
   </folder>
-</folder><folder id="30ad028f-e1c6-46ac-bef1-e91e1b2765fc" name="3D-produktie-200128.archimate"><folder id="f69080d8-f277-4d09-ad39-2301bfaa799a" name="Strategy" type="strategy" />
+</folder><folder id="d84689c2-c423-4f6c-8126-743a36ad9738" name="3D-produktie-200128.archimate"><folder id="f69080d8-f277-4d09-ad39-2301bfaa799a" name="Strategy" type="strategy" />
   <folder id="cace2c3b-c7ce-4c22-b737-c9b2ca4ec2a2" name="Business" type="business">
     <element id="6b9df840-6c44-498f-9c46-8d4b67a96fee" name="Klaarzetten data" xsi:type="archimate:BusinessProcess">
       <documentation>Klaarzetten bgt en bag dat er geen topologische onjuistheden er uit. En moeten bestandsdekkend geheel. Gaten moeten gevuld worden. Selectie van de componenten.</documentation>
@@ -2756,7 +2756,7 @@ Dataset uit top 10 nl voor bos gebieden, alleen voor naamgeving.
       </child>
     </element>
   </folder>
-</folder><folder id="774ef793-b7a7-4824-bff9-8d1aad84db15" name="Bedrijfsvoering.archimate"><folder id="5e9d7d31-47e1-454d-a4bb-d564a2bd6be6" name="Strategy" type="strategy" />
+</folder><folder id="e4ddaad0-36fb-4a07-8d64-61af01ce8c65" name="Bedrijfsvoering.archimate"><folder id="5e9d7d31-47e1-454d-a4bb-d564a2bd6be6" name="Strategy" type="strategy" />
   <folder id="e9d023eb-a509-47db-91db-a92d7dc2d995" name="Business" type="business">
     <element id="3b39dbbc-b9a2-499e-af29-f2f8b2fdebdc" name="Inhuur flexibel Personeel" xsi:type="archimate:BusinessService" />
     <element id="af7010bb-ec47-4bee-bfaa-a315a53960e2" name="Opleidingen" xsi:type="archimate:BusinessService" />
@@ -3876,7 +3876,7 @@ Dataset uit top 10 nl voor bos gebieden, alleen voor naamgeving.
       </child>
     </element>
   </folder>
-</folder><folder id="e9d2bac2-457a-499f-a6b0-a2244820b70e" name="KEA2020R1-200121.archimate"><folder id="e1bde187-052e-4bdb-9cc3-86d21bfd5b14" name="Strategy" type="strategy">
+</folder><folder id="c9fa4468-d964-4a16-b0ff-3c8e2bb7c736" name="KEA2020R1-200121.archimate"><folder id="e1bde187-052e-4bdb-9cc3-86d21bfd5b14" name="Strategy" type="strategy">
     <element id="2919d605-5abc-4349-9530-cd3608cc2b2d" name="Value Stream" xsi:type="archimate:ValueStream" />
   </folder>
   <folder id="79c73e17-2f16-497e-8ce7-ced6c00485f8" name="Business" type="business">
@@ -5872,7 +5872,7 @@ Kantoor voorzieningen</content>
       </element>
     </folder>
   </folder>
-</folder><folder id="a0a804f6-c5e8-438f-9111-04c77704125e" name="Middelen-Overzicht-200225.archimate"><folder id="75a56fe8-14c5-4a2b-9c26-632036a14fb1" name="Strategy" type="strategy" />
+</folder><folder id="42961884-9019-4b75-a3fe-ce0708f7276b" name="Middelen-Overzicht-200225.archimate"><folder id="75a56fe8-14c5-4a2b-9c26-632036a14fb1" name="Strategy" type="strategy" />
   <folder id="2fc3fbd2-0ddd-4f32-8787-220ff2de97eb" name="Business" type="business" />
   <folder id="7f72745d-f23a-4d85-93d4-e7650c2c7728" name="Application" type="application">
     <element id="0f33dc6e-5b0e-46b8-af8e-c4adc660b4a2" name="ESRI (Arc* suite)" xsi:type="archimate:ApplicationComponent">
@@ -6010,11 +6010,6 @@ eventueel via min.io vullen (PDOK)</documentation>
 
 Alternative: Azure F5 BIG-IP</documentation>
     </element>
-    <element id="f2cffafb-1580-4005-a2c3-13415a3be46e" name="NGINX" xsi:type="archimate:TechnologyCollaboration">
-      <documentation>Webserver
-
-Alternatief: BLOB-Storage</documentation>
-    </element>
     <element id="38eacfb5-ffac-4170-bd65-c773edde5fea" name="Apache" xsi:type="archimate:SystemSoftware">
       <documentation>Webserver
 
@@ -6072,6 +6067,11 @@ Alternatieven: ESRI, QGIS
 
 Vervangen door web applicaties (GGC, OpenLayers)
 </documentation>
+    </element>
+    <element id="e4ebde86-c5c3-4cfe-8776-3da588b52dfb" name="NGINX" xsi:type="archimate:SystemSoftware">
+      <documentation>Webserver
+
+Alternatieven: BLOB-Storage</documentation>
     </element>
   </folder>
   <folder id="f803da4d-6234-4ce3-8d66-ab27187bc540" name="Motivation" type="motivation" />
@@ -6135,7 +6135,7 @@ Vervangen door web applicaties (GGC, OpenLayers)
         </child>
       </child>
       <child id="38c4d4ad-8986-4703-b287-210bd7ad9dfd" name="Infrastructure" textAlignment="1" xsi:type="archimate:Group">
-        <bounds height="336" width="468" x="588" y="48" />
+        <bounds height="336" width="468" x="588" y="24" />
         <child archimateElement="ace6be12-56dc-4992-a2b0-dbc6c645029f" id="02609309-8a71-4ba2-9f29-a387cab63759" xsi:type="archimate:DiagramObject">
           <bounds height="55" width="120" x="32" y="50" />
         </child>
@@ -6144,9 +6144,6 @@ Vervangen door web applicaties (GGC, OpenLayers)
         </child>
         <child archimateElement="729ea994-8639-4c6a-b91f-927b1e1204d9" id="20d6c696-66da-478b-8f73-3ab3dc945f39" xsi:type="archimate:DiagramObject">
           <bounds height="55" width="120" x="32" y="192" />
-        </child>
-        <child archimateElement="f2cffafb-1580-4005-a2c3-13415a3be46e" id="5f83ee13-eef6-4aa6-93a5-8e90c0008232" xsi:type="archimate:DiagramObject">
-          <bounds height="55" width="120" x="180" y="50" />
         </child>
         <child archimateElement="38eacfb5-ffac-4170-bd65-c773edde5fea" id="eac51b98-fd2d-48b0-b8a6-9ad1ed5ba62a" xsi:type="archimate:DiagramObject">
           <bounds height="55" width="120" x="180" y="120" />
@@ -6171,6 +6168,9 @@ Vervangen door web applicaties (GGC, OpenLayers)
         </child>
         <child archimateElement="0fce15b8-0513-4e76-866d-1d0fad29d95e" fillColor="#ff8040" id="a6f09dbc-34c1-4727-a920-e948969fab8b" xsi:type="archimate:DiagramObject">
           <bounds height="55" width="120" x="32" y="264" />
+        </child>
+        <child archimateElement="e4ebde86-c5c3-4cfe-8776-3da588b52dfb" id="03fe01cd-8286-481b-bf56-44831eb7822c" xsi:type="archimate:DiagramObject">
+          <bounds height="55" width="120" x="180" y="50" />
         </child>
       </child>
       <child id="edb6a32d-372a-4646-8643-9fcf97510d76" name="(SAAS) Suites" textAlignment="1" xsi:type="archimate:Group">
@@ -6205,7 +6205,7 @@ Vervangen door web applicaties (GGC, OpenLayers)
         </child>
       </child>
       <child id="4b1daec2-3cc4-4042-94e8-5babca66c254" name="Development" textAlignment="1" xsi:type="archimate:Group">
-        <bounds height="180" width="504" x="36" y="708" />
+        <bounds height="180" width="504" x="37" y="696" />
         <child archimateElement="6f58edfc-4790-4a87-b487-d4efa21ebed9" id="dbfbbb68-7249-42f3-a20b-ce66e6e7a088" xsi:type="archimate:DiagramObject">
           <bounds height="55" width="120" x="24" y="36" />
         </child>
@@ -6224,7 +6224,7 @@ Vervangen door web applicaties (GGC, OpenLayers)
       </child>
     </element>
   </folder>
-</folder><folder id="a41c4911-d141-4a07-95aa-4c050647752f" name="OnlineVerkoopDirecteLevering.archimate"><folder id="c9df5cb5-290e-499d-beb6-f09beea186b1" name="Strategy" type="strategy">
+</folder><folder id="e56e3d96-65ae-46e8-a776-131b838506d2" name="OnlineVerkoopDirecteLevering.archimate"><folder id="c9df5cb5-290e-499d-beb6-f09beea186b1" name="Strategy" type="strategy">
     <element id="ea7e647b-7395-46c5-a074-76c9c3560771" name="Resource" xsi:type="archimate:Resource" />
   </folder>
   <folder id="ce90f7bf-8ac0-411d-ae6d-aa2cf4e6d68a" name="Business" type="business">

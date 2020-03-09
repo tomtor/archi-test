@@ -1,4 +1,4 @@
-<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="1c8be92a-3c02-4f15-b250-3d978b41315c" name="Kadaster" version="4.6.0" xmlns:archimate="http://www.archimatetool.com/archimate"><folder id="5183ef20-df02-4ba5-bcbb-493bb5163cc8" name="Kadaster Repository"><folder id="0c873571-9bf6-4d11-8dce-7d4dec51084c" name="3D produktie.200128.archimate"><folder id="f69080d8-f277-4d09-ad39-2301bfaa799a" name="Strategy" type="strategy" />
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="fb0d0586-de14-4845-9b90-a5162ad7cc03" name="Kadaster" version="4.6.0" xmlns:archimate="http://www.archimatetool.com/archimate"><folder id="1f12d551-8e99-4800-b0d8-5da91fa3a72b" name="Kadaster Repository"><folder id="28755131-b514-41db-8814-42e1d2092487" name="3D produktie.200128.archimate"><folder id="f69080d8-f277-4d09-ad39-2301bfaa799a" name="Strategy" type="strategy" />
   <folder id="cace2c3b-c7ce-4c22-b737-c9b2ca4ec2a2" name="Business" type="business">
     <element id="6b9df840-6c44-498f-9c46-8d4b67a96fee" name="Klaarzetten data" xsi:type="archimate:BusinessProcess">
       <documentation>Klaarzetten bgt en bag dat er geen topologische onjuistheden er uit. En moeten bestandsdekkend geheel. Gaten moeten gevuld worden. Selectie van de componenten.</documentation>
@@ -1600,7 +1600,7 @@ Dataset uit top 10 nl voor bos gebieden, alleen voor naamgeving.
       </child>
     </element>
   </folder>
-</folder><folder id="36232f25-0d03-4cac-838f-4d74971091c1" name="Bedrijfsvoering.191223.archimate"><folder id="5e9d7d31-47e1-454d-a4bb-d564a2bd6be6" name="Strategy" type="strategy" />
+</folder><folder id="d5e876d6-ab33-4d00-a6c7-1721e0fb346d" name="Bedrijfsvoering.191223.archimate"><folder id="5e9d7d31-47e1-454d-a4bb-d564a2bd6be6" name="Strategy" type="strategy" />
   <folder id="e9d023eb-a509-47db-91db-a92d7dc2d995" name="Business" type="business">
     <element id="3b39dbbc-b9a2-499e-af29-f2f8b2fdebdc" name="Inhuur flexibel Personeel" xsi:type="archimate:BusinessService" />
     <element id="af7010bb-ec47-4bee-bfaa-a315a53960e2" name="Opleidingen" xsi:type="archimate:BusinessService" />
@@ -2720,7 +2720,7 @@ Dataset uit top 10 nl voor bos gebieden, alleen voor naamgeving.
       </child>
     </element>
   </folder>
-</folder><folder id="0270cfbc-197f-4544-acbb-9b7dab0ca659" name="KEA2020R1.200115.archimate"><folder id="e1bde187-052e-4bdb-9cc3-86d21bfd5b14" name="Strategy" type="strategy">
+</folder><folder id="4c3e7e18-df90-4906-83cf-e22f863a167b" name="KEA2020R1.200115.archimate"><folder id="e1bde187-052e-4bdb-9cc3-86d21bfd5b14" name="Strategy" type="strategy">
     <element id="2919d605-5abc-4349-9530-cd3608cc2b2d" name="Value Stream" xsi:type="archimate:ValueStream" />
   </folder>
   <folder id="79c73e17-2f16-497e-8ce7-ced6c00485f8" name="Business" type="business">
@@ -4716,7 +4716,7 @@ Kantoor voorzieningen</content>
       </element>
     </folder>
   </folder>
-</folder><folder id="92ae5266-ba33-4279-8546-ee682454c7bc" name="Klantenservice services en componenten.191227.archimate"><folder id="cec908d5-fddd-4be8-8555-5918abaf50a7" name="Strategy" type="strategy" />
+</folder><folder id="d4701d31-7909-47b3-8d52-8d3c2c1b6dd7" name="Klantenservice services en componenten.191227.archimate"><folder id="cec908d5-fddd-4be8-8555-5918abaf50a7" name="Strategy" type="strategy" />
   <folder id="c0e4d211-b8fc-4399-9108-1e20af681a20" name="Business" type="business">
     <element id="aa0b9c76-0b15-4644-9212-7a3a54b9b36f" name="Klant registratie" xsi:type="archimate:BusinessService" />
     <element id="fc043f09-cbad-426b-b626-2d160b519595" name="KCC" xsi:type="archimate:BusinessRole" />
@@ -5872,7 +5872,7 @@ Kantoor voorzieningen</content>
       </child>
     </element>
   </folder>
-</folder><folder id="df55b2ca-c748-4992-9edd-8d9f4c970579" name="Middelen Overzicht.200302.archimate"><folder id="75a56fe8-14c5-4a2b-9c26-632036a14fb1" name="Strategy" type="strategy" />
+</folder><folder id="c2b07433-162f-4a4c-9776-5705724f9c2c" name="Middelen Overzicht.200309.archimate"><folder id="75a56fe8-14c5-4a2b-9c26-632036a14fb1" name="Strategy" type="strategy" />
   <folder id="2fc3fbd2-0ddd-4f32-8787-220ff2de97eb" name="Business" type="business" />
   <folder id="7f72745d-f23a-4d85-93d4-e7650c2c7728" name="Application" type="application">
     <element id="0f33dc6e-5b0e-46b8-af8e-c4adc660b4a2" name="ESRI (Arc* suite)" xsi:type="archimate:ApplicationComponent">
@@ -6075,7 +6075,7 @@ Alternatief: MapServer</documentation>
 
 Alternatieven: Java, Kubernetes</documentation>
     </element>
-    <element id="0fce15b8-0513-4e76-866d-1d0fad29d95e" name="OracleMQ" xsi:type="archimate:SystemSoftware">
+    <element id="0fce15b8-0513-4e76-866d-1d0fad29d95e" name="OracleAQ" xsi:type="archimate:SystemSoftware">
       <documentation>Message Middleware (uitfaseren)
 
 Alternatieven: REST, zie https://www.infoq.com/articles/no-reliable-messaging/
@@ -6271,7 +6271,7 @@ Alternatieven: BLOB-Storage</documentation>
       </child>
     </element>
   </folder>
-</folder><folder id="bed8dc8e-8506-4fe5-a249-e5f15c354e48" name="Online verkoop directe levering.200107.archimate"><folder id="c9df5cb5-290e-499d-beb6-f09beea186b1" name="Strategy" type="strategy">
+</folder><folder id="28c680b5-486f-4023-94bd-eabd191a0e3c" name="Online verkoop directe levering.200107.archimate"><folder id="c9df5cb5-290e-499d-beb6-f09beea186b1" name="Strategy" type="strategy">
     <element id="ea7e647b-7395-46c5-a074-76c9c3560771" name="Resource" xsi:type="archimate:Resource" />
   </folder>
   <folder id="ce90f7bf-8ac0-411d-ae6d-aa2cf4e6d68a" name="Business" type="business">

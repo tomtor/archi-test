@@ -1,4 +1,4 @@
-<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="fb0d0586-de14-4845-9b90-a5162ad7cc03" name="Kadaster" version="4.6.0" xmlns:archimate="http://www.archimatetool.com/archimate"><folder id="1f12d551-8e99-4800-b0d8-5da91fa3a72b" name="Kadaster Repository"><folder id="28755131-b514-41db-8814-42e1d2092487" name="3D produktie.200128.archimate"><folder id="f69080d8-f277-4d09-ad39-2301bfaa799a" name="Strategy" type="strategy" />
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="1185a6cb-b342-4255-a7eb-eedd47ee784f" name="Kadaster" version="4.6.0" xmlns:archimate="http://www.archimatetool.com/archimate"><folder id="97b62f34-026c-41c1-ad83-bdc6f7adde67" name="Kadaster Repository"><folder id="78f05250-3912-4e7d-8704-125d03d8c070" name="3D produktie.200128.archimate"><folder id="f69080d8-f277-4d09-ad39-2301bfaa799a" name="Strategy" type="strategy" />
   <folder id="cace2c3b-c7ce-4c22-b737-c9b2ca4ec2a2" name="Business" type="business">
     <element id="6b9df840-6c44-498f-9c46-8d4b67a96fee" name="Klaarzetten data" xsi:type="archimate:BusinessProcess">
       <documentation>Klaarzetten bgt en bag dat er geen topologische onjuistheden er uit. En moeten bestandsdekkend geheel. Gaten moeten gevuld worden. Selectie van de componenten.</documentation>
@@ -1600,7 +1600,7 @@ Dataset uit top 10 nl voor bos gebieden, alleen voor naamgeving.
       </child>
     </element>
   </folder>
-</folder><folder id="d5e876d6-ab33-4d00-a6c7-1721e0fb346d" name="Bedrijfsvoering.191223.archimate"><folder id="5e9d7d31-47e1-454d-a4bb-d564a2bd6be6" name="Strategy" type="strategy" />
+</folder><folder id="10d57d15-668e-4148-809c-1a685a1dcd67" name="Bedrijfsvoering.191223.archimate"><folder id="5e9d7d31-47e1-454d-a4bb-d564a2bd6be6" name="Strategy" type="strategy" />
   <folder id="e9d023eb-a509-47db-91db-a92d7dc2d995" name="Business" type="business">
     <element id="3b39dbbc-b9a2-499e-af29-f2f8b2fdebdc" name="Inhuur flexibel Personeel" xsi:type="archimate:BusinessService" />
     <element id="af7010bb-ec47-4bee-bfaa-a315a53960e2" name="Opleidingen" xsi:type="archimate:BusinessService" />
@@ -2720,7 +2720,7 @@ Dataset uit top 10 nl voor bos gebieden, alleen voor naamgeving.
       </child>
     </element>
   </folder>
-</folder><folder id="4c3e7e18-df90-4906-83cf-e22f863a167b" name="KEA2020R1.200115.archimate"><folder id="e1bde187-052e-4bdb-9cc3-86d21bfd5b14" name="Strategy" type="strategy">
+</folder><folder id="51aaa60f-40d8-4b63-aa8f-ca7b2f1637af" name="KEA2020R1.200115.archimate"><folder id="e1bde187-052e-4bdb-9cc3-86d21bfd5b14" name="Strategy" type="strategy">
     <element id="2919d605-5abc-4349-9530-cd3608cc2b2d" name="Value Stream" xsi:type="archimate:ValueStream" />
   </folder>
   <folder id="79c73e17-2f16-497e-8ce7-ced6c00485f8" name="Business" type="business">
@@ -4716,7 +4716,7 @@ Kantoor voorzieningen</content>
       </element>
     </folder>
   </folder>
-</folder><folder id="d4701d31-7909-47b3-8d52-8d3c2c1b6dd7" name="Klantenservice services en componenten.191227.archimate"><folder id="cec908d5-fddd-4be8-8555-5918abaf50a7" name="Strategy" type="strategy" />
+</folder><folder id="29a46971-4edd-425f-bdfc-e06641f03ea0" name="Klantenservice services en componenten.191227.archimate"><folder id="cec908d5-fddd-4be8-8555-5918abaf50a7" name="Strategy" type="strategy" />
   <folder id="c0e4d211-b8fc-4399-9108-1e20af681a20" name="Business" type="business">
     <element id="aa0b9c76-0b15-4644-9212-7a3a54b9b36f" name="Klant registratie" xsi:type="archimate:BusinessService" />
     <element id="fc043f09-cbad-426b-b626-2d160b519595" name="KCC" xsi:type="archimate:BusinessRole" />
@@ -5872,7 +5872,7 @@ Kantoor voorzieningen</content>
       </child>
     </element>
   </folder>
-</folder><folder id="c2b07433-162f-4a4c-9776-5705724f9c2c" name="Middelen Overzicht.200309.archimate"><folder id="75a56fe8-14c5-4a2b-9c26-632036a14fb1" name="Strategy" type="strategy" />
+</folder><folder id="8c8c6263-7ee5-42d1-8813-469425b2c03f" name="Middelen Overzicht.200319.archimate"><folder id="75a56fe8-14c5-4a2b-9c26-632036a14fb1" name="Strategy" type="strategy" />
   <folder id="2fc3fbd2-0ddd-4f32-8787-220ff2de97eb" name="Business" type="business" />
   <folder id="7f72745d-f23a-4d85-93d4-e7650c2c7728" name="Application" type="application">
     <element id="0f33dc6e-5b0e-46b8-af8e-c4adc660b4a2" name="ESRI (Arc* suite)" xsi:type="archimate:ApplicationComponent">
@@ -5943,6 +5943,23 @@ Alternatieven: Luigi / Argo
 https://www.hangfire.io/</documentation>
     </element>
     <element id="764c69f7-9f5f-45bd-a831-492777e278d4" name="Jenkins" xsi:type="archimate:ApplicationComponent" />
+    <element id="e849f51f-2e24-4559-88d7-a4d6421cc29f" name="Move3" xsi:type="archimate:ApplicationComponent">
+      <documentation>Vervangen door Web applicatie (TR / KKN)</documentation>
+    </element>
+    <element id="038cf00b-b14c-46a4-ac6f-140cd1d6458d" name="Intergraph / Hexagon" xsi:type="archimate:ApplicationComponent">
+      <documentation>Geo (desktop): Uitfaseren
+
+Alternatieven: ESRI, QGIS
+
+Vervangen door web applicaties (GGC, OpenLayers)</documentation>
+    </element>
+    <element id="2892c663-b24b-4d5e-ba49-29b87d65fd88" name="MapInfo" xsi:type="archimate:ApplicationComponent">
+      <documentation>Geo desktop (uitfaseren)
+
+Alternatieven: ESRI, QGIS
+
+Vervangen door web applicaties (GGC, OpenLayers)</documentation>
+    </element>
   </folder>
   <folder id="30086252-55ed-4740-9d06-2fde5e77fcfe" name="Technology &amp; Physical" type="technology">
     <element id="c9066382-9465-49c5-96f5-f4e11464137c" name="PostgreSQL" xsi:type="archimate:SystemSoftware">
@@ -6081,26 +6098,32 @@ Alternatieven: Java, Kubernetes</documentation>
 Alternatieven: REST, zie https://www.infoq.com/articles/no-reliable-messaging/
 </documentation>
     </element>
-    <element id="77f93333-ada3-4a9a-9d19-fc879048c1d7" name="Intergraph / Hexagon" xsi:type="archimate:SystemSoftware">
-      <documentation>Geo (desktop): Uitfaseren
-
-Alternatieven: ESRI, QGIS
-
-Vervangen door web applicaties (GGC, OpenLayers)
-</documentation>
-    </element>
-    <element id="fcd7ae29-1c7f-4362-a2db-6fdd63efa601" name="Mapinfo" xsi:type="archimate:SystemSoftware">
-      <documentation>Geo desktop (uitfaseren)
-
-Alternatieven: ESRI, QGIS
-
-Vervangen door web applicaties (GGC, OpenLayers)
-</documentation>
-    </element>
     <element id="e4ebde86-c5c3-4cfe-8776-3da588b52dfb" name="NGINX" xsi:type="archimate:SystemSoftware">
       <documentation>Webserver
 
 Alternatieven: BLOB-Storage</documentation>
+    </element>
+    <element id="f7068a97-fd05-4521-96ae-72d8c0981c5a" name="SQL Server" xsi:type="archimate:SystemSoftware">
+      <documentation>Enkel in combinatie met pakket software</documentation>
+    </element>
+    <element id="f87a867e-bdb7-46f0-9f75-2f9288e65e82" name="EBMS Seeburger" xsi:type="archimate:SystemSoftware">
+      <documentation>EBMS adapter via SAP-PI</documentation>
+    </element>
+    <element id="37e14545-ddf5-44e9-8aea-3932e243b0ab" name="EBMS Opentunnel" xsi:type="archimate:SystemSoftware">
+      <documentation>EBMS adapter voor LV-WOZ</documentation>
+    </element>
+    <element id="b7e2c8b7-02b9-4759-ac7f-1132738fdb38" name="SAP-PI Messaging" xsi:type="archimate:SystemSoftware">
+      <documentation>Voor asynchroon verkeer. 
+
+Bij migratie naar de cloud vervangen door alternatief</documentation>
+    </element>
+    <element id="586c7fc1-a37a-40e9-8950-76f15214f295" name="Apache Camel" xsi:type="archimate:SystemSoftware">
+      <documentation>Camel is an open source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data.
+
+Voor interfacing naar o.a. SAP-PI and Oracle-AQ (JMS)</documentation>
+    </element>
+    <element id="766b5c19-1e52-43bb-80a4-c9c47fb690c8" name="Liferay" xsi:type="archimate:SystemSoftware">
+      <documentation>Portal</documentation>
     </element>
   </folder>
   <folder id="f803da4d-6234-4ce3-8d66-ab27187bc540" name="Motivation" type="motivation" />
@@ -6131,6 +6154,9 @@ Alternatieven: BLOB-Storage</documentation>
         </child>
         <child archimateElement="23bbf50a-aba2-4fad-a9be-63f60c157c9a" id="77c18ccf-0c1c-4508-bc2c-68a402ebf4db" xsi:type="archimate:DiagramObject">
           <bounds height="55" width="120" x="216" y="24" />
+        </child>
+        <child archimateElement="f7068a97-fd05-4521-96ae-72d8c0981c5a" fillColor="#ff8040" id="65dba90a-b2fa-4ea2-a91f-3bd80c6439a9" xsi:type="archimate:DiagramObject">
+          <bounds height="55" width="120" x="216" y="168" />
         </child>
       </child>
       <child id="e9654cfb-f013-486a-a746-7183cc34bef6" name="Programming Platform" textAlignment="1" xsi:type="archimate:Group">
@@ -6164,7 +6190,7 @@ Alternatieven: BLOB-Storage</documentation>
         </child>
       </child>
       <child id="38c4d4ad-8986-4703-b287-210bd7ad9dfd" name="Infrastructure" textAlignment="1" xsi:type="archimate:Group">
-        <bounds height="336" width="468" x="588" y="24" />
+        <bounds height="336" width="757" x="588" y="24" />
         <child archimateElement="ace6be12-56dc-4992-a2b0-dbc6c645029f" id="02609309-8a71-4ba2-9f29-a387cab63759" xsi:type="archimate:DiagramObject">
           <bounds height="55" width="120" x="32" y="50" />
         </child>
@@ -6201,6 +6227,21 @@ Alternatieven: BLOB-Storage</documentation>
         <child archimateElement="e4ebde86-c5c3-4cfe-8776-3da588b52dfb" id="03fe01cd-8286-481b-bf56-44831eb7822c" xsi:type="archimate:DiagramObject">
           <bounds height="55" width="120" x="180" y="50" />
         </child>
+        <child archimateElement="f87a867e-bdb7-46f0-9f75-2f9288e65e82" id="5f9631b8-0895-4b08-97c8-a3c2973998bf" xsi:type="archimate:DiagramObject">
+          <bounds height="55" width="120" x="480" y="50" />
+        </child>
+        <child archimateElement="37e14545-ddf5-44e9-8aea-3932e243b0ab" fillColor="#ff8040" id="7889aae5-5ff8-4ced-8d99-5a941d6111e3" xsi:type="archimate:DiagramObject">
+          <bounds height="55" width="120" x="480" y="120" />
+        </child>
+        <child archimateElement="b7e2c8b7-02b9-4759-ac7f-1132738fdb38" fillColor="#ff8040" id="427989b5-9436-47a5-8845-46e75871b4fb" xsi:type="archimate:DiagramObject">
+          <bounds height="55" width="120" x="480" y="192" />
+        </child>
+        <child archimateElement="586c7fc1-a37a-40e9-8950-76f15214f295" id="949befa1-7b1f-47b9-b0a7-03eb3a7839bf" xsi:type="archimate:DiagramObject">
+          <bounds height="55" width="120" x="480" y="264" />
+        </child>
+        <child archimateElement="766b5c19-1e52-43bb-80a4-c9c47fb690c8" id="631ef83f-c364-4439-a8b5-8456c883a5e0" xsi:type="archimate:DiagramObject">
+          <bounds height="55" width="120" x="624" y="50" />
+        </child>
       </child>
       <child id="edb6a32d-372a-4646-8643-9fcf97510d76" name="(SAAS) Suites" textAlignment="1" xsi:type="archimate:Group">
         <bounds height="120" width="468" x="588" y="553" />
@@ -6223,14 +6264,17 @@ Alternatieven: BLOB-Storage</documentation>
         <child archimateElement="0f33dc6e-5b0e-46b8-af8e-c4adc660b4a2" id="29e1fcb5-7f32-4597-98fd-b6f61730845e" xsi:type="archimate:DiagramObject">
           <bounds height="55" width="120" x="24" y="36" />
         </child>
-        <child archimateElement="77f93333-ada3-4a9a-9d19-fc879048c1d7" fillColor="#ff8040" id="c5180ccd-8818-4e6e-a814-24990d674ebd" xsi:type="archimate:DiagramObject">
-          <bounds height="55" width="120" x="168" y="36" />
-        </child>
-        <child archimateElement="fcd7ae29-1c7f-4362-a2db-6fdd63efa601" fillColor="#ff8040" id="b2d3da30-79f6-43d0-a15b-b203dad81919" xsi:type="archimate:DiagramObject">
-          <bounds height="55" width="120" x="312" y="36" />
-        </child>
         <child archimateElement="86053069-4d54-475d-b7f9-e57377f78b33" id="745d77f6-adf3-46a8-aa01-fb6dbb2b2aff" xsi:type="archimate:DiagramObject">
           <bounds height="55" width="120" x="24" y="108" />
+        </child>
+        <child archimateElement="e849f51f-2e24-4559-88d7-a4d6421cc29f" fillColor="#ff8040" id="67940e8b-5064-4df6-b1c3-bdbe421d8bdc" xsi:type="archimate:DiagramObject">
+          <bounds height="55" width="120" x="180" y="108" />
+        </child>
+        <child archimateElement="038cf00b-b14c-46a4-ac6f-140cd1d6458d" fillColor="#ff8040" id="5581f76c-2f3e-468b-a1a4-fd676da46e1e" xsi:type="archimate:DiagramObject">
+          <bounds height="55" width="120" x="180" y="36" />
+        </child>
+        <child archimateElement="2892c663-b24b-4d5e-ba49-29b87d65fd88" fillColor="#ff8040" id="033cd367-bc2a-48a3-929a-d00ae74d3eb9" xsi:type="archimate:DiagramObject">
+          <bounds height="55" width="120" x="324" y="36" />
         </child>
       </child>
       <child id="4b1daec2-3cc4-4042-94e8-5babca66c254" name="Development" textAlignment="1" xsi:type="archimate:Group">
@@ -6271,7 +6315,7 @@ Alternatieven: BLOB-Storage</documentation>
       </child>
     </element>
   </folder>
-</folder><folder id="28c680b5-486f-4023-94bd-eabd191a0e3c" name="Online verkoop directe levering.200107.archimate"><folder id="c9df5cb5-290e-499d-beb6-f09beea186b1" name="Strategy" type="strategy">
+</folder><folder id="8be41af5-17f9-4671-ba7f-7eeb53dada8d" name="Online verkoop directe levering.200107.archimate"><folder id="c9df5cb5-290e-499d-beb6-f09beea186b1" name="Strategy" type="strategy">
     <element id="ea7e647b-7395-46c5-a074-76c9c3560771" name="Resource" xsi:type="archimate:Resource" />
   </folder>
   <folder id="ce90f7bf-8ac0-411d-ae6d-aa2cf4e6d68a" name="Business" type="business">

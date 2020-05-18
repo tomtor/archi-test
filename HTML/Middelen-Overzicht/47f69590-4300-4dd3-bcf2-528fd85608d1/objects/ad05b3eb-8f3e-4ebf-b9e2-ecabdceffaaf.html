@@ -1,0 +1,140 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Databases</title>
+
+	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
+	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-3.3.2.min.css">
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-theme-3.3.2.min.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Databases</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-DiagramModelGroup"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-DiagramModelGroup" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<textarea id="docsrc" style="display:none"></textarea>
+						<div id="doctgt" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/14fb39a0-2982-44a4-a9ea-454ba5bf8344.html" target="element"> Redis </a> </td>
+											    <td> <a href="../elements/14fb39a0-2982-44a4-a9ea-454ba5bf8344.html" target="element" class="i18n-elementtype-SystemSoftware"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/c9066382-9465-49c5-96f5-f4e11464137c.html" target="element"> PostgreSQL </a> </td>
+											    <td> <a href="../elements/c9066382-9465-49c5-96f5-f4e11464137c.html" target="element" class="i18n-elementtype-SystemSoftware"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/5eb3022c-d458-4486-afa3-114a1af8ae87.html" target="element"> Oracle </a> </td>
+											    <td> <a href="../elements/5eb3022c-d458-4486-afa3-114a1af8ae87.html" target="element" class="i18n-elementtype-SystemSoftware"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/4ad874e4-b061-49c9-8982-1326cc2d8331.html" target="element"> MongoDb </a> </td>
+											    <td> <a href="../elements/4ad874e4-b061-49c9-8982-1326cc2d8331.html" target="element" class="i18n-elementtype-SystemSoftware"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/c1bdcae5-3a6e-4c9d-9e50-a8940a07874c.html" target="element"> Elastic-Search </a> </td>
+											    <td> <a href="../elements/c1bdcae5-3a6e-4c9d-9e50-a8940a07874c.html" target="element" class="i18n-elementtype-SystemSoftware"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/935a501d-3f31-482d-9469-80b6af0ba45c.html" target="element"> MarkLogic </a> </td>
+											    <td> <a href="../elements/935a501d-3f31-482d-9469-80b6af0ba45c.html" target="element" class="i18n-elementtype-SystemSoftware"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/23bbf50a-aba2-4fad-a9be-63f60c157c9a.html" target="element"> InfluxDB </a> </td>
+											    <td> <a href="../elements/23bbf50a-aba2-4fad-a9be-63f60c157c9a.html" target="element" class="i18n-elementtype-SystemSoftware"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/f7068a97-fd05-4521-96ae-72d8c0981c5a.html" target="element"> SQL Server </a> </td>
+											    <td> <a href="../elements/f7068a97-fd05-4521-96ae-72d8c0981c5a.html" target="element" class="i18n-elementtype-SystemSoftware"> </a> </td>
+											</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

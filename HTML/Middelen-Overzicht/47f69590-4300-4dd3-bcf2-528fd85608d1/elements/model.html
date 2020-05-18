@@ -1,0 +1,331 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Middelen Overzicht</title>
+
+	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
+	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-3.3.2.min.css">
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-theme-3.3.2.min.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Middelen Overzicht</b>
+
+            <!-- If a View with Viewpoint -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+                       <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-purpose"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+						<li role="presentation"><a href="#query" aria-controls="query" role="tab" data-toggle="tab" class="i18n-query"></a></li>
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<textarea id="docsrc" style="display:none"></textarea>
+						<div id="doctgt" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="query">
+						<br>
+						<style>
+						#myprompt {
+						    width: 80%;
+						    font-family: Consolas,Monaco, monospace;
+						}
+						</style>
+
+						<div id='myconsole'></div>
+
+						<p>
+							<tt><span id="useid">alasql</span> &gt;</tt> <input id='myprompt' autofocus/> 
+						</p>
+
+						<script src='../../lib/alasql/alasql.min.js'></script>
+
+						<script>
+							function decodeURL(s) {
+								return decodeURIComponent(s.replace(/\+/g, "%20"));
+							}
+
+							var first = decodeURI(location.search.substr(1));
+						 	alasql.options.logtarget = 'myconsole';
+							alasql.prompt('myprompt','useid');
+							alasql.prompt('myprompt','useid', first);
+
+							var dataElements = [ ];	  
+						  	var dataProperties = [ ];
+						 	var dataRelationships = [ ];
+						 	var dataViews = [ ];
+						 	var dataViewsContent = [ ];
+						 	var dataFolders = [ ];
+						 	var dataFoldersContent = [ ];
+
+							dataFolders.push({id:"47f69590-4300-4dd3-bcf2-528fd85608d1", type:"ArchimateModel", name:decodeURL("Middelen+Overzicht"), documentation:decodeURL("")});
+								dataFoldersContent.push({folderid:"47f69590-4300-4dd3-bcf2-528fd85608d1", contentid:"75a56fe8-14c5-4a2b-9c26-632036a14fb1", contenttype:"Folder"});
+								dataFolders.push({id:"75a56fe8-14c5-4a2b-9c26-632036a14fb1", type:"Folder", name:decodeURL("Strategy"), documentation:decodeURL("")});
+
+								dataFoldersContent.push({folderid:"47f69590-4300-4dd3-bcf2-528fd85608d1", contentid:"2fc3fbd2-0ddd-4f32-8787-220ff2de97eb", contenttype:"Folder"});
+								dataFolders.push({id:"2fc3fbd2-0ddd-4f32-8787-220ff2de97eb", type:"Folder", name:decodeURL("Business"), documentation:decodeURL("")});
+
+								dataFoldersContent.push({folderid:"47f69590-4300-4dd3-bcf2-528fd85608d1", contentid:"7f72745d-f23a-4d85-93d4-e7650c2c7728", contenttype:"Folder"});
+								dataFolders.push({id:"7f72745d-f23a-4d85-93d4-e7650c2c7728", type:"Folder", name:decodeURL("Application"), documentation:decodeURL("")});
+									dataFoldersContent.push({folderid:"7f72745d-f23a-4d85-93d4-e7650c2c7728", contentid:"0f33dc6e-5b0e-46b8-af8e-c4adc660b4a2", contenttype:"ApplicationComponent"});
+										dataElements.push({id:"0f33dc6e-5b0e-46b8-af8e-c4adc660b4a2", type:"ApplicationComponent", name:decodeURL("ESRI+%28Arc*+suite%29"), documentation:decodeURL("GEO%0D%0A%0D%0AWeb+applicaties+hebben+de+voorkeur")});
+									dataFoldersContent.push({folderid:"7f72745d-f23a-4d85-93d4-e7650c2c7728", contentid:"484b824c-73fe-443c-8438-df051b03e2cc", contenttype:"ApplicationComponent"});
+										dataElements.push({id:"484b824c-73fe-443c-8438-df051b03e2cc", type:"ApplicationComponent", name:decodeURL("ServiceNow"), documentation:decodeURL("IT4IT%0D%0A%0D%0AZie+Services-DA")});
+									dataFoldersContent.push({folderid:"7f72745d-f23a-4d85-93d4-e7650c2c7728", contentid:"6678d390-e44f-45a8-8b4f-90d7dc2ddd9c", contenttype:"ApplicationComponent"});
+										dataElements.push({id:"6678d390-e44f-45a8-8b4f-90d7dc2ddd9c", type:"ApplicationComponent", name:decodeURL("SAP"), documentation:decodeURL("CRM+%2F+HRM+%2F+Finance%0D%0A%0D%0AZie+Services-DA%0D%0A")});
+									dataFoldersContent.push({folderid:"7f72745d-f23a-4d85-93d4-e7650c2c7728", contentid:"e99f63e5-fa8c-45dc-a5fb-556e955fe1ca", contenttype:"ApplicationComponent"});
+										dataElements.push({id:"e99f63e5-fa8c-45dc-a5fb-556e955fe1ca", type:"ApplicationComponent", name:decodeURL("Office+365+%2F+SharePoint"), documentation:decodeURL("Zie+KA-DA")});
+									dataFoldersContent.push({folderid:"7f72745d-f23a-4d85-93d4-e7650c2c7728", contentid:"86053069-4d54-475d-b7f9-e57377f78b33", contenttype:"ApplicationComponent"});
+										dataElements.push({id:"86053069-4d54-475d-b7f9-e57377f78b33", type:"ApplicationComponent", name:decodeURL("QGIS"), documentation:decodeURL("Geo+desktop%0D%0A%0D%0AWeb+applicaties+%28GGC%2C+OpenLayers%29+hebben+de+voorkeur")});
+									dataFoldersContent.push({folderid:"7f72745d-f23a-4d85-93d4-e7650c2c7728", contentid:"6f58edfc-4790-4a87-b487-d4efa21ebed9", contenttype:"ApplicationComponent"});
+										dataElements.push({id:"6f58edfc-4790-4a87-b487-d4efa21ebed9", type:"ApplicationComponent", name:decodeURL("JIRA"), documentation:decodeURL("Software+issue+tracking%2Fcollaboration")});
+									dataFoldersContent.push({folderid:"7f72745d-f23a-4d85-93d4-e7650c2c7728", contentid:"dcf78b21-6e83-47ae-b59a-c5fc129916c6", contenttype:"ApplicationComponent"});
+										dataElements.push({id:"dcf78b21-6e83-47ae-b59a-c5fc129916c6", type:"ApplicationComponent", name:decodeURL("Git%28hub%29"), documentation:decodeURL("Software+version+management")});
+									dataFoldersContent.push({folderid:"7f72745d-f23a-4d85-93d4-e7650c2c7728", contentid:"8afac77b-530f-4442-b2d5-d2d66cd92809", contenttype:"ApplicationComponent"});
+										dataElements.push({id:"8afac77b-530f-4442-b2d5-d2d66cd92809", type:"ApplicationComponent", name:decodeURL("Artifactory"), documentation:decodeURL("Artifact+Repository")});
+									dataFoldersContent.push({folderid:"7f72745d-f23a-4d85-93d4-e7650c2c7728", contentid:"40a6b7a9-6bb8-46f3-80d3-a997958260a2", contenttype:"ApplicationComponent"});
+										dataElements.push({id:"40a6b7a9-6bb8-46f3-80d3-a997958260a2", type:"ApplicationComponent", name:decodeURL("Slack"), documentation:decodeURL("IT+collab+%2F+monitoring")});
+									dataFoldersContent.push({folderid:"7f72745d-f23a-4d85-93d4-e7650c2c7728", contentid:"4e03455d-76ec-48c0-bedb-35ca87577a47", contenttype:"ApplicationComponent"});
+										dataElements.push({id:"4e03455d-76ec-48c0-bedb-35ca87577a47", type:"ApplicationComponent", name:decodeURL("Sonar"), documentation:decodeURL("Automatic+Code+Inspection")});
+									dataFoldersContent.push({folderid:"7f72745d-f23a-4d85-93d4-e7650c2c7728", contentid:"8ff8026f-af83-4add-8769-e029dbdfdbf7", contenttype:"ApplicationComponent"});
+										dataElements.push({id:"8ff8026f-af83-4add-8769-e029dbdfdbf7", type:"ApplicationComponent", name:decodeURL("Argo+Workflows"), documentation:decodeURL("Kubernetes+Workflows%0D%0A%0D%0Ahttps%3A%2F%2Fgithub.com%2Fargoproj%2Fargo")});
+									dataFoldersContent.push({folderid:"7f72745d-f23a-4d85-93d4-e7650c2c7728", contentid:"204ca2ac-44a6-421d-8426-b6121c3c0ce6", contenttype:"ApplicationComponent"});
+										dataElements.push({id:"204ca2ac-44a6-421d-8426-b6121c3c0ce6", type:"ApplicationComponent", name:decodeURL("Luigi"), documentation:decodeURL("Batch+scheduling+en+monitoring%0D%0A%0D%0Ahttps%3A%2F%2Fgithub.com%2Fspotify%2Fluigi%0D%0A%0D%0Agebruikt+door+Kadastrale+Kaart+Next")});
+									dataFoldersContent.push({folderid:"7f72745d-f23a-4d85-93d4-e7650c2c7728", contentid:"b91bf4f4-7aa0-4537-9061-1fa32bab2ee0", contenttype:"ApplicationComponent"});
+										dataElements.push({id:"b91bf4f4-7aa0-4537-9061-1fa32bab2ee0", type:"ApplicationComponent", name:decodeURL("Airflow"), documentation:decodeURL("Author%2C+schedule+and+monitor+workflows%0D%0A%0D%0Ahttps%3A%2F%2Fairflow.apache.org%2F%0D%0A%0D%0Agebruikt+door+Kadastrale+Kaart+Next")});
+									dataFoldersContent.push({folderid:"7f72745d-f23a-4d85-93d4-e7650c2c7728", contentid:"d35ae2a7-0c9d-4128-97aa-ddaa146db2ef", contenttype:"ApplicationComponent"});
+										dataElements.push({id:"d35ae2a7-0c9d-4128-97aa-ddaa146db2ef", type:"ApplicationComponent", name:decodeURL("Hangfire"), documentation:decodeURL(".net+%28CORE%29+scheduling%0D%0A%0D%0AGebruikt+door+AutoGen%0D%0A%0D%0AAlternatieven%3A+Luigi+%2F+Argo%0D%0A%0D%0Ahttps%3A%2F%2Fwww.hangfire.io%2F")});
+									dataFoldersContent.push({folderid:"7f72745d-f23a-4d85-93d4-e7650c2c7728", contentid:"764c69f7-9f5f-45bd-a831-492777e278d4", contenttype:"ApplicationComponent"});
+										dataElements.push({id:"764c69f7-9f5f-45bd-a831-492777e278d4", type:"ApplicationComponent", name:decodeURL("Jenkins"), documentation:decodeURL("")});
+									dataFoldersContent.push({folderid:"7f72745d-f23a-4d85-93d4-e7650c2c7728", contentid:"e849f51f-2e24-4559-88d7-a4d6421cc29f", contenttype:"ApplicationComponent"});
+										dataElements.push({id:"e849f51f-2e24-4559-88d7-a4d6421cc29f", type:"ApplicationComponent", name:decodeURL("Move3"), documentation:decodeURL("Vervangen+door+Web+applicatie+%28TR+%2F+KKN%29")});
+									dataFoldersContent.push({folderid:"7f72745d-f23a-4d85-93d4-e7650c2c7728", contentid:"038cf00b-b14c-46a4-ac6f-140cd1d6458d", contenttype:"ApplicationComponent"});
+										dataElements.push({id:"038cf00b-b14c-46a4-ac6f-140cd1d6458d", type:"ApplicationComponent", name:decodeURL("Intergraph+%2F+Hexagon"), documentation:decodeURL("Geo+%28desktop%29%3A+Uitfaseren%0D%0A%0D%0AAlternatieven%3A+ESRI%2C+QGIS%0D%0A%0D%0AVervangen+door+web+applicaties+%28GGC%2C+OpenLayers%29")});
+									dataFoldersContent.push({folderid:"7f72745d-f23a-4d85-93d4-e7650c2c7728", contentid:"2892c663-b24b-4d5e-ba49-29b87d65fd88", contenttype:"ApplicationComponent"});
+										dataElements.push({id:"2892c663-b24b-4d5e-ba49-29b87d65fd88", type:"ApplicationComponent", name:decodeURL("MapInfo"), documentation:decodeURL("Geo+desktop+%28uitfaseren%29%0D%0A%0D%0AAlternatieven%3A+ESRI%2C+QGIS%0D%0A%0D%0AVervangen+door+web+applicaties+%28GGC%2C+OpenLayers%29")});
+
+								dataFoldersContent.push({folderid:"47f69590-4300-4dd3-bcf2-528fd85608d1", contentid:"30086252-55ed-4740-9d06-2fde5e77fcfe", contenttype:"Folder"});
+								dataFolders.push({id:"30086252-55ed-4740-9d06-2fde5e77fcfe", type:"Folder", name:decodeURL("Technology+%26+Physical"), documentation:decodeURL("")});
+									dataFoldersContent.push({folderid:"30086252-55ed-4740-9d06-2fde5e77fcfe", contentid:"c9066382-9465-49c5-96f5-f4e11464137c", contenttype:"SystemSoftware"});
+										dataElements.push({id:"c9066382-9465-49c5-96f5-f4e11464137c", type:"SystemSoftware", name:decodeURL("PostgreSQL"), documentation:decodeURL("Toepassing%2FContext%3A+Algemeen%2C+Geo%2C+JSON%2C+Full-text%0D%0A%0D%0AManaged+service+in+Azure+met+PITR.%0D%0AIndien+PITR+niet+nodig+en+behoefte+aan+specifieke+extensie%2Frecentere+major+versie+dan+eigen+deployment+met+Docker%2FK8S")});
+									dataFoldersContent.push({folderid:"30086252-55ed-4740-9d06-2fde5e77fcfe", contentid:"5eb3022c-d458-4486-afa3-114a1af8ae87", contenttype:"SystemSoftware"});
+										dataElements.push({id:"5eb3022c-d458-4486-afa3-114a1af8ae87", type:"SystemSoftware", name:decodeURL("Oracle"), documentation:decodeURL("Uitfaseren+bij+migratie+naar+cloud")});
+									dataFoldersContent.push({folderid:"30086252-55ed-4740-9d06-2fde5e77fcfe", contentid:"4ad874e4-b061-49c9-8982-1326cc2d8331", contenttype:"SystemSoftware"});
+										dataElements.push({id:"4ad874e4-b061-49c9-8982-1326cc2d8331", type:"SystemSoftware", name:decodeURL("MongoDb"), documentation:decodeURL("NoSQL+document+store%0D%0A%0D%0AAlternatief%3A+PostgreSQL+%28JSONB%29%0D%0A%0D%0AAPI+beschikbaar+in+Azure+als+CosmosDB")});
+									dataFoldersContent.push({folderid:"30086252-55ed-4740-9d06-2fde5e77fcfe", contentid:"c1bdcae5-3a6e-4c9d-9e50-a8940a07874c", contenttype:"SystemSoftware"});
+										dataElements.push({id:"c1bdcae5-3a6e-4c9d-9e50-a8940a07874c", type:"SystemSoftware", name:decodeURL("Elastic-Search"), documentation:decodeURL("Distributed+Search%2FAnalytics%0D%0A%0D%0AAlternatieven%3A+MongoDB+PostgreSQL+%28Full-Text%2C+JSONB%29%0D%0A")});
+									dataFoldersContent.push({folderid:"30086252-55ed-4740-9d06-2fde5e77fcfe", contentid:"14fb39a0-2982-44a4-a9ea-454ba5bf8344", contenttype:"SystemSoftware"});
+										dataElements.push({id:"14fb39a0-2982-44a4-a9ea-454ba5bf8344", type:"SystemSoftware", name:decodeURL("Redis"), documentation:decodeURL("In-memory+key%2Fvalue+store+voor+%28Web%29caching%0D%0A")});
+									dataFoldersContent.push({folderid:"30086252-55ed-4740-9d06-2fde5e77fcfe", contentid:"23bbf50a-aba2-4fad-a9be-63f60c157c9a", contenttype:"SystemSoftware"});
+										dataElements.push({id:"23bbf50a-aba2-4fad-a9be-63f60c157c9a", type:"SystemSoftware", name:decodeURL("InfluxDB"), documentation:decodeURL("Time+series+database")});
+									dataFoldersContent.push({folderid:"30086252-55ed-4740-9d06-2fde5e77fcfe", contentid:"935a501d-3f31-482d-9469-80b6af0ba45c", contenttype:"SystemSoftware"});
+										dataElements.push({id:"935a501d-3f31-482d-9469-80b6af0ba45c", type:"SystemSoftware", name:decodeURL("MarkLogic"), documentation:decodeURL("Triple+Store%0D%0A%0D%0ABeperkte+tijdelijke+licentie")});
+									dataFoldersContent.push({folderid:"30086252-55ed-4740-9d06-2fde5e77fcfe", contentid:"ad128cbb-99e7-43f2-893f-30aff1d7b3e7", contenttype:"SystemSoftware"});
+										dataElements.push({id:"ad128cbb-99e7-43f2-893f-30aff1d7b3e7", type:"SystemSoftware", name:decodeURL("Java"), documentation:decodeURL("Toepassing%3A+Algemeen%0D%0A%0D%0AOok+andere+JVM+talen+mogelijk")});
+									dataFoldersContent.push({folderid:"30086252-55ed-4740-9d06-2fde5e77fcfe", contentid:"7a6fd3a4-b503-46ef-b902-141317c7eda1", contenttype:"SystemSoftware"});
+										dataElements.push({id:"7a6fd3a4-b503-46ef-b902-141317c7eda1", type:"SystemSoftware", name:decodeURL("C%23%2F.net+%28CORE%29"), documentation:decodeURL("Toepassing%3A+Windows%2FESRI%0D%0A%0D%0ABij+voorkeur+inzet+van+CORE+i.v.m.+portabiliteit+naar+Docker%2FKubernetes%0D%0A%0D%0AAlternatieven%3A+Java%2C+Go%2C+Rust")});
+									dataFoldersContent.push({folderid:"30086252-55ed-4740-9d06-2fde5e77fcfe", contentid:"d2ae5e7a-8575-4750-9a58-d672559183dc", contenttype:"SystemSoftware"});
+										dataElements.push({id:"d2ae5e7a-8575-4750-9a58-d672559183dc", type:"SystemSoftware", name:decodeURL("Python"), documentation:decodeURL("Toepassing%3A+Scripting%2C+Data+Science%2C+AI%2C+ESRI%0D%0A%0D%0AAlternatieven%3A+Go%2C+Rust%0D%0A%0D%0AOverweeg+Numba+of+https%3A%2F%2Fpypy.org%2F+indien+performance+een+issue+is%2C+maar+overweeg+dan+ook+Rust.%0D%0A")});
+									dataFoldersContent.push({folderid:"30086252-55ed-4740-9d06-2fde5e77fcfe", contentid:"b709b872-b0a8-4d3c-b3e0-ded2d5322546", contenttype:"SystemSoftware"});
+										dataElements.push({id:"b709b872-b0a8-4d3c-b3e0-ded2d5322546", type:"SystemSoftware", name:decodeURL("Go"), documentation:decodeURL("Alternatieven%3A+Rust")});
+									dataFoldersContent.push({folderid:"30086252-55ed-4740-9d06-2fde5e77fcfe", contentid:"9f1e1685-6928-4d02-989f-399df8dc0da7", contenttype:"SystemSoftware"});
+										dataElements.push({id:"9f1e1685-6928-4d02-989f-399df8dc0da7", type:"SystemSoftware", name:decodeURL("JavaScript%2FTypeScript"), documentation:decodeURL("Browser+%2F+Node.js%0D%0A%0D%0AAlternatieven%3A+Rust+%28WebAssembly%29%0D%0A%0D%0AVoorkeur+voor+TypeScript+in+de+browser")});
+									dataFoldersContent.push({folderid:"30086252-55ed-4740-9d06-2fde5e77fcfe", contentid:"8217ff1c-b5c9-4e64-90af-612fd2dc1e78", contenttype:"SystemSoftware"});
+										dataElements.push({id:"8217ff1c-b5c9-4e64-90af-612fd2dc1e78", type:"SystemSoftware", name:decodeURL("Gen%2FTuxedo"), documentation:decodeURL("4GL+uitfaseren%0D%0A%0D%0AAlternatieven%3A+Java%2C+Mendix")});
+									dataFoldersContent.push({folderid:"30086252-55ed-4740-9d06-2fde5e77fcfe", contentid:"fa54454b-1b8d-44f8-9ff4-85aa7318dc48", contenttype:"SystemSoftware"});
+										dataElements.push({id:"fa54454b-1b8d-44f8-9ff4-85aa7318dc48", type:"SystemSoftware", name:decodeURL("C+%2F+C%2B%2B"), documentation:decodeURL("Alternatieven%3A+Java%2C+Rust")});
+									dataFoldersContent.push({folderid:"30086252-55ed-4740-9d06-2fde5e77fcfe", contentid:"095bda23-d72a-40ff-b9f2-a56799291c24", contenttype:"SystemSoftware"});
+										dataElements.push({id:"095bda23-d72a-40ff-b9f2-a56799291c24", type:"SystemSoftware", name:decodeURL("Mendix"), documentation:decodeURL("Low+code+administratief")});
+									dataFoldersContent.push({folderid:"30086252-55ed-4740-9d06-2fde5e77fcfe", contentid:"2eacc361-acc2-4b98-8638-83d32e8b280f", contenttype:"SystemSoftware"});
+										dataElements.push({id:"2eacc361-acc2-4b98-8638-83d32e8b280f", type:"SystemSoftware", name:decodeURL("Rust"), documentation:decodeURL("Als+vervanger+van+C%28%2B%2B%29.+Ook+voor+Go%2FPython+als+performance+een+issue+is.+Genereert+ook+WebAssembly.%0D%0A%0D%0Ahttps%3A%2F%2Fwww.rust-lang.org%2F")});
+									dataFoldersContent.push({folderid:"30086252-55ed-4740-9d06-2fde5e77fcfe", contentid:"ace6be12-56dc-4992-a2b0-dbc6c645029f", contenttype:"SystemSoftware"});
+										dataElements.push({id:"ace6be12-56dc-4992-a2b0-dbc6c645029f", type:"SystemSoftware", name:decodeURL("BLOB-Storage"), documentation:decodeURL("Opslag+HTTP+content%0D%0AAlgemene+storage%0D%0A%0D%0Aeventueel+via+min.io+vullen+%28PDOK%29")});
+									dataFoldersContent.push({folderid:"30086252-55ed-4740-9d06-2fde5e77fcfe", contentid:"e924e791-6622-4bd0-b504-0827b8631e81", contenttype:"SystemSoftware"});
+										dataElements.push({id:"e924e791-6622-4bd0-b504-0827b8631e81", type:"SystemSoftware", name:decodeURL("Azure+F5+BIG-IP"), documentation:decodeURL("API+Management+in+Azure+cloud")});
+									dataFoldersContent.push({folderid:"30086252-55ed-4740-9d06-2fde5e77fcfe", contentid:"729ea994-8639-4c6a-b91f-927b1e1204d9", contenttype:"SystemSoftware"});
+										dataElements.push({id:"729ea994-8639-4c6a-b91f-927b1e1204d9", type:"SystemSoftware", name:decodeURL("CA+Api+Management"), documentation:decodeURL("API+Management%2FGateway%0D%0A%0D%0AAlternative%3A+Azure+F5+BIG-IP")});
+									dataFoldersContent.push({folderid:"30086252-55ed-4740-9d06-2fde5e77fcfe", contentid:"38eacfb5-ffac-4170-bd65-c773edde5fea", contenttype:"SystemSoftware"});
+										dataElements.push({id:"38eacfb5-ffac-4170-bd65-c773edde5fea", type:"SystemSoftware", name:decodeURL("Apache"), documentation:decodeURL("Webserver%0D%0A%0D%0AAlternatieven%3A+NGINX%2C+BLOB-Storage")});
+									dataFoldersContent.push({folderid:"30086252-55ed-4740-9d06-2fde5e77fcfe", contentid:"904b422a-db66-4d2a-9ce8-d3aa445b303e", contenttype:"SystemSoftware"});
+										dataElements.push({id:"904b422a-db66-4d2a-9ce8-d3aa445b303e", type:"SystemSoftware", name:decodeURL("Splunk"), documentation:decodeURL("Logging+en+Monitoring%0D%0A%0D%0AAlternatieven%3A+ELK+%28Elastic-search+Logstash+Kibina%29")});
+									dataFoldersContent.push({folderid:"30086252-55ed-4740-9d06-2fde5e77fcfe", contentid:"5e197e3c-8fd2-402d-b376-df4f178fae34", contenttype:"SystemSoftware"});
+										dataElements.push({id:"5e197e3c-8fd2-402d-b376-df4f178fae34", type:"SystemSoftware", name:decodeURL("ELK+%28Elastic-search+Logstash+Kibina%29"), documentation:decodeURL("Logging+en+Monitoring")});
+									dataFoldersContent.push({folderid:"30086252-55ed-4740-9d06-2fde5e77fcfe", contentid:"77bd9b91-a941-4bf3-90a1-ae3457ce6bed", contenttype:"SystemSoftware"});
+										dataElements.push({id:"77bd9b91-a941-4bf3-90a1-ae3457ce6bed", type:"SystemSoftware", name:decodeURL("Docker%2FK8S"), documentation:decodeURL("Deployment%0D%0A%0D%0AZie+Cloud-DA+%28ook+https%3A%2F%2Fmicrok8s.io%2F+%29")});
+									dataFoldersContent.push({folderid:"30086252-55ed-4740-9d06-2fde5e77fcfe", contentid:"82d65f47-1e58-4ac3-8658-ab255a59deed", contenttype:"SystemSoftware"});
+										dataElements.push({id:"82d65f47-1e58-4ac3-8658-ab255a59deed", type:"SystemSoftware", name:decodeURL("MapServer"), documentation:decodeURL("OGC+Services%0D%0A%0D%0AAlternatief%3A+GeoServer%0D%0A%0D%0AOok+alternatieven+zoals%0D%0Ahttps%3A%2F%2Finteractive-instruments.github.io%2Fldproxy")});
+									dataFoldersContent.push({folderid:"30086252-55ed-4740-9d06-2fde5e77fcfe", contentid:"7fcd7e5e-5503-4329-a81b-6d8e9e62b19b", contenttype:"SystemSoftware"});
+										dataElements.push({id:"7fcd7e5e-5503-4329-a81b-6d8e9e62b19b", type:"SystemSoftware", name:decodeURL("GeoServer"), documentation:decodeURL("OGC+services%0D%0A%0D%0AAlternatief%3A+MapServer")});
+									dataFoldersContent.push({folderid:"30086252-55ed-4740-9d06-2fde5e77fcfe", contentid:"722570dc-cc4e-428b-8422-9198175833af", contenttype:"SystemSoftware"});
+										dataElements.push({id:"722570dc-cc4e-428b-8422-9198175833af", type:"SystemSoftware", name:decodeURL("Tuxedo"), documentation:decodeURL("C+middleware+%28uitfaseren%29%0D%0A%0D%0AAlternatieven%3A+Java%2C+Kubernetes")});
+									dataFoldersContent.push({folderid:"30086252-55ed-4740-9d06-2fde5e77fcfe", contentid:"0fce15b8-0513-4e76-866d-1d0fad29d95e", contenttype:"SystemSoftware"});
+										dataElements.push({id:"0fce15b8-0513-4e76-866d-1d0fad29d95e", type:"SystemSoftware", name:decodeURL("OracleAQ"), documentation:decodeURL("Message+Middleware+%28uitfaseren%29%0D%0A%0D%0AAlternatieven%3A+Azure+Service+Bus+of+REST%2C+zie+https%3A%2F%2Fwww.infoq.com%2Farticles%2Fno-reliable-messaging%2F%0D%0A")});
+									dataFoldersContent.push({folderid:"30086252-55ed-4740-9d06-2fde5e77fcfe", contentid:"e4ebde86-c5c3-4cfe-8776-3da588b52dfb", contenttype:"SystemSoftware"});
+										dataElements.push({id:"e4ebde86-c5c3-4cfe-8776-3da588b52dfb", type:"SystemSoftware", name:decodeURL("NGINX"), documentation:decodeURL("Webserver%0D%0A%0D%0AAlternatieven%3A+BLOB-Storage")});
+									dataFoldersContent.push({folderid:"30086252-55ed-4740-9d06-2fde5e77fcfe", contentid:"f7068a97-fd05-4521-96ae-72d8c0981c5a", contenttype:"SystemSoftware"});
+										dataElements.push({id:"f7068a97-fd05-4521-96ae-72d8c0981c5a", type:"SystemSoftware", name:decodeURL("SQL+Server"), documentation:decodeURL("Enkel+in+combinatie+met+pakket+software")});
+									dataFoldersContent.push({folderid:"30086252-55ed-4740-9d06-2fde5e77fcfe", contentid:"f87a867e-bdb7-46f0-9f75-2f9288e65e82", contenttype:"SystemSoftware"});
+										dataElements.push({id:"f87a867e-bdb7-46f0-9f75-2f9288e65e82", type:"SystemSoftware", name:decodeURL("EBMS+Seeburger"), documentation:decodeURL("EBMS+adapter+via+SAP-PI")});
+									dataFoldersContent.push({folderid:"30086252-55ed-4740-9d06-2fde5e77fcfe", contentid:"37e14545-ddf5-44e9-8aea-3932e243b0ab", contenttype:"SystemSoftware"});
+										dataElements.push({id:"37e14545-ddf5-44e9-8aea-3932e243b0ab", type:"SystemSoftware", name:decodeURL("EBMS+Opentunnel"), documentation:decodeURL("EBMS+adapter+voor+LV-WOZ")});
+									dataFoldersContent.push({folderid:"30086252-55ed-4740-9d06-2fde5e77fcfe", contentid:"b7e2c8b7-02b9-4759-ac7f-1132738fdb38", contenttype:"SystemSoftware"});
+										dataElements.push({id:"b7e2c8b7-02b9-4759-ac7f-1132738fdb38", type:"SystemSoftware", name:decodeURL("SAP-PI+Messaging"), documentation:decodeURL("Voor+asynchroon+verkeer.+%0D%0A%0D%0ABij+migratie+naar+de+cloud+vervangen+door+alternatief")});
+									dataFoldersContent.push({folderid:"30086252-55ed-4740-9d06-2fde5e77fcfe", contentid:"586c7fc1-a37a-40e9-8950-76f15214f295", contenttype:"SystemSoftware"});
+										dataElements.push({id:"586c7fc1-a37a-40e9-8950-76f15214f295", type:"SystemSoftware", name:decodeURL("Apache+Camel"), documentation:decodeURL("Camel+is+an+open+source+integration+framework+that+empowers+you+to+quickly+and+easily+integrate+various+systems+consuming+or+producing+data.%0D%0A%0D%0AVoor+interfacing+naar+o.a.+SAP-PI+and+Oracle-AQ+%28JMS%29")});
+									dataFoldersContent.push({folderid:"30086252-55ed-4740-9d06-2fde5e77fcfe", contentid:"766b5c19-1e52-43bb-80a4-c9c47fb690c8", contenttype:"SystemSoftware"});
+										dataElements.push({id:"766b5c19-1e52-43bb-80a4-c9c47fb690c8", type:"SystemSoftware", name:decodeURL("Liferay"), documentation:decodeURL("Portal")});
+									dataFoldersContent.push({folderid:"30086252-55ed-4740-9d06-2fde5e77fcfe", contentid:"b9e7e67d-06ed-4d41-b5c3-259b5d719f74", contenttype:"SystemSoftware"});
+										dataElements.push({id:"b9e7e67d-06ed-4d41-b5c3-259b5d719f74", type:"SystemSoftware", name:decodeURL("Azure+Service+Bus"), documentation:decodeURL("Als+vervanger%2Fopvolger+van+OracleAQ.%0D%0A%0D%0AHet+Kadaster+gebruikt+de+%22standard%22+Service+Bus+variant.%0D%0AAzure+Event+Grid+is+ook+een+optie%2C+maar+deze+biedt+geen+gegarandeerde+message+order+%28FIFO%29+en+is+daarom+niet+overal+praktisch+in+te+zetten.%0D%0AGebruik+van+een+Apache-Camel+adapter+heeft+de+voorkeur+voor+portabiliteit+naar+andere+message+implementaties.")});
+
+								dataFoldersContent.push({folderid:"47f69590-4300-4dd3-bcf2-528fd85608d1", contentid:"f803da4d-6234-4ce3-8d66-ab27187bc540", contenttype:"Folder"});
+								dataFolders.push({id:"f803da4d-6234-4ce3-8d66-ab27187bc540", type:"Folder", name:decodeURL("Motivation"), documentation:decodeURL("")});
+
+								dataFoldersContent.push({folderid:"47f69590-4300-4dd3-bcf2-528fd85608d1", contentid:"351281fd-223c-4962-b196-351665cfde0f", contenttype:"Folder"});
+								dataFolders.push({id:"351281fd-223c-4962-b196-351665cfde0f", type:"Folder", name:decodeURL("Implementation+%26+Migration"), documentation:decodeURL("")});
+
+								dataFoldersContent.push({folderid:"47f69590-4300-4dd3-bcf2-528fd85608d1", contentid:"f28635f2-5423-4d19-b0c8-24c8e04df26e", contenttype:"Folder"});
+								dataFolders.push({id:"f28635f2-5423-4d19-b0c8-24c8e04df26e", type:"Folder", name:decodeURL("Other"), documentation:decodeURL("")});
+
+								dataFoldersContent.push({folderid:"47f69590-4300-4dd3-bcf2-528fd85608d1", contentid:"f55ce29f-8730-4050-a7ee-42f5e3fc54c3", contenttype:"Folder"});
+								dataFolders.push({id:"f55ce29f-8730-4050-a7ee-42f5e3fc54c3", type:"Folder", name:decodeURL("Relations"), documentation:decodeURL("")});
+
+								dataFoldersContent.push({folderid:"47f69590-4300-4dd3-bcf2-528fd85608d1", contentid:"c6599417-de4d-4696-9ae0-06133233526e", contenttype:"Folder"});
+								dataFolders.push({id:"c6599417-de4d-4696-9ae0-06133233526e", type:"Folder", name:decodeURL("Views"), documentation:decodeURL("")});
+									dataFoldersContent.push({folderid:"c6599417-de4d-4696-9ae0-06133233526e", contentid:"42928bbf-8660-4f5a-a238-88beb38c576e", contenttype:"ArchimateDiagramModel"});
+										dataViews.push({id:"42928bbf-8660-4f5a-a238-88beb38c576e", type:"ArchimateDiagramModel", name:decodeURL("Default+View"), documentation:decodeURL("")});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"896d5e97-7c98-4fe7-a3f2-79a5d594ea71", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"7a5fd3be-7bd0-42b3-b73e-2289e70ac474", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"93b79b21-822e-4888-ae5d-7f554381bcf4", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"3cac7f8e-7c10-45d4-b8c8-f3143c38bc3f", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"4d62c9fe-f70a-4032-9b6f-e2a7a1f06ac6", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"8c80797f-090b-4ce9-9b86-50f15e63f969", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"77c18ccf-0c1c-4508-bc2c-68a402ebf4db", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"65dba90a-b2fa-4ea2-a91f-3bd80c6439a9", contenttype:"DiagramModelArchimateObject"});
+												
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"385c37db-9a04-402b-bfe7-c8799a473e0a", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"0b2fa8ab-610d-48fb-9070-0017559bda44", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"7c7e2151-037c-427d-8dbc-19047fcf90f3", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"98a2b64b-7635-4e4b-830b-d1119d7ce359", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"8e1627a7-e6fb-4b76-8e9a-f6e096ce50eb", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"61185148-1568-49b5-984a-cf758420d052", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"8e7c7221-d87b-4c1d-b44f-60952d5559fe", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"56869834-4928-4c2d-a348-aa17c87ecc04", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"ca322708-6cae-4dc9-a614-17bb39e2c7be", contenttype:"DiagramModelArchimateObject"});
+												
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"02609309-8a71-4ba2-9f29-a387cab63759", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"d3b33b48-5cea-4c01-8072-c5b6c62b68dc", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"20d6c696-66da-478b-8f73-3ab3dc945f39", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"eac51b98-fd2d-48b0-b8a6-9ad1ed5ba62a", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"ff230ab2-54c3-4185-a482-d7dc8cf5b02d", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"33efcc64-0dda-4e19-a612-9a11a6286745", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"94705dee-bf76-47de-a96f-48108599c39a", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"4fbcb940-b424-408a-be8b-c4f6749ea7ef", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"a66c1246-8137-46f7-84fd-42f0d4a705b4", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"668bca74-7afb-408b-ac27-13abc9b498e1", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"a6f09dbc-34c1-4727-a920-e948969fab8b", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"03fe01cd-8286-481b-bf56-44831eb7822c", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"5f9631b8-0895-4b08-97c8-a3c2973998bf", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"7889aae5-5ff8-4ced-8d99-5a941d6111e3", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"427989b5-9436-47a5-8845-46e75871b4fb", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"949befa1-7b1f-47b9-b0a7-03eb3a7839bf", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"631ef83f-c364-4439-a8b5-8456c883a5e0", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"94ffd978-4f9c-4c61-95bd-33abacc6e207", contenttype:"DiagramModelArchimateObject"});
+												
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"02d8a33f-07bd-40c6-89b3-caaf43d691ea", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"a99e3e3f-5c21-443c-9b33-d33bd62da43e", contenttype:"DiagramModelArchimateObject"});
+												
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"8da71c94-4e43-4332-864c-7baa25e77345", contenttype:"DiagramModelArchimateObject"});
+												
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"29e1fcb5-7f32-4597-98fd-b6f61730845e", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"745d77f6-adf3-46a8-aa01-fb6dbb2b2aff", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"67940e8b-5064-4df6-b1c3-bdbe421d8bdc", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"5581f76c-2f3e-468b-a1a4-fd676da46e1e", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"033cd367-bc2a-48a3-929a-d00ae74d3eb9", contenttype:"DiagramModelArchimateObject"});
+												
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"dbfbbb68-7249-42f3-a20b-ce66e6e7a088", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"ca839db1-8767-46f4-9f65-198b552c92f7", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"b1512ff0-351d-4a85-9ab6-20f098e7b94c", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"6bbc4a64-2a1b-43bc-ada9-6eed4af399ad", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"b211ea3d-7ea3-46cb-89e1-ce085cc1f7b8", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"84707a7a-4a2c-416e-8e71-93ecabba3dd9", contenttype:"DiagramModelArchimateObject"});
+												
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"411969de-b466-48d3-ba67-0ab7df1f249f", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"d6e96055-ac9c-4e8c-bef7-42411e8d62c0", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"be5d0ee2-f1e2-4b45-b682-62a26509ef8d", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"42928bbf-8660-4f5a-a238-88beb38c576e", contentid:"19b72b32-4191-4794-a95b-c3fbb4d44807", contenttype:"DiagramModelArchimateObject"});
+												
+
+												
+												
+												
+												
+												
+												
+												
+												
+
+
+
+
+
+						    alasql('CREATE TABLE Elements');
+						    alasql('CREATE TABLE Properties');
+						    alasql('CREATE TABLE Relationships');
+						    alasql('CREATE TABLE Views');
+						    alasql('CREATE TABLE ViewsContent');
+						    alasql('CREATE TABLE Folders');
+						    alasql('CREATE TABLE FoldersContent');
+
+						    alasql.tables.Elements.data = dataElements;
+						    alasql.tables.Properties.data = dataProperties;
+						    alasql.tables.Relationships.data = dataRelationships;
+						    alasql.tables.Views.data = dataViews;
+						    alasql.tables.ViewsContent.data = dataViewsContent;
+						    alasql.tables.Folders.data = dataFolders;
+						    alasql.tables.FoldersContent.data = dataFoldersContent;
+						</script> 
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

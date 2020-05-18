@@ -1,0 +1,190 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Infrastructure</title>
+
+	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
+	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-3.3.2.min.css">
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-theme-3.3.2.min.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Infrastructure</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-DiagramModelGroup"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-DiagramModelGroup" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<textarea id="docsrc" style="display:none"></textarea>
+						<div id="doctgt" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/ace6be12-56dc-4992-a2b0-dbc6c645029f.html" target="element"> BLOB-Storage </a> </td>
+											    <td> <a href="../elements/ace6be12-56dc-4992-a2b0-dbc6c645029f.html" target="element" class="i18n-elementtype-SystemSoftware"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/e924e791-6622-4bd0-b504-0827b8631e81.html" target="element"> Azure F5 BIG-IP </a> </td>
+											    <td> <a href="../elements/e924e791-6622-4bd0-b504-0827b8631e81.html" target="element" class="i18n-elementtype-SystemSoftware"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/729ea994-8639-4c6a-b91f-927b1e1204d9.html" target="element"> CA Api Management </a> </td>
+											    <td> <a href="../elements/729ea994-8639-4c6a-b91f-927b1e1204d9.html" target="element" class="i18n-elementtype-SystemSoftware"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/38eacfb5-ffac-4170-bd65-c773edde5fea.html" target="element"> Apache </a> </td>
+											    <td> <a href="../elements/38eacfb5-ffac-4170-bd65-c773edde5fea.html" target="element" class="i18n-elementtype-SystemSoftware"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/904b422a-db66-4d2a-9ce8-d3aa445b303e.html" target="element"> Splunk </a> </td>
+											    <td> <a href="../elements/904b422a-db66-4d2a-9ce8-d3aa445b303e.html" target="element" class="i18n-elementtype-SystemSoftware"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/5e197e3c-8fd2-402d-b376-df4f178fae34.html" target="element"> ELK (Elastic-search Logstash Kibina) </a> </td>
+											    <td> <a href="../elements/5e197e3c-8fd2-402d-b376-df4f178fae34.html" target="element" class="i18n-elementtype-SystemSoftware"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/77bd9b91-a941-4bf3-90a1-ae3457ce6bed.html" target="element"> Docker/K8S </a> </td>
+											    <td> <a href="../elements/77bd9b91-a941-4bf3-90a1-ae3457ce6bed.html" target="element" class="i18n-elementtype-SystemSoftware"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/82d65f47-1e58-4ac3-8658-ab255a59deed.html" target="element"> MapServer </a> </td>
+											    <td> <a href="../elements/82d65f47-1e58-4ac3-8658-ab255a59deed.html" target="element" class="i18n-elementtype-SystemSoftware"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/7fcd7e5e-5503-4329-a81b-6d8e9e62b19b.html" target="element"> GeoServer </a> </td>
+											    <td> <a href="../elements/7fcd7e5e-5503-4329-a81b-6d8e9e62b19b.html" target="element" class="i18n-elementtype-SystemSoftware"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/722570dc-cc4e-428b-8422-9198175833af.html" target="element"> Tuxedo </a> </td>
+											    <td> <a href="../elements/722570dc-cc4e-428b-8422-9198175833af.html" target="element" class="i18n-elementtype-SystemSoftware"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/0fce15b8-0513-4e76-866d-1d0fad29d95e.html" target="element"> OracleAQ </a> </td>
+											    <td> <a href="../elements/0fce15b8-0513-4e76-866d-1d0fad29d95e.html" target="element" class="i18n-elementtype-SystemSoftware"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/e4ebde86-c5c3-4cfe-8776-3da588b52dfb.html" target="element"> NGINX </a> </td>
+											    <td> <a href="../elements/e4ebde86-c5c3-4cfe-8776-3da588b52dfb.html" target="element" class="i18n-elementtype-SystemSoftware"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/f87a867e-bdb7-46f0-9f75-2f9288e65e82.html" target="element"> EBMS Seeburger </a> </td>
+											    <td> <a href="../elements/f87a867e-bdb7-46f0-9f75-2f9288e65e82.html" target="element" class="i18n-elementtype-SystemSoftware"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/37e14545-ddf5-44e9-8aea-3932e243b0ab.html" target="element"> EBMS Opentunnel </a> </td>
+											    <td> <a href="../elements/37e14545-ddf5-44e9-8aea-3932e243b0ab.html" target="element" class="i18n-elementtype-SystemSoftware"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/b7e2c8b7-02b9-4759-ac7f-1132738fdb38.html" target="element"> SAP-PI Messaging </a> </td>
+											    <td> <a href="../elements/b7e2c8b7-02b9-4759-ac7f-1132738fdb38.html" target="element" class="i18n-elementtype-SystemSoftware"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/586c7fc1-a37a-40e9-8950-76f15214f295.html" target="element"> Apache Camel </a> </td>
+											    <td> <a href="../elements/586c7fc1-a37a-40e9-8950-76f15214f295.html" target="element" class="i18n-elementtype-SystemSoftware"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/766b5c19-1e52-43bb-80a4-c9c47fb690c8.html" target="element"> Liferay </a> </td>
+											    <td> <a href="../elements/766b5c19-1e52-43bb-80a4-c9c47fb690c8.html" target="element" class="i18n-elementtype-SystemSoftware"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/b9e7e67d-06ed-4d41-b5c3-259b5d719f74.html" target="element"> Azure Service Bus </a> </td>
+											    <td> <a href="../elements/b9e7e67d-06ed-4d41-b5c3-259b5d719f74.html" target="element" class="i18n-elementtype-SystemSoftware"> </a> </td>
+											</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

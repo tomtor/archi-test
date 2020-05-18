@@ -1,6 +1,7 @@
 rm *.archimate
 
-for i in "/v/IT/Architectuur/Domein Architectuur/Z_Archi Repository/"*.archimate
+#for i in "/v/IT/Architectuur/Domein Architectuur/Z_Archi Repository/"*.archimate
+for i in "/c/Users/VijlbriefTom/Kadaster/IMS - pilot architecten - General/Archi Architectuur Repository/"*.archimate
 do
   BN=$(basename "$i")
   echo COPY "$BN"

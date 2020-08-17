@@ -8,7 +8,14 @@ do
   cp "$i" "$BN"
 done
 
-python merge.py
+if python merge.py
+then
+  echo Merge OK
+else
+  echo Merge failed!
+  exit 0
+fi
+
 git add Kadaster-Repository.archimate
 git commit -m "New Merged Repository"
 git push

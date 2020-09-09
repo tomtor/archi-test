@@ -16,10 +16,19 @@ folder.attrib["name"] = "Application"
 folder.attrib["type"] = "application"
 folder.attrib["id"] = str(uuid.uuid4())
 
-app = ET.SubElement(folder, "element")
-app.attrib["name"] = "test"
-app.attrib["id"] = str(uuid.uuid4())
-app.attrib["xsi:type"] = "archimate:ApplicationFunction"
+with open("src/u_oracle_schema.csv") as f:
+    for l in f.readlines():
+        p = l.split(',')
+        #print(p[1])
+        if p[1] != '"Prod"':
+            continue
+        name = p[0][1:-1]
+        print(name)
+
+        app = ET.SubElement(folder, "element")
+        app.attrib["name"] = name
+        app.attrib["id"] = str(uuid.uuid4())
+        app.attrib["xsi:type"] = "archimate:ApplicationFunction"
 
 tree = ET.ElementTree(root)
 

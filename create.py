@@ -5,9 +5,11 @@ import sys
 import xml.etree.cElementTree as ET
 import uuid
 
+source = "src/u_oracle_schema.csv"
+
 root = ET.Element("archimate:model")
 root.attrib["xmlns:archimate"] = "http://www.archimatetool.com/archimate"
-root.attrib["name"] = "Create Oracle"
+root.attrib["name"] = "Convert " + source
 root.attrib["id"] = str(uuid.uuid4())
 root.attrib["version"] = "4.6.0"
 
@@ -16,7 +18,7 @@ folder.attrib["name"] = "Application"
 folder.attrib["type"] = "application"
 folder.attrib["id"] = str(uuid.uuid4())
 
-with open("src/u_oracle_schema.csv") as f:
+with open(source) as f:
     for l in f.readlines():
         p = l.split(',')
         #print(p[1])
@@ -32,5 +34,5 @@ with open("src/u_oracle_schema.csv") as f:
 
 tree = ET.ElementTree(root)
 
-tree.write("create.archimate")
+tree.write(source.split('/')[-1] + ".archimate")
 

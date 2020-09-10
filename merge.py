@@ -38,6 +38,7 @@ for af in archifiles:
     afroots.append(afroot)
     for c in afroot.find("."):
         subfolder.append(c)
+    print(len(ET.tostring(afroot)))
     
 
 no_save = False
